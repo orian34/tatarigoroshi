@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 
 //■１１日目（日）
@@ -1220,7 +1220,7 @@ void main()
 //　その豪快な開け方は...力強く、もう一度人生をやり直そうとする俺自身の決意に他ならなかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ガラリ。",
-		   NULL, "Clatter.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La porte s'ouvrit.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

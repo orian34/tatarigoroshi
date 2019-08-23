@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 }
 
@@ -7,9 +7,9 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "", 128, TRUE);
 	OutputLine(NULL, "「やぁ、申し訳ないね。",
-		   NULL, "\"Hey, excuse me.", Line_WaitForInput);
+		   NULL, "— Ahaha, désolé du dérangement.", Line_WaitForInput);
 	OutputLine(NULL, "君、雛見沢の人だよね？」",
-		   NULL, " You're from Hinamizawa, right?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu habites à Hinamizawa, c'est bien ça ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -19,28 +19,28 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "", 128, TRUE);
 	OutputLine(NULL, "「……………そうですけど。」",
-		   NULL, "\"......Yes, why?\"", Line_Normal);
+		   NULL, "— ... Oui, c'est bien cela, et ?", Line_Normal);
 	ClearMessage();
 
 //　この人は......、顔を何度か見たことがある＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この人は……、顔を何度か見たことがある。",
-		   NULL, "I've... seen this person around a few times.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ce mec, je l'ai déjà vu dans le coin...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......そうだ、思い出した＠
 //　......東京に住んでるフリーのカメラマンの富竹とかって言う人で＠季節のたびに熱心に雛見沢に訪れては撮影をしてる...なんて話を魅音辺りに聞いたような￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そうだ、思い出した。",
-		   NULL, "...Right, I remembered.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... Ah oui, je sais qui c'est.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……東京に住んでるフリーのカメラマンの富竹とかって言う人で、",
-		   NULL, "...His name, I think, was Tomitake, a freelance photographer who lived in Tokyo.", Line_WaitForInput);
+		   NULL, "Il s'appelle Tomitake, c'est un photographe indépendant qui vit à Tôkyô.", Line_WaitForInput);
 	OutputLine(NULL, "季節のたびに熱心に雛見沢に訪れては撮影をしてる…なんて話を魅音辺りに聞いたような。",
-		   NULL, " He would zealously visit Hinamizawa every season to take pictures... or so Mion and the others told me, I think.", Line_Normal);
+		   NULL, " Au changement de saison, il vient toujours à Hinamizawa pour prendre les oiseaux en photo... enfin, c'est ce que dit Mion.", Line_Normal);
 }
 
 void dialog003()
@@ -51,28 +51,28 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "", 128, TRUE);
 	OutputLine(NULL, "「僕は富竹。",
-		   NULL, "\"I'm Tomitake.", Line_WaitForInput);
+		   NULL, "— Moi, c'est Tomitake.", Line_WaitForInput);
 	OutputLine(NULL, "フリーカメラマンさ。",
-		   NULL, " A freelance photographer.", Line_WaitForInput);
+		   NULL, " Je suis photographe, à mon compte.", Line_WaitForInput);
 	OutputLine(NULL, "専門は野鳥と風景。",
-		   NULL, " I specialize in wild birds and landscapes.", Line_WaitForInput);
+		   NULL, " Ma spécialité, ce sont les oiseaux sauvages,", Line_WaitForInput);
 	OutputLine(NULL, "まだまだ無名だけどね。」",
-		   NULL, " I'm still pretty unknown, though.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " mais je ne suis pas encore très connu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただ神社に案内するだけの関係で、自己紹介というのも滑稽な話だが、名乗られた以上、自分も名乗らないわけにはいかないしな。",
-		   NULL, "It seemed absurd for him to introduce himself when I was just showing him to the shrine, but he gave me his name, so I needed to give mine back.", Line_Normal);
+		   NULL, "C'était amusant de le voir se présenter formellement alors que je ne faisais que l'accompagner un bout de chemin, mais du coup, maintenant, j'étais obligé de lui rendre la pareille.", Line_Normal);
 	ClearMessage();
 
 //「前原です＠...まぁその、よろしく。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "", 128, TRUE);
 	OutputLine(NULL, "「前原です。",
-		   NULL, "\"I'm Maebara.", Line_WaitForInput);
+		   NULL, "— Moi, c'est Maebara.", Line_WaitForInput);
 	OutputLine(NULL, "…まぁその、よろしく。」",
-		   NULL, " ...Pleased to meet you, I guess.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Euh, ravi de vous rencontrer.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -82,15 +82,15 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "", 128, TRUE);
 	OutputLine(NULL, "「前原くんかい！",
-		   NULL, "\"Maebara-kun?", Line_WaitForInput);
+		   NULL, "— Maebara, hein ? OK, c'est compris !", Line_WaitForInput);
 	OutputLine(NULL, "　よろしくね！」",
-		   NULL, " Pleased to meet you!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Enchanté !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何だか能天気そうなおっさんだったが、…昨夜から沙都子のことで頭を悩ませ、窒息しかかっていた俺には、なんだか心地よかった。",
-		   NULL, "He seemed like a pretty silly man... but that felt kind of good considering I'd been suffocating with worry over Satoko all night.", Line_Normal);
+		   NULL, "Il avait l'air un peu insouciant, mais ça me changeait les idées de lui parler, et c'était agréable de ne plus penser à mes problèmes.", Line_Normal);
 
 }
 
@@ -100,14 +100,14 @@ void dialog004()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s03/08/140800050", 256, TRUE);
 	OutputLine(NULL, "「それくらいにしなよ、前原くん。",
-		   NULL, "\"Let's leave it at that, Maebara-kun.", Line_WaitForInput);
+		   NULL, "— Tu devrais en rester là, Maebara.", Line_WaitForInput);
 }
 
 void dialog005()
 {
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/chie040302", 256, TRUE);
 	OutputLine(NULL, "…もしも、その、……叔父さんに虐められているという話が本当なら放って置けません。」",
-		   NULL, " ...If, well... If it's true that she's being abused by her uncle, then I can't leave it alone.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Si vraiment son oncle la bat, je ne vais pas laisser faire.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -119,16 +119,16 @@ void dialog006()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/chie040303", 256, TRUE);
 	OutputLine(NULL, "「県の児童相談所へ通報します。",
-		   NULL, "\"I'd contact the prefecture's child consultation center.", Line_WaitForInput);
+		   NULL, "— Je les dénoncerai au centre pour les abus sur mineurs.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/chie040304", 256, TRUE);
 	OutputLine(NULL, "さっき前原くんは追い返される、と言いましたね。",
-		   NULL, " You said just now that I would be turned away, didn't you? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu m'as dit qu'il me chasserait de chez lui tout à l'heure, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/chie040305", 256, TRUE);
 	OutputLine(NULL, "児童福祉司は必要に応じて警察官を同行させることができます。",
-		   NULL, "Child welfare officers can bring the police with them if the situation demands.", Line_WaitForInput);
+		   NULL, "mais l'assistante sociale au droit des enfants peut demander une escorte policière si nécessaire.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/chie040306", 256, TRUE);
 	OutputLine(NULL, "恫喝には絶対に屈しません。」",
-		   NULL, " They will not submit to intimidation.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Elle ne se laissera pas intimider.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }

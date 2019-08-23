@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 
 //*Sub_Tips_055
@@ -19,7 +19,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和ＸＸ年度",
-		   NULL, "Year 19__", Line_ContinueAfterTyping);
+		   NULL, "An ** de l'ère Shôwa", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -30,7 +30,7 @@ void main()
 //　主たる虐待者（厚生省報告例）/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　主たる虐待者（厚生省報告例）",
-		   NULL, "Principal Abusers (in cases reported to the Ministry of Health and Welfare)", Line_ContinueAfterTyping);
+		   NULL, "Les personnes responsables des violences sur mineurs (statistiques du ministère de la Santé)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -43,7 +43,7 @@ void main()
 //　総数　５，３５２件
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　総数　５，３５２件",
-		   NULL, "Total: 5,352", Line_ContinueAfterTyping);
+		   NULL, "Nombre total : 5352 cas", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -54,7 +54,7 @@ void main()
 //　実母
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実母",
-		   NULL, "Mother by blood:", Line_ContinueAfterTyping);
+		   NULL, "Mère biologique", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -64,7 +64,7 @@ void main()
 //!s0　　　!s50２，９４３件（５５．０％）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　２，９４３件（５５．０％）",
-		   NULL, " 2,943 (55.0%)", Line_ContinueAfterTyping);
+		   NULL, "     2943 cas (55%)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -76,7 +76,7 @@ void main()
 //　実母以外の母
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実母以外の母",
-		   NULL, "Mother not by blood:", Line_ContinueAfterTyping);
+		   NULL, "Mère autre que biologique", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -86,7 +86,7 @@ void main()
 //!s0　　　　　!s50２０３件（３．８％）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　２０３件（３．８％）",
-		   NULL, " 203 ( 3.8%)", Line_ContinueAfterTyping);
+		   NULL, "     203 cas (3,8%)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -98,7 +98,7 @@ void main()
 //　実父
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実父",
-		   NULL, "Father by blood:", Line_ContinueAfterTyping);
+		   NULL, "Père biologique", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -108,7 +108,7 @@ void main()
 //!s0　　　!s50１，４４５件（２７．０％）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　１，４４５件（２７．０％）",
-		   NULL, " 1,445 (27.0%)", Line_ContinueAfterTyping);
+		   NULL, "     1445 cas (27%)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -120,7 +120,7 @@ void main()
 //　実父以外の父
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実父以外の父",
-		   NULL, "Father not by blood:", Line_ContinueAfterTyping);
+		   NULL, "Père autre que biologique", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -130,7 +130,7 @@ void main()
 //!s0　　　　　!s50４８８件（９．１％）/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　４８８件（９．１％）",
-		   NULL, " 488 ( 9.1%)", Line_ContinueAfterTyping);
+		   NULL, "     488 cas (9,1%)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -140,7 +140,7 @@ void main()
 //　昭和ＸＸ年度
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和ＸＸ年度",
-		   NULL, "Year 19__", Line_ContinueAfterTyping);
+		   NULL, "An ** de l'ère Shôwa", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -151,7 +151,7 @@ void main()
 //　虐待の内容別相談件数（厚生省報告例）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　虐待の内容別相談件数（厚生省報告例）",
-		   NULL, "Instances by Type of Abuse (in cases reported to the Ministry of Health and Welfare)", Line_ContinueAfterTyping);
+		   NULL, "Les différents types de violences sur mineurs (statistiques du ministère de la Santé)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -162,7 +162,7 @@ void main()
 //　総数　５，３５２件
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　総数　５，３５２件",
-		   NULL, "Total: 5,352", Line_ContinueAfterTyping);
+		   NULL, "Nombre total 5352 cas", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -173,7 +173,7 @@ void main()
 //　身体的暴力
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　身体的暴力",
-		   NULL, "Physical abuse:", Line_ContinueAfterTyping);
+		   NULL, "Violences physiques", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -183,7 +183,7 @@ void main()
 //!s0　　　!s50２，７８０件（５１．９％）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　２，７８０件（５１．９％）",
-		   NULL, " 2,780 (51.9%)", Line_ContinueAfterTyping);
+		   NULL, "     2780 cas (51,9%)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -195,7 +195,7 @@ void main()
 //　ネグレクト（育児放棄）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ネグレクト（育児放棄）",
-		   NULL, "Neglect (abandonment of child):", Line_ContinueAfterTyping);
+		   NULL, "Négligences", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -205,7 +205,7 @@ void main()
 //!s0　　　!s50１，７２８件（３２．３％）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　１，７２８件（３２．３％）",
-		   NULL, " 1,728 (32.3%)", Line_ContinueAfterTyping);
+		   NULL, "     1728 cas (32,3%)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -217,7 +217,7 @@ void main()
 //　心理的虐待
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　心理的虐待",
-		   NULL, "Psychological abuse:", Line_ContinueAfterTyping);
+		   NULL, "Violences psychologiques", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -227,7 +227,7 @@ void main()
 //!s0　　　　　!s50４５８件（８．６％）/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　４５８件（８．６％）",
-		   NULL, " 458 ( 8.6%)", Line_ContinueAfterTyping);
+		   NULL, "     458 cas (8,6%)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -239,7 +239,7 @@ void main()
 //　登校禁止
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　登校禁止",
-		   NULL, "Forbidden from going to school:", Line_ContinueAfterTyping);
+		   NULL, "Interdiction de l'école", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -249,7 +249,7 @@ void main()
 //!s0　　　　　　!s50７５件（１．４％）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　７５件（１．４％）",
-		   NULL, " 75 ( 1.4%)", Line_ContinueAfterTyping);
+		   NULL, "     75 cas (1,4%)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -261,7 +261,7 @@ void main()
 //　性的暴行
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　性的暴行",
-		   NULL, "Sexual violence:", Line_ContinueAfterTyping);
+		   NULL, "Violences sexuelles", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -272,7 +272,7 @@ void main()
 //!s0　　　　　!s50３１１件（５．８％）/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　３１１件（５．８％）",
-		   NULL, " 311 ( 5.8%)", Line_ContinueAfterTyping);
+		   NULL, "     311 cas (5,8%)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);

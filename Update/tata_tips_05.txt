@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 
 //■タイトル：　検死初見コピー
@@ -16,7 +16,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　検死の結果、被害者は以下に従い殺害されたと思われる。",
-		   NULL, "The autopsy suggests the victim was killed in the following manner.", Line_ContinueAfterTyping);
+		   NULL, "D'après les résultats de l'autopsie, la victime a vraisemblablement été tuée de la manière suivante :", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -26,7 +26,7 @@ void main()
 //（１）拘束具で全身を拘束
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（１）拘束具で全身を拘束",
-		   NULL, "1. Entire body bound in restraints", Line_ContinueAfterTyping);
+		   NULL, "(1)Entièrement immobilisée sur un meuble de contrainte", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -37,7 +37,7 @@ void main()
 //　抵抗時に出来たと思われる傷痕から、ロープ等でなく、拘束を目的とした専用の拘束台に拘束したものと推定。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　抵抗時に出来たと思われる傷痕から、ロープ等でなく、拘束を目的とした専用の拘束台に拘束したものと推定。",
-		   NULL, "Traces left behind from when the body seemed to have been bound indicated usage of a specific restraining table rather than rope or another common method.", Line_ContinueAfterTyping);
+		   NULL, "D'après les blessures faites lorsque la victime a résisté à ses entraves, elle n'était pas maintenue immobilisée par des cordes, mais par des objets spécifiquement étudiés pour entraver le corps, placé sur un meuble approprié.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -47,7 +47,7 @@ void main()
 //　両手各指の関節への拘束が特に厳重であるのが特徴。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　両手各指の関節への拘束が特に厳重であるのが特徴。",
-		   NULL, "Finger joints on either hand appear to have been bound especially tightly.", Line_ContinueAfterTyping);
+		   NULL, "En particulier, on note que chacun des doigts des deux mains était attaché séparément.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -58,7 +58,7 @@ void main()
 //　形状その他から推定して、特注品もしくは自家製である可能性が高い。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　形状その他から推定して、特注品もしくは自家製である可能性が高い。",
-		   NULL, "Highly likely that the table was either specially-made or homemade given this information.", Line_ContinueAfterTyping);
+		   NULL, "D'après les formes des blessures, ce meuble de torture est vraisemblablement une pièce artisanale, si ce n'est unique.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -68,7 +68,7 @@ void main()
 //（２）両耳・鼻を鋭利な刃物で切断
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（２）両耳・鼻を鋭利な刃物で切断",
-		   NULL, "2. Both ears and nose severed with a sharp blade", Line_ContinueAfterTyping);
+		   NULL, "(2)Section du nez et des deux oreilles avec un objet effilé et tranchant", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -79,7 +79,7 @@ void main()
 //　拘束跡その他から推測して、切断する人間の他に少なくとも１人以上の、被害者の首を押さえつける人間がいたものと推定。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　拘束跡その他から推測して、切断する人間の他に少なくとも１人以上の、被害者の首を押さえつける人間がいたものと推定。",
-		   NULL, "Traces of the restraint and other things seem to suggest there was at least one more other than the one who severed these body parts holding down the victim's head.", Line_ContinueAfterTyping);
+		   NULL, "D'après les traces trouvées sur la victime, on peut supposer qu'en plus de la personne qui a sectionné ces parties du corps, il y avait au moins une personne pour la maintenir par le cou.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -90,7 +90,7 @@ void main()
 //　使用した刃物は複数の可能性があり、その内のひとつは鋏である可能性が高い。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　使用した刃物は複数の可能性があり、その内のひとつは鋏である可能性が高い。",
-		   NULL, "Possible that multiple blades were used, with one of them most likely being scissors or shears.", Line_ContinueAfterTyping);
+		   NULL, "La découpe a probablement nécessité plusieurs objets, dont, très vraisemblablement, des ciseaux.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -100,7 +100,7 @@ void main()
 //（３）両手の指を五寸釘で貫通
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（３）両手の指を五寸釘で貫通",
-		   NULL, "3. Five nails penetrated fingers on each hand", Line_ContinueAfterTyping);
+		   NULL, "(3)Perforation des doigts des deux mains avec des clous", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -111,7 +111,7 @@ void main()
 //　両手の各指に対して、各関節毎に１本、計３０本の五寸釘で打ち抜いている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　両手の各指に対して、各関節毎に１本、計３０本の五寸釘で打ち抜いている。",
-		   NULL, "One long nail stuck in each joint of each finger on each hand, for a total of thirty.", Line_ContinueAfterTyping);
+		   NULL, "Chaque phalange de chaque doigt de chaque main a été transpercée de part en part avec des clous, ce qui fait 30 clous en tout.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -121,7 +121,7 @@ void main()
 //　遺体の指は２０センチ四方の板に打ち付けられており、この板は拘束台の一部である可能性が極めて高い。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　遺体の指は２０センチ四方の板に打ち付けられており、この板は拘束台の一部である可能性が極めて高い。",
-		   NULL, "The deceased's fingers were nailed to wooden planks twenty square centimeters large; extremely likely these planks were part of the restraining table.", Line_ContinueAfterTyping);
+		   NULL, "Les doigts de la dépouille étaient cloutés à une planche de 20cm de chaque côté. Il est fort probable qu'elle ait constitué une partie du meuble de contrainte.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -132,7 +132,7 @@ void main()
 //　またこの拘束台が、そもそもこの行為を行なうために用意されたものである可能性がある。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　またこの拘束台が、そもそもこの行為を行なうために用意されたものである可能性がある。",
-		   NULL, "In addition, it is likely that the table was originally designed for just such a purpose.", Line_ContinueAfterTyping);
+		   NULL, "Cela laisse à penser que ce meuble ait été créé uniquement dans ce but précis.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -142,7 +142,7 @@ void main()
 //（４）腹部切開、及び内臓の切除
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（４）腹部切開、及び内臓の切除",
-		   NULL, "4. Abdomen incised, intestines removed", Line_ContinueAfterTyping);
+		   NULL, "(4)Ouverture du ventre et extraction des organes internes", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -153,7 +153,7 @@ void main()
 //　腹部の切開に当たっては、鋭利な刃物で医学的手法に基づき開腹した可能性がある。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　腹部の切開に当たっては、鋭利な刃物で医学的手法に基づき開腹した可能性がある。",
-		   NULL, "The incision in the abdomen is likely to have been a technique grounded in medical methodology using a sharp blade.", Line_ContinueAfterTyping);
+		   NULL, "L'ouverture du ventre a été pratiquée avec du matériel et des méthodes médicales.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -164,7 +164,7 @@ void main()
 //　この段階では被害者の生命にはまだ支障はなかったと推定。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この段階では被害者の生命にはまだ支障はなかったと推定。",
-		   NULL, "Estimated that there was still no threat to the victim's life at this stage.", Line_ContinueAfterTyping);
+		   NULL, "On pense qu'à ce stade, la victime n'était pas encore en danger de mort.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -175,7 +175,7 @@ void main()
 //　その後、切開部より内臓各部位を分解、切除。その過程で被害者は死亡したものと推定される。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その後、切開部より内臓各部位を分解、切除。その過程で被害者は死亡したものと推定される。",
-		   NULL, "After this, the organs inside the incision were dismantled and removed. The victim likely died as a result of this process.", Line_ContinueAfterTyping);
+		   NULL, "Puis les organes internes ont été séparés un à un et retirés. C'est ce processus qui a provoqué la mort de la victime.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -185,7 +185,7 @@ void main()
 //（５）遺体の投棄
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（５）遺体の投棄",
-		   NULL, "5. Body disposed", Line_ContinueAfterTyping);
+		   NULL, "(5)Abandon du corps", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -196,7 +196,7 @@ void main()
 //　被害者の首を市販のペット用首輪でダンベルに括り付けた後、王子川３号暗渠に投棄したものと推定。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　被害者の首を市販のペット用首輪でダンベルに括り付けた後、王子川３号暗渠に投棄したものと推定。",
-		   NULL, "After fastening a dumbbell to the victim's neck using a commercial pet collar, the victim was likely abandoned in the the Ouji River's third drain.", Line_ContinueAfterTyping);
+		   NULL, "L'agresseur a placé un collier de chien autour du cou de la victime et l'a lesté avec des haltères, puis a jeté le corps dans la canalisation souterraine n° 3 d'Ôjigawa.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -207,7 +207,7 @@ void main()
 //　ダンベルの総重量から、遺体の投棄に少なくとも成人男性が３人以上関与している可能性が高い。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ダンベルの総重量から、遺体の投棄に少なくとも成人男性が３人以上関与している可能性が高い。",
-		   NULL, "Judging by the dumbbell's weight, it's highly possible they would have needed at least three grown men to have disposed of the body.", Line_ContinueAfterTyping);
+		   NULL, "D'après le poids total des haltères, il est fort probable que le transport ait nécessité la participation de 3 hommes adultes, si ce n'est plus.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -218,22 +218,22 @@ void main()
 //　大石さんへ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石さんへ。",
-		   NULL, "To Ooishi-san.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "À l'intention d'Ôishi", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　頼まれてた、例の王子川惨殺死体の検死初見コピーです＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　頼まれてた、例の王子川惨殺死体の検死初見コピーです。",
-		   NULL, "Here's a copy of the preliminary autopsy of the slaughtered corpse in the Ouji River.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Copie du rapport d'autopsie du meurtre à Ôjigawa. (il saura ce que c'est, c'est lui qui nous l'a demandé)", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　重春課長はＳ号じゃないかと見てるみたいです＠大石さんはどう思います￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　重春課長はＳ号じゃないかと見てるみたいです。",
-		   NULL, "Chief Shigeharu sees this as having a possible relation to the S-group.", Line_WaitForInput);
+		   NULL, "Notre chef de section, M. Shigeharu, pense que c'est un cas S.", Line_WaitForInput);
 	OutputLine(NULL, "大石さんはどう思います？",
-		   NULL, " What are your thoughts, Ooishi-san?", Line_Normal);
+		   NULL, " Qu'en pensez-vous, M. Ôishi ?", Line_Normal);
 	ClearMessage();
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );

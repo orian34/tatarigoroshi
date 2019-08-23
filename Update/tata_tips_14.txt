@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 
 //*Sub_Tips_058
@@ -20,7 +20,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和５７年７月ＸＸ日",
-		   NULL, "July __, 1982", Line_ContinueAfterTyping);
+		   NULL, "Le ** juillet de l'an Shôwa 57 (1982)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -31,7 +31,7 @@ void main()
 //興宮警察署捜査一課
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "興宮警察署捜査一課",
-		   NULL, "Okinomiya Police Station 1st Investigative Division", Line_ContinueAfterTyping);
+		   NULL, "À l'intention du chef de la première division d'investigation du commissariat d'Okinomiya", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -42,7 +42,7 @@ void main()
 //高杉課長　殿
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "高杉課長　殿",
-		   NULL, "Chief Takasugi", Line_ContinueAfterTyping);
+		   NULL, "M. Takasugi", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -54,7 +54,7 @@ void main()
 //Ｘｘ県警麻薬犯罪撲滅本部
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ＸＸ県警麻薬犯罪撲滅本部",
-		   NULL, "____ Prefecture Police Headquarters for the Eradication of Drug-Related Crime", Line_ContinueAfterTyping);
+		   NULL, "Brigade des stupéfiants de la préfecture de ****", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -65,7 +65,7 @@ void main()
 //鹿骨支部長　ＸＸＸＸ
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "鹿骨支部長　ＸＸＸＸ",
-		   NULL, "Shishibone Branch Head, ____ ____", Line_ContinueAfterTyping);
+		   NULL, "Le chef divisionnaire de Shishibone, M. ** ********", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -79,7 +79,7 @@ void main()
 //秘匿捜査指定第Ｘ号事件について/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "秘匿捜査指定第Ｘ号事件について",
-		   NULL, "Regarding incident _ designated as undercover investigation", Line_ContinueAfterTyping);
+		   NULL, "À propos de votre enquête secrète n° *", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -91,7 +91,7 @@ void main()
 //　標記秘匿捜査事件（興宮警察署第Ｘ号、雛見沢村主婦撲殺事件）について関連すると思われる部分が、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　標記秘匿捜査事件（興宮警察署第Ｘ号、雛見沢村主婦撲殺事件）について関連すると思われる部分が、",
-		   NULL, "This message is to inform you that a section of the testimony records of an incident under this police headquarters' jurisdiction has been found", Line_ContinueAfterTyping);
+		   NULL, "Je vous communique en urgence la découverte de similitudes troublantes entre l'une des affaires sous ma juridiction et l'investigation secrète mentionnée ci-dessus", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -101,7 +101,7 @@ void main()
 //当本部担当事件の供述調書内に確認されたことを通達する。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "当本部担当事件の供述調書内に確認されたことを通達する。",
-		   NULL, "that is thought to be related to the undercover investigation of the incident in question (Okinomiya Police Station X, Hinamizawa Village housewife slaughter incident).", Line_ContinueAfterTyping);
+		   NULL, "(l'enquête n°  * du Commissariat d'Okinomiya, meurtre d'une femme au foyer à Hinamizawa)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -111,7 +111,7 @@ void main()
 //　Ｘ月Ｘ日に覚醒剤所持の現行犯で逮捕したＸＸＸＸ容疑者への取調べ中、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　Ｘ月Ｘ日に覚醒剤所持の現行犯で逮捕したＸＸＸＸ容疑者への取調べ中、",
-		   NULL, "During investigation of suspect ___ ___ who was arrested for possession of illegal drugs,", Line_ContinueAfterTyping);
+		   NULL, "Lors de l'interrogatoire d'un toxicomane, M. ******* ********, arrêté pour possession de stupéfiants le ** ****,", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -121,7 +121,7 @@ void main()
 //標記事件の犯行をほのめかす供述があり、その中に、犯人しか知り得ない情報が含まれていることが明らかとなった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "標記事件の犯行をほのめかす供述があり、その中に、犯人しか知り得ない情報が含まれていることが明らかとなった。",
-		   NULL, "there was testimony related to the crime in question, and as part of it, we learned that the criminal had information only he could have known.", Line_ContinueAfterTyping);
+		   NULL, "il m'a révélé des détails troublants concernant votre affaire, que seul le coupable de ces actes pouvait connaître.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -132,7 +132,7 @@ void main()
 //　よって、この供述調書（複写）を貴課に提供する用意がある。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よって、この供述調書（複写）を貴課に提供する用意がある。",
-		   NULL, "Therefore, this record of testimony (duplicate attached) will be provided to you.", Line_ContinueAfterTyping);
+		   NULL, "J'estime donc nécessaire de vous faire parvenir une copie de cet interrogatoire.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -143,7 +143,7 @@ void main()
 //　この供述調書を信頼できるなら、ＸＸＸＸ容疑者は標記事件の実行犯である可能性が極めて高い。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この供述調書を信頼できるなら、ＸＸＸＸ容疑者は標記事件の実行犯である可能性が極めて高い。",
-		   NULL, "If this testimonial is to be believed, then there is an extremely high chance that suspect ___ ___ was the culprit behind the incident in question.", Line_ContinueAfterTyping);
+		   NULL, "Si l'on peut croire les déclarations du prévenu, il est quasiment certain qu'il est l'auteur du meurtre sur lequel vous menez l'enquête.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -153,7 +153,7 @@ void main()
 //　なお、担当取調官はこの供述を受け、興宮警察署に事件の問い合わせをしたが、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なお、担当取調官はこの供述を受け、興宮警察署に事件の問い合わせをしたが、",
-		   NULL, "In addition, the head investigator on the case received this report and inquired as to the incident with the Okinomiya Police Station,", Line_ContinueAfterTyping);
+		   NULL, "Le greffier de cet interrogatoire s'est renseigné auprès de vos services,", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -164,7 +164,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "７月１日県警本部長発令の秘匿捜査指定（昭和５７年総総管イ１−１２）を対応した興宮署担当者が誤解し、",
-		   NULL, "but the responsible party at Okinomiya Station, who responded to the designated undercover investigation announced by the prefectural police's general director on July 1 (1982, Osamu Fusakane, B1-12), misunderstood,", Line_ContinueAfterTyping);
+		   NULL, "mais malheureusement, probablement à cause de votre directive a1-12 à propos des incidents au village de Hinamizawa, issue le 1er juillet par le Haut Responsable du commissariat central et ordonnant la mise au secret de cette enquête,", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -174,7 +174,7 @@ void main()
 //担当取調官に対し、事件の存在を正しく説明しなかった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "担当取調官に対し、事件の存在を正しく説明しなかった。",
-		   NULL, "and did not explain the incident's existence to the head investigator on the case properly.", Line_ContinueAfterTyping);
+		   NULL, "la personne de vos services a jugé plus prudent de ne pas l'informer correctement à propos des faits.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -185,7 +185,7 @@ void main()
 //　その為、担当取調官は標記事件に関連する供述を重要なものと認識せず、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その為、担当取調官は標記事件に関連する供述を重要なものと認識せず、",
-		   NULL, "Because of this, the case's head investigator was not aware of the importance of the testimony as it related to the case in question,", Line_ContinueAfterTyping);
+		   NULL, "En retour, notre greffier a donc jugé les informations comme étant dignes de peu d'intérêt", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -195,7 +195,7 @@ void main()
 //その結果、現場確認等を怠り、今日まで放置するに至ったことを謝罪する。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その結果、現場確認等を怠り、今日まで放置するに至ったことを謝罪する。",
-		   NULL, "and as a result, was negligent when combing the scene; we apologize for having left it in the dark until now.", Line_ContinueAfterTyping);
+		   NULL, "et n'a pas été vérifier les dires du prévenu par des examens approfondis de la scène du crime, ce qui a mené à ne pas vous fournir la totalité des informations à notre disposition. Je désire par la présente vous présenter mes plus plates excuses.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -208,7 +208,7 @@ void main()
 //　なお、ＸＸＸＸ容疑者は先日Ｘ月Ｘ日、留置場内にて死亡したことを追記する。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なお、ＸＸＸＸ容疑者は先日Ｘ月Ｘ日、留置場内にて死亡したことを追記する。",
-		   NULL, "In addition, there is a postscript stating that suspect ___ ___ died while in confinement yesterday on X/XX.", Line_ContinueAfterTyping);
+		   NULL, "Quant au prévenu, il s'est donné la mort dans sa cellule le ** ****.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);

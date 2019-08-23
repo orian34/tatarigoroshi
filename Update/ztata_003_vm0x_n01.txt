@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 }
 
@@ -8,13 +8,13 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000001", 256, TRUE);
 	OutputLine(NULL, "「その前原くんって子は…本当に助っ人になれるんですか…？",
-		   NULL, "\"This Maebara-kun kid... Will he really save us...?", Line_WaitForInput);
+		   NULL, "— Dites, vous êtes sûres que ce garçon va réellement nous servir à quelque chose ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000002", 256, TRUE);
 	OutputLine(NULL, "　相手はあの強豪校のエース、左腕の亀田くんですよ？",
-		   NULL, " We're up against that ace among champions, Kameda-kun!", Line_WaitForInput);
+		   NULL, " Je vous rappelle que nous jouons contre Kameda le gaucher, le meilleur lanceur d'Ôshima !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000003", 256, TRUE);
 	OutputLine(NULL, "　甲子園クラスの投手を打ち崩せるなんて…一体どんな助っ人なんです…？！」",
-		   NULL, " He can beat a Koshien-class pitcher... He must be a god...!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vous croyez sincèrement qu'il réussira à battre un lanceur qui est allé en finale de la ligue nationale ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -27,7 +27,7 @@ void dialog002()
 {
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/500300396", 256, TRUE);
 	OutputLine(NULL, "スポーツ新聞でも有名な高校野球のエース、左腕の亀田くんって、知らない？」",
-		   NULL, " Don't you know about Left-Arm Kameda-kun, the high-school ace famous in sports magazines?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " T'as déjà entendu parler de Kameda le gaucher ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -37,7 +37,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200512", 256, TRUE);
 	OutputLine(NULL, "「たまたまね、今日の試合にあの亀田くんが見物に来てたの。」",
-		   NULL, "\"And Kameda-kun just happened to show up to watch the game today.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "— Mais il se trouve qu'aujourd'hui, dans le public, par le plus grand des hasard, il y avait Kameda, le lanceur d'Ôshima.", GetGlobalFlag(GLinemodeSp));
 
 //＜レナ
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -46,7 +46,7 @@ void dialog003()
 //　そして、その野球部のエースの亀田という男は...どうもかなりの腕前らしいのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　亀田って男が通う高校は、うちの県ではかなり知られた甲子園常連の学校らしい。",
-		   NULL, "Apparently Kameda attends a fairly well-known school in our prefecture that frequently sent people to Koshien.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "L'école d'Ôshima était la fierté de notre préfecture, elle envoyait souvent son club de base-ball au Kôshien.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -54,16 +54,16 @@ void dialog004()
 {
 	ModPlayVoiceLS(4, 23, "ps3/s19/23/202800031", 256, TRUE);
 	OutputLine(NULL, "俺は爽やかなスポーツマンのふりをした…隠れすけべぇなんだぁ…。」",
-		   NULL, " I'm nothing but a... a pervert, pretending to be a proper sportsman...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Je veux faire croire que je suis un sportif, mais en réalité, je suis pervers et anormal...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29360", 256, TRUE);
 	OutputLine(NULL, "「そうだ。",
-		   NULL, "\"That's right.", Line_WaitForInput);
+		   NULL, "— Oui, c'est vrai.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29370", 256, TRUE);
 	OutputLine(NULL, "お前はすけべぇだッ！！！」",
-		   NULL, " You're a pervert!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu es un pervers ! Un déviant sexuel !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -73,10 +73,10 @@ void dialog005()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29380", 256, TRUE);
 	OutputLine(NULL, "「わめくな亀田！！",
-		   NULL, "\"Do not cry, Kameda!!", Line_WaitForInput);
+		   NULL, "— Cesse de pleurnicher, Kameda !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29390", 256, TRUE);
 	OutputLine(NULL, "　男がすけべぇで何が悪いッ？！？！」",
-		   NULL, " What's wrong with a man being a pervert?!?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Les jeunes garçons sont tous de sales pervers, mais ils ont le droit !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -87,10 +87,10 @@ void dialog006()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29400", 256, TRUE);
 	OutputLine(NULL, "「男はすべからくすけべぇだ！！",
-		   NULL, "\"A man ought to be a pervert!!", Line_Continue);
+		   NULL, "— Les hommes sont tous des pervers, depuis leur naissance !", Line_Continue);
 	Wait( 1500 );
 	OutputLine(NULL, "　だがそれを認めか否かで、男の器は天と地の差を持つのだ！！！",
-		   NULL, " But admitting it sets a man apart from those below him!!", Line_WaitForInput);
+		   NULL, " Mais selon qu'ils acceptent leur condition d'animal lubrique ou pas, cela fait toute la différence du monde !", Line_WaitForInput);
 }
 
 void dialog007()
@@ -98,7 +98,7 @@ void dialog007()
 //alt 帰りはエンジェルモートでショートケーキを飽きるまで見つめて……くっくっく！！
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29640", 256, TRUE);
 	OutputLine(NULL, "　帰りはエンジェルモートでショートケーキを飽きるまで見つめて……くっくっく！！",
-		   NULL, " I'll go to Angel Mort on the way home and just gaze at that shortcake until I'm sated... hu-hu-hu!!", Line_WaitForInput);
+		   NULL, " En rentrant, je passe au Angel Mort et je m'enfile des gâteaux à la fraise jusqu'à satiété !", Line_WaitForInput);
 }
 
 void dialog008()
@@ -107,10 +107,10 @@ void dialog008()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29660", 256, TRUE);
 	OutputLine(NULL, "　身を寄せ合って震える少女たちをひとりずつ順番に…、…くっくっく！！！",
-		   NULL, "I draw ever closer to the trembling maidens, and then, one by one... I show them... hu-hu-hu!!!", Line_WaitForInput);
+		   NULL, "Je les vois trembler dans l'assiette, ne sachant qui sera la prochaine à y passer, alors que je les déguste l'une devant les autres, comme pour leur montrer, pour les démoraliser, leur faire comprendre ce qui les attend !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29670", 256, TRUE);
 	OutputLine(NULL, "　ひとつ食べるごとに…次はどの子にしようかと…顎をこう、くいと持って、品定めをして…、",
-		   NULL, " For every one I eat... I hold my jaw tight, just like this, and appraise the goods... wondering who to go for next...", Line_WaitForInput);
+		   NULL, " Et à chaque fois, à peine repu de l'une, mon regard se promenant sur elle, relevant leur visage, une main sous leur menton, me demandant tout haut qui j'allais désormais hono-- euh manger...", Line_WaitForInput);
 }
 
 void dialog009()
@@ -119,7 +119,7 @@ void dialog009()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5a5e5e>亀田</color>", NULL, "<color=#5a5e5e>Kameda</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 23, "ps3/s19/23/202800036", 256, TRUE);
 	OutputLine(NULL, "「……愛でるように…！！",
-		   NULL, "\"...As if cherishing each one...!!", Line_WaitForInput);
+		   NULL, "— ll faut les chérir…", Line_WaitForInput);
 }
 
 void dialog010()
@@ -127,7 +127,7 @@ void dialog010()
 //alt ……フリルとリボンで西洋人形のように飾られた美少女たち、食い放題で行こうかなぁ？！
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29770", 256, TRUE);
 	OutputLine(NULL, "……フリルとリボンで西洋人形のように飾られた美少女たち、食い放題で行こうかなぁ？！",
-		   NULL, " why don't I head down to Angel Mort and get all-you-can eat of those lovely young ladies, decorated like western dolls in frills and ribbons?!", Line_WaitForInput);
+		   NULL, " je passe à l'Angel Mort, et là... je crois que je vais me faire un menu à volonté avec les froufrous des poupées occidentales toutes fraîches...", Line_WaitForInput);
 }
 
 void dialog011()
@@ -137,12 +137,12 @@ void dialog011()
 	ModPlayVoiceLS(4, 23, "ps3/s19/23/202800039", 256, TRUE);
 
 	OutputLine(NULL, "く、",
-		   NULL, " A-", Line_Continue);
+		   NULL, " — À", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 500 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "食い放題ッ！！！」",
-		   NULL, " All you can eat!!!\"", Line_Continue);
+		   NULL, " volonté ?!!!", Line_Continue);
 }
