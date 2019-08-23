@@ -23,7 +23,7 @@ void dialog000()
 
 void dialog001()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s19/11/500700065", 256, TRUE);
 	OutputLine(NULL, "年に２回ほど、東京の有明大展覧会に出展されてるそうじゃないですか。",
 		   NULL, "Il fait une expo deux fois par an dans Ariake, à Tokyo, c'est bien cela ?", Line_WaitForInput);

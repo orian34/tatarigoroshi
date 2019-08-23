@@ -185,7 +185,7 @@
 	ClearMessage();
 
 //「...今日は何度も電話で本当にすみませんでしたね＠では今日はこれでおしまいにします＠委員長、号令！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400066", 256, TRUE);
 	OutputLine(NULL, "「…今日は何度も電話で本当にすみませんでしたね。",
 		   NULL, "— Je suis désolée pour tous les appels téléphoniques aujourd'hui.", Line_WaitForInput);

@@ -1750,7 +1750,7 @@
 
 //「...な、何の騒ぎですか？＠　......ちょっと、何があったんです？！＠
 //　先生がやって来て...眼下の惨状に...目をしかめる￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400092", 256, TRUE);
 	OutputLine(NULL, "「…な、何の騒ぎですか？！",
 		   NULL, "— Bon, qu'est-ce que c'est que ce vacarme ?", Line_WaitForInput);
@@ -1780,7 +1780,7 @@
 	ModDrawCharacter(1, 22, "sprite/normal/tie_3_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「北条さん...＠　これは一体何事ですか！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400094", 256, TRUE);
 	OutputLine(NULL, "「北条さん…？",
 		   NULL, "— Hôjô ?", Line_WaitForInput);

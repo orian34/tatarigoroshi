@@ -2114,7 +2114,7 @@
 	ClearMessage();
 
 //「「「「ひっどーーーーーーい！！！」」￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子全員</color>", NULL, "<color=#f5e6d3>All Girls</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子全員</color>", NULL, "<color=#f5e6d3>Toutes les filles</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/allg50001", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s19/00/allg50001_01", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s19/00/allg50001_02", 256, TRUE);
@@ -2555,7 +2555,7 @@
 //!s0
 	SetSpeedOfMessage( TRUE, 127, );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子全員</color>", NULL, "<color=#f5e6d3>All Girls</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子全員</color>", NULL, "<color=#f5e6d3>Toutes les filles</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/allg50002", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s19/00/allg50002_01", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s19/00/allg50002_02", 256, TRUE);
@@ -2569,7 +2569,7 @@
 	ShakeScreen( 1, 50, 20, 2, 0, );
 
 //「「「ブーーーー！！！」」」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子全員</color>", NULL, "<color=#f5e6d3>All Girls</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子全員</color>", NULL, "<color=#f5e6d3>Toutes les filles</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/allg50003", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s19/00/allg50003_01", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s19/00/allg50003_02", 256, TRUE);
@@ -2583,7 +2583,7 @@
 	ShakeScreen( 0, 50, 20, 2, 0, );
 
 //「「「味が全てだ！！」」」/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男子全員</color>", NULL, "<color=#f5e6d3>All Boys</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男子全員</color>", NULL, "<color=#f5e6d3>Tous les garçons</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/allb50001", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s19/00/allb50001b", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s19/00/allb50001c", 256, TRUE);
@@ -2596,7 +2596,7 @@
 	ShakeScreen( 1, 50, 20, 2, 0, );
 
 //「「「女の敵ぃー！！」」」/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子全員</color>", NULL, "<color=#f5e6d3>All Girls</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子全員</color>", NULL, "<color=#f5e6d3>Toutes les filles</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/allg50004", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s19/00/allg50004_01", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s19/00/allg50004_02", 256, TRUE);
@@ -3110,7 +3110,7 @@
 //!s0
 	SetSpeedOfMessage( TRUE, 127, );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男子全員</color>", NULL, "<color=#f5e6d3>All Boys</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男子全員</color>", NULL, "<color=#f5e6d3>Tous les garçons</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/allb50003", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s19/00/allb50003b", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s19/00/allb50003c", 256, TRUE);
@@ -4434,7 +4434,7 @@
 
 //「あら＠前原くんに古手さんに北条さん＠......どうかしましたか？＠
 //　大好きなカレーを口いっぱいに頬張って至福のひと時みたいだ＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s19/22/501400060", 256, TRUE);
 	OutputLine(NULL, "「あら。",
 		   NULL, "— Tiens donc ?", Line_WaitForInput);
@@ -4535,7 +4535,7 @@
 	ModDrawCharacter(2, 22, "sprite/normal/tie_1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 //「...あなたたち＠　......？？？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s19/22/501400063", 256, TRUE);
 	OutputLine(NULL, "「…あなたたち？",
 		   NULL, "— Mais qu'est-ce qu'il vous prend, vous trois ?", Line_WaitForInput);
@@ -6068,7 +6068,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700020", 256, TRUE);
 	OutputLine(NULL, "「……もしもし？",
 		   NULL, "— ... Allô ?", Line_WaitForInput);
@@ -6108,7 +6108,7 @@
 //「その様子だと、特にトラブルもなく生活できてるみたいね＠母さん、圭一がご飯を作れなくてひもじくて寝込んでるんじゃないかと心配してたわ。＠
 //「まぁね＠何とかお陰で。＠
 //「ご飯はちゃんと作れてる＠　今夜は何を食べたの？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700023", 256, TRUE);
 	OutputLine(NULL, "「その様子だと、特にトラブルもなく生活できてるみたいね。",
 		   NULL, "— À ce que j'entends, tu m'as l'air de t'en sortir sans trop de problèmes.", Line_WaitForInput);
@@ -6128,7 +6128,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700025", 256, TRUE);
 	OutputLine(NULL, "「ご飯はちゃんと作れてる？",
 		   NULL, "— Tu as réussi à te faire un petit quelque chose ?", Line_WaitForInput);
@@ -6186,7 +6186,7 @@
 	ClearMessage();
 
 //「...そう＠しっかりやれていて、母さん本当に安心したわ＠...そうそう、それでね＠/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700027", 256, TRUE);
 	OutputLine(NULL, "「…そう。",
 		   NULL, "— ... Je vois.", Line_WaitForInput);
@@ -6219,7 +6219,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700032", 256, TRUE);
 	OutputLine(NULL, "「二晩、よく頑張ったわね。",
 		   NULL, "— Bravo à toi pour avoir tenu deux soirs de suite.", Line_WaitForInput);

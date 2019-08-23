@@ -100,7 +100,7 @@
 
 
 //「気にしない気にしない＠ほら、こうすれば録音してるのも気にならないでしょ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04001", 256, TRUE);
 	OutputLine(NULL, "「気にしない気にしない。",
 		   NULL, "— Mais t'en fais pas, gamin.", Line_WaitForInput);
@@ -118,7 +118,7 @@
 	ClearMessage();
 
 //「じゃあ始めるね＠...まず、最初の質問から＠圭一くんは、あの大災害の夜、どこにいたのかな？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04003", 256, TRUE);
 	OutputLine(NULL, "「じゃあ始めるね。",
 		   NULL, "— Alors, on commence, d'accord ?", Line_WaitForInput);
@@ -148,7 +148,7 @@
 	ClearMessage();
 
 //「それは大災害の夜、つまり２１日から２２日にかけての深夜のこと？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04006", 256, TRUE);
 	OutputLine(NULL, "「それは大災害の夜、つまり２１日から２２日にかけての深夜のこと？」",
 		   NULL, "— C'était la nuit du 21 au 22 ? Tu es allé là-bas en pleine nuit ?", GetGlobalFlag(GLinemodeSp));
@@ -169,7 +169,7 @@
 	ClearMessage();
 
 //「どうしてそんなところに＠　誰もが持つ疑問だけど、当日は平日で、しかも落ちた橋は君の家と学校からは大きく離れているよね？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04007", 256, TRUE);
 	OutputLine(NULL, "「どうしてそんなところに？",
 		   NULL, "— Mais pourquoi étais-tu là-bas ?", Line_WaitForInput);
@@ -188,7 +188,7 @@
 
 
 //「ざっくばらんに言って、君が大災害の発生を事前に知っていて＠村から逃げる途中に吊り橋から落ちたんじゃないかっていう声もあるんだけど？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04009", 256, TRUE);
 	OutputLine(NULL, "「ざっくばらんに言って、君が大災害の発生を事前に知っていて、",
 		   NULL, "— Il y a des gens qui imaginent qu'en fait, tu savais que cela allait se passer et tu t'es enfui.", Line_WaitForInput);
@@ -209,7 +209,7 @@
 	ClearMessage();
 
 //「私もずいぶんひどい言い分だと思うよ＠気を悪くしないでね＠......さて、次に圭一くんが落ちたという吊り橋なんだけど、...地図で言うとココだよね＠　神社の裏から林道を抜けて至る吊り橋というのは。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04011", 256, TRUE);
 	OutputLine(NULL, "「私もずいぶんひどい言い分だと思うよ。",
 		   NULL, "— Oh, tu sais, je suis d'accord avec toi sur ce coup-là.", Line_WaitForInput);
@@ -219,7 +219,7 @@
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04013", 256, TRUE);
 	OutputLine(NULL, "……さて、次に圭一くんが落ちたという吊り橋なんだけど、…地図で言うとココだよね？",
 		   NULL, " Dis-moi, ce pont dont tu m'as parlé, c'est celui-là sur la carte ? ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04014", 256, TRUE);
 	OutputLine(NULL, "　神社の裏から林道を抜けて至る吊り橋というのは。」",
 		   NULL, "On part du temple, on traverse la forêt et on arrive là.", GetGlobalFlag(GLinemodeSp));
@@ -237,7 +237,7 @@
 	ClearMessage();
 
 //「ははははは＠そんな行かないところにどうして平日の朝に行ったのか、疑問は尽きないけどなぁ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04015", 256, TRUE);
 	OutputLine(NULL, "「ははははは。",
 		   NULL, "— Ahahahaha !", Line_WaitForInput);
@@ -255,7 +255,7 @@
 	ClearMessage();
 
 //「それで、......この、君が気絶していたという河原なんだけど、実はそれはありえないという噂は知っているかい？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04017", 256, TRUE);
 	OutputLine(NULL, "「それで、……この、君が気絶していたという河原なんだけど、実はそれはありえないという噂は知っているかい？」",
 		   NULL, "— Et donc... je voulais te demander si tu savais ce qu'il se dit à propos de la rivière dans laquelle tu t'es réveillé. On raconte que c'est pas possible.", GetGlobalFlag(GLinemodeSp));
@@ -312,7 +312,7 @@
 
 
 //「火山ガスが発生したのは鬼ヶ淵という沼なのは知ってるよね＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04018", 256, TRUE);
 	OutputLine(NULL, "「火山ガスが発生したのは鬼ヶ淵という沼なのは知ってるよね？",
 		   NULL, "— Tu sais que l'épanchement de gaz provenait du marais, n'est-ce pas ?", GetGlobalFlag(GLinemodeSp));
@@ -320,7 +320,7 @@
 
 
 //　それで学者の先生が緻密な模型を使ってシミュレーションをしたら、興味深いことがわかったんだってさ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04019", 256, TRUE);
 	OutputLine(NULL, "　それで学者の先生が緻密な模型を使ってシミュレーションをしたら、興味深いことがわかったんだってさ。」",
 		   NULL, "Les scientifiques ont fait des simulations et ont découvert quelque chose de trèèèèèèèèèès intéressant.", GetGlobalFlag(GLinemodeSp));
@@ -335,18 +335,18 @@
 	ClearMessage();
 
 //「例の火山ガスってのは空気よりも重いらしくて＠地形に沿って、低いところへ低いところへ流れ込む、水みたいな性質があるんだってさ＠それで、発生源の鬼ヶ淵沼からそういうガスが噴出し、どれくらいの時間をかけて村を覆うかの実験がされたんだ＠.........そしたらさ＠君が気絶していたという河原＠流れ込むんだよ、!w800ガスが。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04020", 256, TRUE);
 	OutputLine(NULL, "「例の火山ガスってのは空気よりも重いらしくて、",
 		   NULL, "— Les gaz volcaniques sont plus lourds que l'air ambiant,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04021", 256, TRUE);
 	OutputLine(NULL, "地形に沿って、低いところへ低いところへ流れ込む、水みたいな性質があるんだってさ。",
 		   NULL, " alors ils longent le sol et se déplacent toujours vers les endroits plus bas, un peu comme de l'eau. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04022", 256, TRUE);
 	OutputLine(NULL, "それで、発生源の鬼ヶ淵沼からそういうガスが噴出し、どれくらいの時間をかけて村を覆うかの実験がされたんだ。",
 		   NULL, "Et donc ils ont simulés ce qu'il s'est passé, combien de temps il a fallu pour que le gaz recouvre le village, et caetera. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04023", 256, TRUE);
 	OutputLine(NULL, "………そしたらさ。",
 		   NULL, "Et là, ils se sont rendus compte qu'en fait,", Line_WaitForInput);
@@ -368,11 +368,11 @@
 	ClearMessage();
 
 //「つまり、君が本当にこの河原で気絶してたなら、君は丸一晩、猛毒の火山ガスの中にいたことになるんだよ＠だからつまり、君がここで気絶をしていた可能性は否定されたわけさ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04026", 256, TRUE);
 	OutputLine(NULL, "「つまり、君が本当にこの河原で気絶してたなら、君は丸一晩、猛毒の火山ガスの中にいたことになるんだよ。",
 		   NULL, "— Si réellement tu étais évanoui là-bas cette nuit-là, alors tu es resté toute la nuit en plein milieu des gaz mortels. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04027", 256, TRUE);
 	OutputLine(NULL, "だからつまり、君がここで気絶をしていた可能性は否定されたわけさ。」",
 		   NULL, "Il est donc scientifiquement prouvé que tu ne pouvais pas te trouver là-bas.", GetGlobalFlag(GLinemodeSp));
@@ -387,7 +387,7 @@
 	ClearMessage();
 
 //「もっとざっくばらんに言うよ＠私はね、...君がウソをついてるんじゃないかなぁって思うんだ＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04028", 256, TRUE);
 	OutputLine(NULL, "「もっとざっくばらんに言うよ。",
 		   NULL, "— J'vais te dire,", Line_WaitForInput);
@@ -398,7 +398,7 @@
 
 
 //　......君は大災害の時、安全なところに身を潜めていて、...ガスが薄れた頃合を見計らって村に現れて自衛隊の人に保護された＠......どうかな＠　図星かなぁ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04030", 256, TRUE);
 	OutputLine(NULL, "　……君は大災害の時、安全なところに身を潜めていて、…ガスが薄れた頃合を見計らって村に現れて自衛隊の人に保護された。",
 		   NULL, "Le soir de la catastrophe, tu es allé te réfugier dans un endroit sain et sauf. Puis tu as attendu que les gaz soient moins denses pour retourner au village... et voilà ! Un miraculé, un !", Line_WaitForInput);
@@ -425,7 +425,7 @@
 
 
 //「驚かないとは、...どういう意味だい？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04033", 256, TRUE);
 	OutputLine(NULL, "「驚かないとは、…どういう意味だい？」",
 		   NULL, "— C'est-à-dire, “ça ne t'étonne pas” ?", Line_Normal);
@@ -486,7 +486,7 @@
 
 
 //「あっははははははは！　はっはっは...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04034", 256, TRUE);
 	OutputLine(NULL, "「あっははははははは！　はっはっは…。」",
 		   NULL, "— Ahhahahahha !", GetGlobalFlag(GLinemodeSp));
@@ -508,7 +508,7 @@
 	SetValidityOfInput( TRUE );
 
 //「じゃあ圭一くん、話を変えるよ＠あの大災害が雛見沢連続怪死事件の５年目の祟りではないかという話には、どう思う？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04035", 256, TRUE);
 	OutputLine(NULL, "「じゃあ圭一くん、話を変えるよ。",
 		   NULL, "— Alors, parlons d'autre chose.", Line_WaitForInput);
@@ -530,7 +530,7 @@
 
 
 //「え＠　あははははは＠　何のこと？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04037", 256, TRUE);
 	OutputLine(NULL, "「え？",
 		   NULL, "— Quoi ?", Line_WaitForInput);
@@ -574,7 +574,7 @@
 
 
 //「ははははは...＠それは...豪快な話だね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04040", 256, TRUE);
 	OutputLine(NULL, "「ははははは…。",
 		   NULL, "— Ahahahahahhaha !", Line_WaitForInput);
@@ -618,7 +618,7 @@
 
 
 //「足音...＠　って、...はははは、何だいそれ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04042", 256, TRUE);
 	OutputLine(NULL, "「足音…？",
 		   NULL, "— Les bruits de pas ?", Line_WaitForInput);
@@ -681,7 +681,7 @@
 
 
 //「あ...あははははは＠　そ、そうだね、気をつけるようにするよ＠はは、ははは！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04044", 256, TRUE);
 	OutputLine(NULL, "「あ…あははははは！",
 		   NULL, "—  Ahahahhahahahaha !", Line_WaitForInput);
@@ -724,7 +724,7 @@
 
 
 //「はは、はは＠...そんなことはないよ＠ははは...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Reporter</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04047", 256, TRUE);
 	OutputLine(NULL, "「はは、はは。",
 		   NULL, "— Hahaha,", Line_WaitForInput);

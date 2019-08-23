@@ -53,7 +53,7 @@ void dialog002()
 void dialog003()
 {
 //「...それは......、児童相談所長がいろいろ検討した末に判断を......。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/chie040402", 256, TRUE);
 	OutputLine(NULL, "「…それは……、児童相談所長がいろいろ検討した末に判断を……。」",
 		   NULL, "— Eh bien... Les services sociaux en ont décidé ainsi après avoir fait des recherches, et...", Line_Normal);

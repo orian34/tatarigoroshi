@@ -606,7 +606,7 @@
 
 //「起きてたの＠　さっきからご飯ってずっと呼んでるわよ？＠
 //「......あ、...ん、今行く...。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/142700001", 256, TRUE);
 	OutputLine(NULL, "「起きてたの？",
 		   NULL, "— Ah, tu es debout ?", Line_WaitForInput);
@@ -948,7 +948,7 @@
 //「ん、うん＠...ちょっと気分が変えたくなってさ＠...自分の部屋で食べてもいいかな。＠
 //「...ボロボロ落として汚すぞ＠食事は食卓で食べなさい。＠
 //「............ん、...ごめん...。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/142700003", 256, TRUE);
 	OutputLine(NULL, "「どうしたの圭一？",
 		   NULL, "— Eh bien alors, Keiichi ?", Line_WaitForInput);
@@ -971,7 +971,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Papa de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/142600001", 256, TRUE);
 	OutputLine(NULL, "「…ボロボロ落として汚すぞ。",
 		   NULL, "— Et risquer d'en mettre partout ?", Line_WaitForInput);

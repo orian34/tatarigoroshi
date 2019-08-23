@@ -5,7 +5,7 @@
 void dialog000()
 {
 //「高熱と失禁に重度の意識障害も見られました＠睡眠薬中毒の典型的な重症例だと思いましたので、ただちに対応に入りました。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/doca04009", 256, TRUE);
 	OutputLine(NULL, "「高熱と失禁に重度の意識障害も見られました。",
 		   NULL, "— Il avait de la fièvre, il ne contrôlait plus sa vessie, et il souffrait d'une sévère perte de connaissance.", Line_WaitForInput);

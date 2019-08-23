@@ -38,7 +38,7 @@
 
 //「...北条さんは今日もお休みですか＠　古手さんは何か知ってますか？＠
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400001", 256, TRUE);
 	OutputLine(NULL, "「…北条さんは今日もお休みですか？",
 		   NULL, "— Quoi ? Hôjô est encore absente aujourd'hui ?", Line_WaitForInput);
@@ -1293,7 +1293,7 @@
 	ModDrawCharacterWithFiltering(3, 22, "sprite/normal/tie_1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「北条さん！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400003", 256, TRUE);
 	OutputLine(NULL, "「北条さん！！」",
 		   NULL, "— Hôjô !", GetGlobalFlag(GLinemodeSp));
@@ -1324,7 +1324,7 @@
 	ModDrawCharacter(3, 22, "sprite/normal/tie_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, TRUE );
 
 //「......もう、...本当に心配してたんですからね＠　お弁当が食べ終わったら職員室に来るんですよ＠いろいろとお話があります。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400004", 256, TRUE);
 	OutputLine(NULL, "「……もう、…本当に心配してたんですからね！",
 		   NULL, "— ... Pfff, je me suis vraiment fait beaucoup de soucis pour toi, tu sais !", Line_WaitForInput);
@@ -2154,7 +2154,7 @@
 	ClearMessage();
 
 //「さぁさぁ午後の授業を始めますよ＠　委員長、号令！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400007", 256, TRUE);
 	OutputLine(NULL, "「さぁさぁ午後の授業を始めますよ！",
 		   NULL, "— Allons, les enfants, les cours de l'après-midi vont commencer !", Line_WaitForInput);

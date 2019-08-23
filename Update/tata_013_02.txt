@@ -189,7 +189,7 @@
 
 
 //「事務室の所長席のソファーに座って、居眠りをしているように見えました。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/doca04007", 256, TRUE);
 	OutputLine(NULL, "「事務室の所長席のソファーに座って、居眠りをしているように見えました。」",
 		   NULL, "— Il était assis sur le sofa, dans son bureau. J'ai cru qu'il était assoupi.", GetGlobalFlag(GLinemodeSp));
@@ -226,7 +226,7 @@
 
 
 //「ここは病院で私は医師ですよ＠　生命が危険な状態にあるなら、直ちに治療して当然です！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/doca04011", 256, TRUE);
 	OutputLine(NULL, "「ここは病院で私は医師ですよ！",
 		   NULL, "— Je suis médecin dans le seul hôpital du coin,", Line_WaitForInput);
@@ -244,7 +244,7 @@
 	ClearMessage();
 
 //「呼吸が不正常だったので人工呼吸を施しました＠合わせて呼吸刺激薬を投与＠効果が出なかったので人工呼吸器の準備をし...、＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/doca04013", 256, TRUE);
 	OutputLine(NULL, "「呼吸が不正常だったので人工呼吸を施しました。",
 		   NULL, "— Sa respiration était erratique, alors je lui ai fait du bouche-à-bouche.", Line_WaitForInput);
@@ -275,7 +275,7 @@
 
 
 //「はい＠.........救うことができず、...とても残念です。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/doca04016", 256, TRUE);
 	OutputLine(NULL, "「はい。",
 		   NULL, "— Oui.", Line_WaitForInput);
@@ -380,7 +380,7 @@
 
 
 //「......あまり知りません。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/doca04018", 256, TRUE);
 	OutputLine(NULL, "「……あまり知りません。」",
 		   NULL, "— ... Je ne suis pas très au courant de ses habitudes.", GetGlobalFlag(GLinemodeSp));
@@ -399,7 +399,7 @@
 	PlaySE( 3, "wa_026", 56, 64 );
 
 //「入江先生は普段から...あぁいう性格でしたから＠...とても、...そんな風には...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/doca04019", 256, TRUE);
 	OutputLine(NULL, "「入江先生は普段から…あぁいう性格でしたから。",
 		   NULL, "— Le docteur Irie était quelqu'un qui faisait souvent de l'humour, il était rarement sérieux.", Line_WaitForInput);

@@ -1600,7 +1600,7 @@
 	ClearMessage();
 
 //「もう大丈夫だよ＠具合は＠　歩けるかい？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/ishaa04001", 256, TRUE);
 	OutputLine(NULL, "「もう大丈夫だよ。",
 		   NULL, "— Tout ira bien maintenant.", Line_WaitForInput);
@@ -1640,7 +1640,7 @@
 	DrawSceneWithMask("background/sinryou_soto1", "right", 0, 0, 300 );
 
 //「外傷多数＠骨折もしくは内臓損傷の可能性大＠頭部に大きな裂傷＠瞳孔正常、眼底に出血なくも脳内損傷の可能性は否定できず...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/ishaa04004", 256, TRUE);
 	OutputLine(NULL, "「外傷多数。",
 		   NULL, "— Il a plusieurs blessures apparentes.", Line_WaitForInput);
@@ -1821,7 +1821,7 @@
 	DrawSceneWithMask("background/sinryou_soto1", "right", 0, 0, 300 );
 
 //「馬鹿ッ！＠　犠牲者を粗末に扱うな＠　彼は村の住民だぞ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/ishac04001", 256, TRUE);
 	OutputLine(NULL, "「馬鹿ッ！！",
 		   NULL, "— Oh, imbéciles,", Line_WaitForInput);
@@ -1927,7 +1927,7 @@
 	FadeFilm( 1000, TRUE );
 
 //「.........？＠　おい、意識が喪失したぞ！＠　患者の名前を呼びかけろ＠　早くッ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/ishab04001", 256, TRUE);
 	OutputLine(NULL, "「………？！",
 		   NULL, "— ... ?", Line_WaitForInput);
@@ -1944,7 +1944,7 @@
 
 
 //「前原くん＠　聞こえるかい？＠　聞こえるなら瞬きでいいからしてくれ！＠　前原くん＠　前原くん＠　前原くん！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/ishac04004", 256, TRUE);
 	OutputLine(NULL, "「前原くん！",
 		   NULL, "— Maebara !", Line_WaitForInput);
@@ -1974,7 +1974,7 @@
 	ClearMessage();
 
 //「呼吸が停止したぞ＠　気道確保＠　人工呼吸！＠　絶対に生かせ！＠　畜生畜生...！＠　もうこれ以上、死者は御免だぞ！＠　死んでもいい命なんかないんだ！＠　殺すな＠　殺すなぁあぁああッ！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Doctor</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医者</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/ishab04005", 256, TRUE);
 	OutputLine(NULL, "「呼吸が停止したぞ！",
 		   NULL, "— Il a cessé de respirer !", Line_WaitForInput);

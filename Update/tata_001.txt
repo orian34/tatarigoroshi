@@ -1194,7 +1194,7 @@
 	PlayBGM( 1, "msysRi", 56, 0 );
 
 //「圭一＠お父さんとお母さんね、またお仕事で東京に行って来なくちゃならないの。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700003", 256, TRUE);
 	OutputLine(NULL, "「圭一。",
 		   NULL, "— Keiichi.", Line_WaitForInput);
@@ -1223,7 +1223,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700005", 256, TRUE);
 	OutputLine(NULL, "「お父さんの先生にあたる人がね、イベントの直前で倒れちゃったの。",
 		   NULL, "— Le peintre qui était un peu le professeur de ton père est tombé gravement malade juste avant une exposition.", Line_WaitForInput);
@@ -1241,7 +1241,7 @@
 	ClearMessage();
 
 //「それでお父さんとお母さん＠そのイベントのお手伝いのために大至急、東京に行かなくちゃならなくなったの＠場合によっては何日か泊り込みになっちゃうかも。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700007", 256, TRUE);
 	OutputLine(NULL, "「それでお父さんとお母さん、",
 		   NULL, "— Et donc, bref,", Line_WaitForInput);
@@ -1266,7 +1266,7 @@
 
 //「その間、お母さんたち、いないからご飯とかみんな圭一が自炊しなくちゃならないんだけど＠...圭一は大丈夫？＠
 //「......大丈夫大丈夫＠...人間、追い詰められたら何でもできるんだから...。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700010", 256, TRUE);
 	OutputLine(NULL, "「その間、お母さんたち、いないからご飯とかみんな圭一が自炊しなくちゃならないんだけど、",
 		   NULL, "— Tu devras faire le linge et la cuisine tout seul.", Line_WaitForInput);
@@ -1286,7 +1286,7 @@
 	ClearMessage();
 
 //「そう＠　なら安心ね＠ご飯くらいは炊けるでしょ＠　お味噌汁も作れるわよね＠あとは適当にお惣菜を買ってくればご飯らしくなるから。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700012", 256, TRUE);
 	OutputLine(NULL, "「そう？",
 		   NULL, "— Si tu le dis.", Line_WaitForInput);
@@ -1332,7 +1332,7 @@
 	ClearMessage();
 
 //「自炊できるなら、置いていくお金は少しでいいわよね＠　外食は高いからしちゃダメよ＠　圭一もそろそろ自炊と経済観念を学んでもいい頃だからね。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700017", 256, TRUE);
 	OutputLine(NULL, "「自炊できるなら、置いていくお金は少しでいいわよね？",
 		   NULL, "— Si tu peux faire la cuisine, je n'ai pas besoin de te laisser une grosse somme d'argent.", Line_WaitForInput);
@@ -1507,7 +1507,7 @@
 
 
 //「......今、誰かカレーの悪口を言っていませんでしたか？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s19/22/501400057", 256, TRUE);
 	OutputLine(NULL, "「……今、誰かカレーの悪口を言っていませんでしたか？」",
 		   NULL, "— Il me semble avoir entendu quelqu'un de votre groupe insulter l'épice suprême, c'est bien cela ?", Line_Normal);
@@ -1541,7 +1541,7 @@
 
 //「............そうですか＠　...空耳でしたか...。＠
 //　先生はもう一度、教室をぎょろりと見渡してから、/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s19/22/501400058", 256, TRUE);
 	OutputLine(NULL, "「…………そうですか？",
 		   NULL, "— ... Ah oui, vraiment ?", Line_WaitForInput);

@@ -745,7 +745,7 @@
 //■富竹＆鷹野
 
 //「..................あら。前原くんじゃない＠　こんにちは＠今日は学校はお休みかしら？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>女性</color>", NULL, "<color=#f6d9a8>Woman</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>女性</color>", NULL, "<color=#f6d9a8>Femme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s03/09/140900001", 256, TRUE);
 	OutputLine(NULL, "「………………あら。前原くんじゃない？",
 		   NULL, "— ... Ah, tiens ? Maebara, c'est ça ?", Line_WaitForInput);
@@ -788,7 +788,7 @@
 //　...俺って有名人なのか？＠
 //　...そう言えばこの女の人にもいきなり名前を呼ばれたし＠
 //　......どういう意味で有名なのか微妙に気になるぞ￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>女性</color>", NULL, "<color=#f6d9a8>Woman</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>女性</color>", NULL, "<color=#f6d9a8>Femme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s03/09/140900004", 256, TRUE);
 	OutputLine(NULL, "「あらあら。",
 		   NULL, "— Tiens, tiens, tiens...", Line_WaitForInput);
@@ -820,7 +820,7 @@
 //「あら、私の名前はまだ思い出せない＠　......くすくす。＠
 //「鷹野三四さんだよ＠村の診療所に勤めてる＠前原くんは健康そうだから、あまり病院のお世話にはならないかな？＠
 //「くすくす...＠せっかくお知り合いになれたんだから、今度病気か何かで来たら、ちょっぴりだけサービスしてあげようかしらね＠...くすくす！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>女性</color>", NULL, "<color=#f6d9a8>Woman</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>女性</color>", NULL, "<color=#f6d9a8>Femme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s03/09/140900006", 256, TRUE);
 	OutputLine(NULL, "「あら、私の名前はまだ思い出せない？",
 		   NULL, "— Eh bien, tu ne te souviens toujours pas de mon nom ?", Line_WaitForInput);
@@ -2733,7 +2733,7 @@
 
 //「前原くん...＠　今、来たんですか？＠
 //　これからまさに箸を付けようというところで、.........先生だった￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400009", 256, TRUE);
 	OutputLine(NULL, "「前原くん…！",
 		   NULL, "— Maebara !", Line_WaitForInput);
@@ -2765,7 +2765,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400011", 256, TRUE);
 	OutputLine(NULL, "「………………………………。」",
 		   NULL, "— ...", GetGlobalFlag(GLinemodeSp));
@@ -2787,7 +2787,7 @@
 
 //「お弁当を食べたら、委員長と前原くんは職員室に来てください＠...ちょっとお話がありますので。＠
 //　.........沙都子がらみの話なんだろうな、と思った￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400012", 256, TRUE);
 	OutputLine(NULL, "「お弁当を食べたら、委員長と前原くんは職員室に来てください。",
 		   NULL, "— Quand tu auras fini de manger, toi et la déléguée, je veux vous voir en salle des professeurs.", Line_WaitForInput);
@@ -3271,7 +3271,7 @@
 //「そこへお掛けなさい。＠
 //　校長先生の席の正面にある、応接椅子に掛けるように言われる＠
 //　......こんな椅子に座るのは転校手続きで来たとき以来だった￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400014", 256, TRUE);
 	OutputLine(NULL, "「そこへお掛けなさい。」",
 		   NULL, "— Asseyez-vous là.", GetGlobalFlag(GLinemodeSp));
@@ -3305,7 +3305,7 @@
 //「...............本当に？＠
 //「......先生に嘘言っても。＠
 //　先生は問い詰めるように、少し目を細める￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400015", 256, TRUE);
 	OutputLine(NULL, "「前原くん、今日は午前中お休みでしたけど、何かありましたか？」",
 		   NULL, "— Maebara, tu n'étais pas là ce matin, il s'est passé quelque chose ?", GetGlobalFlag(GLinemodeSp));
@@ -3321,7 +3321,7 @@
 	DisableWindow();
 	ModDrawCharacter(1, 22, "sprite/normal/tie_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400016", 256, TRUE);
 	OutputLine(NULL, "「……………本当に？」",
 		   NULL, "— ... Tu es sûr de ça ?", GetGlobalFlag(GLinemodeSp));
@@ -3355,7 +3355,7 @@
 
 //「...まず二人とも知ってると思いますけど、お友達の北条さんがここしばらくお休みしてますね。＠
 //　魅音も俺も特に相槌は打たなかった＠...でも先生はそんなことは気にせず先を進める￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400017", 256, TRUE);
 	OutputLine(NULL, "「…まず二人とも知ってると思いますけど、お友達の北条さんがここしばらくお休みしてますね。」",
 		   NULL, "— Bon, je suppose que vous êtes tous les deux au courant, mais Satoko Hôjô est absente souvent ces derniers temps.", GetGlobalFlag(GLinemodeSp));
@@ -3371,7 +3371,7 @@
 
 //「.........何か知っていますか＠　クラスで、良くない噂をしている人たちがいます。＠
 //　魅音はまるで説教を聞いているように、下を向いて黙っていた＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400018", 256, TRUE);
 	OutputLine(NULL, "「………何か知っていますか？",
 		   NULL, "— Vous êtes au courant de quelque chose ?", Line_WaitForInput);
@@ -3405,7 +3405,7 @@
 //「委員長＠　前原くんも＠......先生は別に怒ってるんじゃありませんよ＠　もしも知っていたら教えてほしいとお願いしているだけです。＠
 //「............先生＠先に、こっちから質問してもいいですか？＠
 //　こんな切り返しは想定していなかったろう＠...先生が何事かと驚く￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400020", 256, TRUE);
 	OutputLine(NULL, "「委員長？",
 		   NULL, "— Déléguée ?", Line_WaitForInput);
@@ -3455,7 +3455,7 @@
 //「ど、...どうするもこうするも＠...もしも、その、......叔父さんに虐められているという話が本当なら放って置けません。＠
 //「放って置けないって、具体的にはどう放って置けないんですか？＠
 //　先生が目を吊り上げる＠......ちょっと喧嘩腰な言い方になったか￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/chie040301", 256, TRUE);
 	OutputLine(NULL, "「ど、…どうするもこうするも。",
 		   NULL, "— Eh bien, il n'y a pas trente-six solutions.", Line_WaitForInput);
@@ -3483,7 +3483,7 @@
 
 //「前原くん＠　先生はまじめにお話してるんですよ！！＠
 //「......先生こそ＠...俺はすごくまじめな話をしているんです＠まず、答えてください＠......真実だったとして、どう放って置けないんです？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400026", 256, TRUE);
 	OutputLine(NULL, "「前原くん！",
 		   NULL, "— Maebara,", Line_WaitForInput);
@@ -3520,7 +3520,7 @@
 //「叔父に怒鳴りつけられて追い返されるかもしれませんね＠......まぁいいや＠...仮に叔父と沙都子に会えたとします＠それで？＠
 //「そして真偽を聞きます＠その事実が確認できたなら、...指導します。＠
 //「指導って曖昧な言い方はやめて下さい＠具体的には何をするんですか？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400028", 256, TRUE);
 	OutputLine(NULL, "「ま………まず。",
 		   NULL, "— Eh bien... Tout d'abord,", Line_WaitForInput);
@@ -3546,7 +3546,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400030", 256, TRUE);
 	OutputLine(NULL, "「そして真偽を聞きます。",
 		   NULL, "— Eh bien, je leur demanderai ce qu'il en est.", Line_WaitForInput);
@@ -3623,7 +3623,7 @@
 
 //「児童福祉法という法律があります＠この法律で、児童に対する虐待は何人に対しても認められていないことが明記されています。＠
 //「らしいですね＠...それで？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps2/22/141400032", 540, TRUE);
 	OutputLine(NULL, "「児童福祉法という法律があります。",
 		   NULL, "— Il y a une série de lois qu'on appelle le droit des enfants.", Line_WaitForInput);
@@ -3655,7 +3655,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps2/22/141400038", 540, TRUE);
 	OutputLine(NULL, "「即日です。",
 		   NULL, "— Il agit dans la journée où la dénonciation a eu lieu.", Line_WaitForInput);
@@ -3752,7 +3752,7 @@
 
 
 //「.....................もしもし＠内線の３４５５をお願いします。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400040", 256, TRUE);
 	OutputLine(NULL, "「…………………もしもし。",
 		   NULL, "— ... Oui allô ?", Line_WaitForInput);
@@ -3791,7 +3791,7 @@
 	ClearMessage();
 
 //「あ、お世話になっております＠雛見沢分校教諭の知恵と申しますが、指導室の渡辺主事はいらっしゃいますでしょうか＠　.........はい、ええ＠...ちょっと急用がございまして、至急、校長と連絡が取りたいのですが＠.........はい＠お願いします＠緊急とお伝え下さい＠よろしくお願いします...。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400042", 256, TRUE);
 	OutputLine(NULL, "「あ、お世話になっております。",
 		   NULL, "— Ah, bonjour.", Line_WaitForInput);
@@ -3801,7 +3801,7 @@
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400044", 256, TRUE);
 	OutputLine(NULL, "　………はい、ええ。",
 		   NULL, " Oui, oui. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400045", 256, TRUE);
 	OutputLine(NULL, "…ちょっと急用がございまして、至急、校長と連絡が取りたいのですが。",
 		   NULL, "J'ai malheureusement une urgence, vous pourriez lui demander de me recontacter au plus vite ?", Line_WaitForInput);
@@ -3832,7 +3832,7 @@
 
 //「......二人にもう一度だけ聞きます＠......クラスのみんなの噂は、全て本当なんですね？＠
 //「.....................はい＠...俺は昨日、沙都子の家に行って、...実際にどういうことになっているのか、見ました。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400050", 256, TRUE);
 	OutputLine(NULL, "「……二人にもう一度だけ聞きます。",
 		   NULL, "— ... Encore une fois, vous deux, je vous pose la question.", Line_WaitForInput);
@@ -3853,7 +3853,7 @@
 
 //「あとは先生に任せてください＠沙都子ちゃんは、きっと先生が何とかします。＠
 //「.........何とか＠　いい加減なことを言わないで下さい＠何とかじゃない、絶対でなければならない！＠/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400052", 256, TRUE);
 	OutputLine(NULL, "「あとは先生に任せてください。",
 		   NULL, "— D'accord, alors vous pouvez me laisser m'en occuper,", Line_WaitForInput);
@@ -3902,7 +3902,7 @@
 //「...もしもし＠　あ、......研修中申し訳ありません＠...............はい＠実は例の北条沙都子さんの件でお話が＠.........はい。＠
 //　先生は、もう二人は行っていいと、追い払うような仕草をする＠
 //　...魅音は出て行こうとしたが、俺は踏みとどまった＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400054", 256, TRUE);
 	OutputLine(NULL, "「…もしもし！",
 		   NULL, "— Oui allô ?", Line_WaitForInput);
@@ -3943,7 +3943,7 @@
 
 //「...............はい＠.....................いえ、まだ相談所には＠............はい＠......まだ確認はしていませんが、...クラスの子の話では、相当な様子です。＠
 //「相当なんてもんじゃないぞ！＠　すぐにだ！＠　今すぐ何とかしろ！＠　通報するならどこへだっていい！＠　でもな、もしも様子見なんてことになってみろ！＠　ただじゃ済まさないからなぁああぁあぁあッ！！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400059", 256, TRUE);
 	OutputLine(NULL, "「……………はい。",
 		   NULL, "— ... Oui.", Line_WaitForInput);
@@ -3996,7 +3996,7 @@
 	ModDrawCharacter(2, 22, "sprite/normal/tie_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「それはわかっています＠　ちゃんと伝えますから＠　委員長、前原くんを連れて教室に戻りなさい。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400063", 256, TRUE);
 	OutputLine(NULL, "「それはわかっています！",
 		   NULL, "— Mais je sais,", Line_WaitForInput);

@@ -111,7 +111,7 @@ void dialog010()
 {
 //A 「劇中の私が入ったレストランは、園崎系列の店だったということですね。kvS20/11/440700406.園崎一族は、この辺りの飲食店やら何やらを経営しているわけですから」
 //
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700405", 256, TRUE);
 	OutputLine(NULL, "「劇中の私が入ったレストランは、園崎系列の店だったということですね。",
 		   NULL, "— Oui, il suffit de se dire que nous sommes allés manger à l'Angel Mort,", Line_WaitForInput);

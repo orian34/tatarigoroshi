@@ -15,7 +15,7 @@
 
 //「んっふっふっふ＠　出ましたねぇ、ロン＠中ドラ３、満千五です。￥
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700207", 256, TRUE);
 	OutputLine(NULL, "「んっふっふっふ！",
 		   NULL, "— Éhhéhhéhhéhhé !", Line_Continue);
@@ -58,7 +58,7 @@
 	ClearMessage();
 
 //「中さらしたら、ドラを上乗せする位しかやることないじゃないですか＠役牌さらしたらドラ側は切っちゃだめですよ＠んっふっふっふ！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700209", 256, TRUE);
 	OutputLine(NULL, "「中さらしたら、ドラを上乗せする位しかやることないじゃないですか。",
 		   NULL, "— Une fois les dragons sortis, je n'ai plus qu'à augmenter les bonus au maximum.", Line_Continue);
@@ -102,7 +102,7 @@
 
 
 //「えぇ、まぁ＠裏はそっちで取って下さいよ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700211", 256, TRUE);
 	OutputLine(NULL, "「えぇ、まぁ。",
 		   NULL, "— Oui, plutôt.", Line_Continue);
@@ -123,7 +123,7 @@
 
 
 //「間宮リナ＠本名は律子。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700212", 256, TRUE);
 	OutputLine(NULL, "「間宮リナ。",
 		   NULL, "— Rina Mamiya.", Line_Continue);
@@ -185,7 +185,7 @@
 
 
 //「んっふっふ＠　どうせもう死んでますよ＠死体がまだ出ないだけで。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700213", 256, TRUE);
 	OutputLine(NULL, "「んっふっふ！",
 		   NULL, "— Éhhéhhé !", Line_Continue);
@@ -205,7 +205,7 @@
 
 
 //「生きてる＠　じゃあこれから死ぬんでしょうねぇ＠害虫が害虫を駆除してくれるんだから、ホントに素敵な自浄機能だと思いますよ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700215", 256, TRUE);
 	OutputLine(NULL, "「生きてる？",
 		   NULL, "— Ah bon ?", Line_Continue);
@@ -244,7 +244,7 @@
 
 
 //「...北条鉄平＠去年、雛見沢で起こった主婦撲殺事件のホトケのご主人ですよ＠......事件のあと姿を消したって聞いてましたけど＠...そうかぁ、愛人の所に転がり込んでたかぁ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700217", 256, TRUE);
 	OutputLine(NULL, "「…北条鉄平。",
 		   NULL, "— Teppei Hôjô.", Line_Continue);
@@ -268,7 +268,7 @@
 
 
 //「彼氏は今どこに？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700220", 256, TRUE);
 	OutputLine(NULL, "「彼氏は今どこに？」",
 		   NULL, "— Et il est où ?", GetGlobalFlag(GLinemodeSp));

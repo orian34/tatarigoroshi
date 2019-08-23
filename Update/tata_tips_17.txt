@@ -46,7 +46,7 @@
 
 
 //「あー、車両ナンバー照会をお願いします＠ＸＸ、ＸのＸＸＸＸ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700232", 256, TRUE);
 	OutputLine(NULL, "「あー、車両ナンバー照会をお願いします。",
 		   NULL, "— Ah, j'aimerais des renseignements sur un numéro de plaque.", Line_Continue);
@@ -68,7 +68,7 @@
 
 
 //「お願いします。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700233", 256, TRUE);
 	OutputLine(NULL, "「お願いします。」",
 		   NULL, "— Merci.", Line_Normal);
@@ -191,7 +191,7 @@
 
 
 //「大石さんが車両照会＠　誰の車だよ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Détective</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijib_3001", 256, TRUE);
 	OutputLine(NULL, "「大石さんが車両照会？",
 		   NULL, "— Ôishi a demandé une plaque ?", Line_Continue);
@@ -212,7 +212,7 @@
 
 
 //「...何者だよ＠大石さんが聞いてくるからには、只者じゃないんだろ？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Détective</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijib_3002", 256, TRUE);
 	OutputLine(NULL, "「…何者だよ。",
 		   NULL, "— Probablement que non,", Line_Continue);
@@ -236,7 +236,7 @@
 	ClearMessage();
 
 //「...ははは、パッシングでもされて腹が立ったんじゃないの＠　あの人、根に持つとなかなか忘れないタイプなんだよ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detective</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Détective</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtp_okeijic_3001", 256, TRUE);
 	OutputLine(NULL, "「…ははは、パッシングでもされて腹が立ったんじゃないの？",
 		   NULL, "— Hahahaha, je parie qu'elle lui a parlé de travers pendant la fête et qu'il est encore énervé contre elle !", Line_Continue);

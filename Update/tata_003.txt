@@ -654,7 +654,7 @@
 //「愚息の圭一です＠圭一、こちらは××出版の××さんだ＠そしてこちらは××××××専務の××さん＠ご挨拶しなさい。＠
 //「ど、どうもこんにちは＠息子の圭一です＠父がいつもお世話になっております...。＠
 //「圭一くんもお父さんのように絵は描かれるのですか＠　圭一くんの絵もぜひ拝見したいなぁ！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cusa50001", 256, TRUE);
 	OutputLine(NULL, "「これはこれは！",
 		   NULL, "— Oh, mais voyez donc ça !", Line_WaitForInput);
@@ -664,7 +664,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Papa de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps2/00/502600001", 540, TRUE);
 	OutputLine(NULL, "「愚息の圭一です。",
 		   NULL, "— C'est mon idiot de fils, Keiichi.", Line_WaitForInput);
@@ -693,7 +693,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cusa50003", 256, TRUE);
 	OutputLine(NULL, "「圭一くんもお父さんのように絵は描かれるのですか？",
 		   NULL, "— Dites-moi Keiichi, est-ce que vous savez dessiner comme votre père ?", Line_WaitForInput);
@@ -737,7 +737,7 @@
 //「圭一くんも、お父さんに師事してしっかり勉強すれば、きっとお父さんのような素晴らしい作家になれますからね。＠
 //「...あの、!w1000...ここだけの話ですけど...＠親父って...そんなにすごい画家なんですか？＠
 //　意を決して...こっそり聞いてみる＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cusa50005", 256, TRUE);
 	OutputLine(NULL, "「圭一くんも、お父さんに師事してしっかり勉強すれば、きっとお父さんのような素晴らしい作家になれますからね。」",
 		   NULL, "— Je suis sûr que si vous apprenez avec votre père, vous deviendrez un grand artiste.", GetGlobalFlag(GLinemodeSp));
@@ -832,7 +832,7 @@
 //「えぇ！＠　それはもう...本当に素晴らしい作家さんなんですよ！！＠
 //「そ、...そうですか...＠それはよかったです...。＠
 //「購入制限はないし、/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cusa50006", 256, TRUE);
 	OutputLine(NULL, "「えぇ！！",
 		   NULL, "— Oh que oui,", Line_WaitForInput);
@@ -852,7 +852,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cusa50008", 256, TRUE);
 	OutputLine(NULL, "「購入制限はないし、",
 		   NULL, "— Il ne met jamais de limite d'achats,", Line_Continue);
@@ -898,7 +898,7 @@
 //!s0
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cusa50013", 256, TRUE);
 	OutputLine(NULL, "　それはメガネや制服だって同じなんですよ！",
 		   NULL, "Pareil pour les lunettes, et pareil pour les uniformes !", Line_Continue);
@@ -929,7 +929,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cusb50001", 256, TRUE);
 	OutputLine(NULL, "「そんなことはない！",
 		   NULL, "— Non, mais ce n'est pas si grave !", Line_WaitForInput);
@@ -981,7 +981,7 @@
 	SetValidityOfInput( TRUE );
 
 //　そして至る頂点が有明の壁なんです！！!sd/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cusb50005", 256, TRUE);
 	OutputLine(NULL, "　そして至る頂点が有明の壁なんです！！",
 		   NULL, "et là, on atteint les sommets, le mur, le mur d'Ariake !", Line_Continue);
@@ -997,7 +997,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 // 　あなたも＠　ぜひ前原先生と合体で出展できるような大作家になって下さいね！＠　応援していますよ！！！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cusb50006", 256, TRUE);
 	OutputLine(NULL, "　あなたも！",
 		   NULL, "Toi aussi,", Line_WaitForInput);
@@ -1041,7 +1041,7 @@
 //「圭一＠電話よ＠お友達から。＠
 //　ツイてる＠
 //　友達からの電話を口実に、この窮屈なビジネスパーティーを抜け出せるかもしれない￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi's mom</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Maman de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502700035", 256, TRUE);
 	OutputLine(NULL, "「圭一。",
 		   NULL, "— Keiichi,", Line_WaitForInput);
@@ -1328,7 +1328,7 @@
 	DrawSceneWithMask("background/ma_s1", "left", 0, 0, 300 );
 
 //「お、圭一＠探したんだぞ＠こちらの×××出版の××さんがな、ぜひ次のコピー誌で...、＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Papa de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502600005", 256, TRUE);
 	OutputLine(NULL, "「お、圭一。",
 		   NULL, "— Ah, Keiichi,", Line_WaitForInput);
@@ -1359,7 +1359,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Papa de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502600008", 256, TRUE);
 	OutputLine(NULL, "「…な、…長ければ何でもいいなら、…父さんのゴルフクラブが物置にあるぞ。」",
 		   NULL, "— Euh... je dois avoir un club de golf, si ça peut faire l'affaire.", Line_Normal);
@@ -1396,7 +1396,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Papa de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/502600009", 256, TRUE);
 	OutputLine(NULL, "「ちょ、圭一！？",
 		   NULL, "— Qu-- Keiichi !", Line_WaitForInput);
@@ -1948,7 +1948,7 @@
 //「回れぇぇー！＠　二塁行けるぞ、二塁ー！！＠
 //「センター！＠　落ち着いて！＠　三塁へ送ってー！！＠
 //　センターが捕球し、一心拍置いてから、サードへ送球する￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Young boy</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Jeune garçon</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/boya50001", 256, TRUE);
 	OutputLine(NULL, "「レフトー！",
 		   NULL, "— Droite !", Line_WaitForInput);
@@ -1958,7 +1958,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Young boy</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Jeune garçon</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/boyab50001", 256, TRUE);
 	OutputLine(NULL, "「回れぇぇー！！",
 		   NULL, "— Cours, mais cours !", Line_WaitForInput);
@@ -1968,7 +1968,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Young boy</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Jeune garçon</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/boyc50001", 256, TRUE);
 	OutputLine(NULL, "「センター！！",
 		   NULL, "— Milieu !", Line_WaitForInput);
@@ -2127,7 +2127,7 @@
 
 //「どれが前原圭一だー！＠　写真写真ーーッ！！＠
 //　沙都子を先頭に、大勢のスポーツ記者たちがごっついカメラを構えて、ウワサの前原圭一の姿を探す＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cama50001", 256, TRUE);
 	OutputLine(NULL, "「どれが前原圭一だー！！",
 		   NULL, "— C'est lequel d'entre vous, Maebara ?", Line_WaitForInput);
@@ -6148,7 +6148,7 @@
 
 //「...な、!w600...何者だよ、!w800...あの前原圭一って男は...＠　あの豪速球を前にして、ここまでの余裕とは？！＠
 //「ふ、ふん、かなわないと見て空威張りをしているだけさ＠あんな不真面目そうな男にあの亀田が打たれるはずはない...。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cama50003", 256, TRUE);
 	OutputLine(NULL, "「…な、",
 		   NULL, "— Mais…", Line_Continue);
@@ -6172,7 +6172,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/camb50001", 256, TRUE);
 	OutputLine(NULL, "「ふ、ふん、かなわないと見て空威張りをしているだけさ。",
 		   NULL, "— Oh, je parie qu'il a bien compris qu'il ne faisait pas le poids, c'est du théâtre, tout ça.", Line_WaitForInput);
@@ -6183,7 +6183,7 @@
 
 
 //「......いや、私ははったりとは思えないな＠...超一流は、同じく超一流を見抜くという＠...あの亀田は紛れもなく超一流＠ならばこそ、!w800......あの謎の男の真価を見抜けるのだ...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/camc50001", 256, TRUE);
 	OutputLine(NULL, "「……いや、私ははったりとは思えないな。",
 		   NULL, "— Eh bien moi, je ne crois pas que ce soit du chiqué.", Line_WaitForInput);
@@ -6213,7 +6213,7 @@
 
 //「...え、!w700......え、!w700...ま、まさか、!w1000...本当に......？＠
 //　ゴルフクラブで応援に来た間抜けピンチヒッターは...、本当に天才？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/cama50005", 256, TRUE);
 	OutputLine(NULL, "「…え、",
 		   NULL, "— Quoi…", Line_Continue);
@@ -6251,14 +6251,14 @@
 //「...きっと本人はもう野球に魅力を失い、ゴルフへの転向を希望しているのだろう...。＠
 //「天才スラッガー、ゴルフ界へ移籍...か...＠
 //　そ、そんなことは球界への大きな損失だぞ？＠　輪転機を止めさせろ＠　スポーツ欄は差し替えで行くぞッ！！￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/camc50005", 256, TRUE);
 	OutputLine(NULL, "「…きっと本人はもう野球に魅力を失い、ゴルフへの転向を希望しているのだろう…。」",
 		   NULL, "— Il n'a certainement plus vu d'intérêt au base-ball s'il n'avait personne à sa hauteur... ce qui explique qu'il soit passé au golf !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/camc50006", 256, TRUE);
 	OutputLine(NULL, "「天才スラッガー、ゴルフ界へ移籍…か…。」",
 		   NULL, "— Un joueur de base-ball hors-pair se met au golf...", GetGlobalFlag(GLinemodeSp));
@@ -6298,7 +6298,7 @@
 
 //「ボ、ボール！＠　...これでフルカウントだぞ...＠　ざわざわざわ...！！＠
 //　この過剰な演出はもちろん、全て沙都子によって脚色されたものだ￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/camb50003_1", 256, TRUE);
 	OutputLine(NULL, "「ボ、ボール！！",
 		   NULL, "— Balle !", Line_WaitForInput);
@@ -6515,7 +6515,7 @@
 //「ま、前原くん＠...この亀田くんとの決着は甲子園でつけるつもりですか...？！＠
 //　ぅぅ...、何だか話がとてつもなく大きくなりかけている...＠
 //　正直に野球には興味がないことを白状しておこう...￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Man</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homme</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/camb50006", 256, TRUE);
 	OutputLine(NULL, "「ま、前原くん。",
 		   NULL, "— Maebara, c'est juste ?", Line_WaitForInput);

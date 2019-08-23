@@ -777,7 +777,7 @@
 
 //「............えぇ。前原くんの言うとおり＠児童福祉司は緊急性があると判断すれば、職権で緊急保護をすることができます＠当事者の意思に関係なく。＠
 //「じゃあどうして？＠　どうして沙都子の意思が変に尊重されて...保護されないことに？！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps2/22/141400069", 540, TRUE);
 	OutputLine(NULL, "「…………えぇ。前原くんの言うとおり。",
 		   NULL, "— ... Oui, Maebara, c'est vrai.", Line_WaitForInput);
@@ -859,7 +859,7 @@
 
 //「古手さん...！＠
 //　先生が制止しようとするが、梨花ちゃんは構わずに先を続ける￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400073", 256, TRUE);
 	OutputLine(NULL, "「古手さん…！」",
 		   NULL, "— Furude !", GetGlobalFlag(GLinemodeSp));
@@ -1025,7 +1025,7 @@
 
 //「............私はその時は雛見沢にいなかったからよく知らないけれど...＠......昨日、電話で初めて知りました。＠
 //「...先生が聞いたのはどんな話ですか。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400074", 256, TRUE);
 	OutputLine(NULL, "「…………私はその時は雛見沢にいなかったからよく知らないけれど…。",
 		   NULL, "— ... Je n'habitais pas à Hinamizawa à l'époque.", Line_WaitForInput);
@@ -1046,7 +1046,7 @@
 
 //「......沙都子ちゃんが＠両親＠...特に義理のお父さんを陥れるのを目的に、自傷と作話で...嘘の虐待話を作って......＠自分で虐待ＳＯＳに電話したって。＠
 //「自傷と...作話......？＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/chie040403", 256, TRUE);
 	OutputLine(NULL, "「……沙都子ちゃんが、",
 		   NULL, "— ... Satoko a...", Line_WaitForInput);
@@ -1091,14 +1091,14 @@
 
 //「............いろいろと関係機関が調べた結果ね＠............義父と沙都子ちゃんの心のすれ違いに原因があることはわかったんだけど...＠.........それ以上に、沙都子ちゃん自身に問題があることがわかったの。＠
 //「沙都子に問題って、......何です。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400080", 256, TRUE);
 	OutputLine(NULL, "「…………いろいろと関係機関が調べた結果ね。",
 		   NULL, "— ... Ils ont fait plusieurs tests, et...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400081", 256, TRUE);
 	OutputLine(NULL, "…………義父と沙都子ちゃんの心のすれ違いに原因があることはわかったんだけど…。",
 		   NULL, " Ils ont compris que Satoko et son père n'étaient pas sur la même longueur d'ondes, mais... ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400082", 256, TRUE);
 	OutputLine(NULL, "………それ以上に、沙都子ちゃん自身に問題があることがわかったの。」",
 		   NULL, "Ils ont surtout constaté que Satoko avait un problème.", GetGlobalFlag(GLinemodeSp));
@@ -1171,7 +1171,7 @@
 	PlayBGM( 2, "lsys12", 56, 0 );
 
 //「............沙都子ちゃんのことを問題児なんて、思わないでね＠...これは幼い沙都子ちゃんが、...母親を知らない男に取られまいとして取った、...自衛的な行為なの。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400083", 256, TRUE);
 	OutputLine(NULL, "「…………沙都子ちゃんのことを問題児なんて、思わないでね。",
 		   NULL, "— ... Oh, ne va pas croire que Satoko était une enfant à problèmes.", Line_WaitForInput);
@@ -1200,7 +1200,7 @@
 
 //「......沙都子ちゃんは、わざと体に傷を作り、!w800...お義父さんに虐待を受けているとね、......自分で通報して、お義父さんを追い出そうとした。＠
 //「.........でも、!w800......結局、!w800...沙都子を虐めてたわけだろ、その義父は。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps2/22/141400085", 540, TRUE);
 	OutputLine(NULL, "「……沙都子ちゃんは、わざと体に傷を作り、",
 		   NULL, "— Satoko s'est inventé des blessures et des histoires de violences familiales,", Line_Continue);
@@ -1237,7 +1237,7 @@
 
 
 //「いいえ＠...虐待の話は全部、...沙都子ちゃんの作り話だった＠...義理のお父さんは、もちろん少し感情的な叱り方をしてしまったかもしれないけど...逸脱してるほどではなかったの。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps2/22/141400086", 540, TRUE);
 	OutputLine(NULL, "「いいえ。",
 		   NULL, "— Non.", Line_WaitForInput);
@@ -1472,7 +1472,7 @@
 
 //「.....................今した話は全部忘れるように＠いいですね＠他の子にしゃべったら先生、怒りますからね！＠
 //　先生は一応の釘を刺すと、職員室に戻って行った...￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/141400089", 256, TRUE);
 	OutputLine(NULL, "「…………………今した話は全部忘れるように。",
 		   NULL, "— ... Oublie tout ce que tu as entendu ici,", Line_WaitForInput);

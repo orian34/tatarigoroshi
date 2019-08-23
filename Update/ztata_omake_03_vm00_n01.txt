@@ -118,7 +118,7 @@ void dialog009()
 void dialog010()
 {
 //「劇中の私が、制服の可愛いレストランと言っているのは、きっとエンジェルモートのことに違いありません＠で、エンジェルモートってのは園崎一族が持つお店ですから...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ôishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700405", 256, TRUE);
 	OutputLine(NULL, "「劇中の私が、制服の可愛いレストランと言っているのは、きっとエンジェルモートのことに違いありません。",
 		   NULL, "— Oui, il suffit de se dire que nous sommes allés manger à l'Angel Mort,", Line_WaitForInput);
