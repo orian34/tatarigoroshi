@@ -2103,7 +2103,7 @@
 
 //「あ、......前原さぁん＠　大丈夫なんですか...？！＠
 //　俺の姿を認めた女の子たちが駆け寄ってくる＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Fille</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/girla04001", 256, TRUE);
 	OutputLine(NULL, "「あ、……前原さぁん！",
 		   NULL, "— Ah ! Maebara,", Line_WaitForInput);
@@ -2187,7 +2187,7 @@
 //「風邪って言ってたよねー。」「みんな家に帰ったらうがいをちゃんとしましょうって先生言ってました。＠
 //　......おいおい、先生＠
 //　...あんたちょっと鈍感過ぎないか...＠　あんた教師だろ＠　教え子のＳＯＳってヤツを、もっと敏感にキャッチしてやれないのかよ...￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Fille</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/girla04003", 256, TRUE);
 	OutputLine(NULL, "「………うん。",
 		   NULL, "— ... Oui,", Line_WaitForInput);
@@ -2197,7 +2197,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Fille</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/girlb04001", 256, TRUE);
 	OutputLine(NULL, "「風邪って言ってたよねー。",
 		   NULL, "— C'est un rhume, hein ?", Line_WaitForInput);

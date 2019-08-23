@@ -878,7 +878,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Cram School Teacher</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Instituteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04001", 256, TRUE);
 	OutputLine(NULL, "「いいえ、違いますよお母さん。",
 		   NULL, "— Non, madame.", Line_WaitForInput);
@@ -888,7 +888,7 @@
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04003", 256, TRUE);
 	OutputLine(NULL, "簡易式の知能検査でも非凡な数字が出ています。",
 		   NULL, " Mais par contre, son test simplifié montre des résultats extraordinaires. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Cram School Teacher</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Instituteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04004", 256, TRUE);
 	OutputLine(NULL, "…まず申し上げて、前原圭一くんは大変に頭がいい。」",
 		   NULL, "La première chose que vous devez savoir, c'est que votre fils est très intelligent.", Line_Normal);
@@ -919,7 +919,7 @@
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04006", 256, TRUE);
 	OutputLine(NULL, "前原くんは意味を持たない問題に非常に弱いのです。",
 		   NULL, " Votre fils a beaucoup de mal avec les questions qui n'ont pas de sens. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Cram School Teacher</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Instituteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04007", 256, TRUE);
 	OutputLine(NULL, "…無味簡素で自身の生活に結びつかない内容の問題に興味が持てないのです。」",
 		   NULL, "Il n'arrive pas à s'intéresser aux questions abstraites ou aux problèmes qui ne concernent pas son quotidien.", Line_Normal);
@@ -936,7 +936,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Cram School Teacher</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Instituteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04008", 256, TRUE);
 	OutputLine(NULL, "「その通りです。",
 		   NULL, "— C'est exactement cela.", Line_WaitForInput);
@@ -964,14 +964,14 @@
 
 //「正二十面体の展開図を書けという問題です＠...この問題を、２０面体のサイコロを作るにはどんな風に厚紙を切ればいい＠　と聞き直したら、圭一くんはさも簡単そうにこれを書いて見せました＠......これは平凡なことではありません。＠
 //「圭一＠あなた、どこかの本の雑誌のフロクか何かで２０面体サイコロを作ったことがあったの？￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Cram School Teacher</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Instituteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04011", 256, TRUE);
 	OutputLine(NULL, "「正二十面体の展開図を書けという問題です。",
 		   NULL, "— Pour cette question, il faut dessiner le patron d'un icosaèdre régulier.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04012", 256, TRUE);
 	OutputLine(NULL, "…この問題を、２０面体のサイコロを作るにはどんな風に厚紙を切ればいい？",
 		   NULL, " Lorsque je lui ai demandé de me dessiner le patron d'un dé à vingt faces, ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Cram School Teacher</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Instituteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04013", 256, TRUE);
 	OutputLine(NULL, "　と聞き直したら、圭一くんはさも簡単そうにこれを書いて見せました。",
 		   NULL, "il m'a regardé et a commencé à le dessiner comme si de rien n'était.", Line_WaitForInput);

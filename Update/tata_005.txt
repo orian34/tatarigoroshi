@@ -1825,7 +1825,7 @@
 
 
 //「「「わーっはっはっはっはっはっはっは...！！！」」￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Club Members</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Membres du Club</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200704", 256, TRUE);
 	ModPlayVoiceLS(5, 3, "ps3/s19/03/500300603", 256, TRUE);
 	ModPlayVoiceLS(6, 5, "ps3/s19/05/500500262", 256, TRUE);
@@ -3997,7 +3997,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Girl</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女子</color>", NULL, "<color=#f5e6d3>Fille</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/00014085", 256, TRUE);
 	OutputLine(NULL, "「えっとえっと！！",
 		   NULL, "— Euh, eh bien,", Line_WaitForInput);

@@ -291,7 +291,7 @@
 	ClearMessage();
 
 //『こちら本部こちら本部＠小宮山さん、聞こえますかどーぞー...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本部</color>", NULL, "<color=#f5e6d3>Headquarters</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本部</color>", NULL, "<color=#f5e6d3>Commissariat</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/honbu04001", 256, TRUE);
 	OutputLine(NULL, "「こちら本部こちら本部。",
 		   NULL, "— Ici le central, ici le central !", Line_WaitForInput);
@@ -498,7 +498,7 @@
 	DrawScene("background/sinryou_soto1", 400 );
 
 //『そちらに応援が向かいました＠課長から、そちらは応援に任せて大石車の捜索に戻れとのことです。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本部</color>", NULL, "<color=#f5e6d3>Headquarters</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本部</color>", NULL, "<color=#f5e6d3>Commissariat</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/honbu04003", 256, TRUE);
 	OutputLine(NULL, "「そちらに応援が向かいました。",
 		   NULL, "— On vous a envoyé une équipe.", Line_WaitForInput);

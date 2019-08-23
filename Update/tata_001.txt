@@ -1518,7 +1518,7 @@
 //「「「いいい、言ってません、言ってません！」」＠
 //　全員で真っ青になりながら、ぶんぶんと顔を振って否定する＠
 //　ぎょろりと教室を嘗め回すように睨みつける先生の眼差しはもはや尋常ではない...￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Club Members</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Membres du Club</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200361", 256, TRUE);
 	ModPlayVoiceLS(5, 3, "ps3/s19/03/500300235", 256, TRUE);
 	ModPlayVoiceLS(6, 4, "ps3/s19/04/500400128", 256, TRUE);
@@ -2424,7 +2424,7 @@
 
 //「「「おおおぉぉ...！！！」」＠
 //　俺の自信たっぷりな返答に、みんなが驚きの声をあげる...＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Club Members</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Membres du Club</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200372", 256, TRUE);
 	ModPlayVoiceLS(5, 3, "ps3/s19/03/500300248", 256, TRUE);
 	ModPlayVoiceLS(6, 5, "ps3/s19/05/500500086", 256, TRUE);

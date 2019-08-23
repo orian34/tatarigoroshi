@@ -558,7 +558,7 @@
 //!s0
 	SetSpeedOfMessage( TRUE, 127, );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Club Members</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>部活メンバー</color>", NULL, "<color=#f5e6d3>Membres du Club</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200480", 256, TRUE);
 	ModPlayVoiceLS(5, 3, "ps3/s19/03/500300392", 256, TRUE);
 	ModPlayVoiceLS(6, 4, "ps3/s19/04/500400491", 256, TRUE);
@@ -7600,7 +7600,7 @@
 //!s0
 	SetSpeedOfMessage( TRUE, 127, );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>生徒たち</color>", NULL, "<color=#f5e6d3>Pupils</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>生徒たち</color>", NULL, "<color=#f5e6d3>Élèves</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200550", 256, TRUE);
 	ModPlayVoiceLS(5, 4, "ps3/s19/04/500400576", 256, TRUE);
 	ModPlayVoiceLS(6, 5, "ps3/s19/05/500500241", 256, TRUE);

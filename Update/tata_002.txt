@@ -3490,7 +3490,7 @@
 	Wait( 100 );
 
 //!s0「「「「うをおおおぉおっぉぉおおぉお...！！！」」」」!sd/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>生徒たち</color>", NULL, "<color=#f5e6d3>Pupils</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>生徒たち</color>", NULL, "<color=#f5e6d3>Élèves</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/allb50004", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s19/00/allb50004c", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s19/00/allg50006_03", 256, TRUE);

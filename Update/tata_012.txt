@@ -8309,7 +8309,7 @@
 	DrawScene("background/sinryou_matiai1", 400 );
 
 //「入江先生...＠　大変です...！＠　鷹野さんが...見つかりました！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>局員</color>", NULL, "<color=#f5e6d3>Bureau Staff</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>局員</color>", NULL, "<color=#f5e6d3>Personnel de la clinique</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kyoku04001", 256, TRUE);
 	OutputLine(NULL, "「入江先生…！",
 		   NULL, "— Docteur Irie !", Line_WaitForInput);
@@ -8334,7 +8334,7 @@
 
 
 //「そ、...それが......＠　岐阜の山中で焼死体で発見されたらしく...、＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>局員</color>", NULL, "<color=#f5e6d3>Bureau Staff</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>局員</color>", NULL, "<color=#f5e6d3>Personnel de la clinique</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kyoku04004", 256, TRUE);
 	OutputLine(NULL, "「そ、…それが……！",
 		   NULL, "— Eh bien...", Line_WaitForInput);

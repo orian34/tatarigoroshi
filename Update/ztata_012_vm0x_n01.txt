@@ -75,7 +75,7 @@ void dialog007()
 void dialog008()
 {
 //「...岐阜県警の発表では、他殺の可能性が極めて高いと...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>局員</color>", NULL, "<color=#f5e6d3>Bureau Staff</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>局員</color>", NULL, "<color=#f5e6d3>Personnel de la clinique</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kyoku04006", 256, TRUE);
 	OutputLine(NULL, "「…県警の発表では、他殺の可能性が極めて高いと…。」",
 		   NULL, "— Le rapport de police des gens de Gifu dit que c'est certainement un meurtre...", GetGlobalFlag(GLinemodeSp));

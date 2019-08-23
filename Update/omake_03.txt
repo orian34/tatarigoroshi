@@ -211,7 +211,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //「「「わっはっはっはっはっは！！」」￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Tous</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(2, 2, "ps3/s20/02/440200237", 256, TRUE);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300363", 256, TRUE);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400213", 256, TRUE);
@@ -582,7 +582,7 @@
 
 
 //「「「乾杯～～～！！！！」」＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Everyone</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>全員</color>", NULL, "<color=#f5e6d3>Tous</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(8, 22, "ps3/s20/22/441400031", 256, TRUE);
 	Wait(1400);
 	ModPlayVoiceLS(1, 3, "ps3/s20/03/440300368", 256, TRUE);

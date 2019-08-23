@@ -827,7 +827,7 @@
 	ClearMessage();
 
 //「...おんやぁ＠　圭一くんかい＠　朝のサイクリングかぃね！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Old person</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老人</color>", NULL, "<color=#f5e6d3>Vieille personne</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/old04001", 256, TRUE);
 	OutputLine(NULL, "「…おんやぁ！",
 		   NULL, "— Hmmm ? Eeeeh,", Line_WaitForInput);

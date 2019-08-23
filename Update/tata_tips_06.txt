@@ -45,7 +45,7 @@
 
 
 //「バカモンが＠大石が聴牌しとんのわかっててカンドラ増やしおってからに＠　自業自得じゃぞ。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Médecin légiste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/443200045", 256, TRUE);
 	OutputLine(NULL, "「バカモンが。",
 		   NULL, "— Imbécile, va.", Line_Continue);
@@ -88,7 +88,7 @@
 
 
 //「なんじゃい＠...あぁ、例のドブ川惨殺死体の話かの＠何か手掛かりはあったのか。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Médecin légiste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/443200047", 256, TRUE);
 	OutputLine(NULL, "「なんじゃい。",
 		   NULL, "— De quoi tu parles ?", Line_Continue);
@@ -141,7 +141,7 @@
 	ClearMessage();
 
 //「やれやれ、そりゃヤバイ店じゃな＠確か園崎系の若頭の店じゃろ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Médecin légiste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/443200049", 256, TRUE);
 	OutputLine(NULL, "「やれやれ、そりゃヤバイ店じゃな。",
 		   NULL, "— Ouh, ouais, c'est un mauvais coin.", Line_Continue);
@@ -171,7 +171,7 @@
 	//VoiceMatchingEnd
 
 //「女が上納金に手を出した、か＠裏に男がいそうじゃのう＠女の単独犯なんてそうそうないぞ。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Médecin légiste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/443200050", 256, TRUE);
 	OutputLine(NULL, "「女が上納金に手を出した、か。",
 		   NULL, "— Une femme qui touche aux recettes, c'est rare.", Line_Continue);
@@ -260,7 +260,7 @@
 	ClearMessage();
 
 //「............ますますに園崎の臭いがプンプンだの。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Forensic Investigator</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鑑識</color>", NULL, "<color=#f5e6d3>Médecin légiste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/443200052", 256, TRUE);
 	OutputLine(NULL, "「…………ますますに園崎の臭いがプンプンだの。」",
 		   NULL, "— ... Ouais, ben ça sent bien les Sonozaki, ton affaire.", GetGlobalFlag(GLinemodeSp));
