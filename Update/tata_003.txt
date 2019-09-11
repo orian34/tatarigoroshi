@@ -324,7 +324,7 @@
 //　ちなみに、雛見沢の学校の土曜日は普通の、都会の学校の土曜日とは少し違う＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ちなみに、雛見沢の学校の土曜日は普通の、都会の学校の土曜日とは少し違う。",
-		   NULL, "Ah, juste pour votre gourverne, à Hinamizawa, le samedi à l'école, on ne fait pas la même chose qu'en ville.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ah, juste pour votre gouverne, à Hinamizawa, le samedi à l'école, on ne fait pas la même chose qu'en ville.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　お弁当を持ってきて、お昼を食べて、校内や校庭で遊んでいく生徒がとても多いのだ＠
@@ -1647,14 +1647,8 @@
 //　途中、梨花ちゃんに聞いたのだが...＠
 //　何と、この喧嘩には俺以外の部活メンバーは全員参加しているらしい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　途中、梨花ちゃんに聞いたのだが…。",
-		   NULL, "Sur la route, Rika m'expliqua que tous les membres du club étaient déjà sur place.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　何と、この喧嘩には俺以外の部活メンバーは全員参加しているらしい。",
-		   NULL, "A REMOVE", Line_Normal);
+	OutputLine(NULL, "　途中、梨花ちゃんに聞いたのだが…。　何と、この喧嘩には俺以外の部活メンバーは全員参加しているらしい。",
+		   NULL, "Sur la route, Rika m'expliqua que tous les membres du club étaient déjà sur place.", Line_Normal);
 	ClearMessage();
 
 //　...くそ、魅音が全員に声をかけていたのは...こいつのことだったのか＠
@@ -1813,10 +1807,8 @@
 
 //　よっしゃ！＠　手応えは悪くない＠　大暴れしてやるぜぇえぇえぇぇ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　よっしゃ！！",
+	OutputLine(NULL, "　よっしゃ！！　手応えは悪くない！",
 		   NULL, "Parfait !", Line_WaitForInput);
-	OutputLine(NULL, "　手応えは悪くない！",
-		   NULL, " A REMOVE", Line_WaitForInput);
 	OutputLine(NULL, "　大暴れしてやるぜぇえぇえぇぇ！！",
 		   NULL, " Avec ça, ils vont prendre une bonne raclée...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -2496,17 +2488,7 @@
 	PlaySE( 3, "wa_015", 56, 64 );
 	DrawScene("black", 50 );
 
-//　びよん＠/
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　びよん！",
-		   NULL, "A REMOVE", Line_WaitForInput);
-
 	PlaySE( 3, "wa_029", 56, 64 );
-
-//　ぐるぐるッ！＠
-	OutputLine(NULL, "　ぐるぐるッ！！",
-		   NULL, " A REMOVE", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　レナが舌をカメレオンのように伸ばし、梨花ちゃんをぐるぐる巻きにして捕食する￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3020,7 +3002,7 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/500300399", 256, TRUE);
 	OutputLine(NULL, "「今日、たまたまチームに欠員が出たって言うんでさ。",
-		   NULL, "— Aujourd'hui, par le plus grand des hasards, ils leur manquent quelques joueurs,", Line_WaitForInput);
+		   NULL, "— Aujourd'hui, par le plus grand des hasards, il leur manque quelques joueurs,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/500300400", 256, TRUE);
 	OutputLine(NULL, "それじゃあせっかくだからって言って、急遽、私たちが乱入することになったってわけよ。」",
 		   NULL, " alors nous sommes intervenus.", Line_Normal);
@@ -4441,7 +4423,7 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……試合は「我がチームの逆転勝ち」で決定したからだ。",
-		   NULL, "Le match allait se finir par un retourné de situation à notre avantage.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Le match allait se finir par un retournement de situation à notre avantage.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5045,7 +5027,7 @@
 // 　お前はデザートを...汚して楽しんでいるだけなんだぁあぁぁあッ！！！」/
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29330_02", 256, TRUE);
 	OutputLine(NULL, "しゃぶりつくしているだけ！！",
-		   NULL, " les sucent de leur vie !", Line_WaitForInput);
+		   NULL, " les suces de leur vie !", Line_WaitForInput);
 
 
 //「ぎゃああああぁあぁぁああぁあぁあッ！！＠　もうダメだぁあ！＠　知られてしまったぁぁぁ！＠　俺の密かな楽しみが知られてしまったぁ＠　もう生きていけない！＠　死ぬしか...死ぬしかぁぁぁッ！！！￥
@@ -5150,7 +5132,7 @@
 	OutputLine(NULL, "　今度は叩かない。",
 		   NULL, "Mais cette fois-ci,", Line_WaitForInput);
 	OutputLine(NULL, "…どころか、彼の双肩を熱く叩くッ！！！",
-		   NULL, " j'avais frappé du plat de la main sur ces épaules !", Line_Normal);
+		   NULL, " j'avais frappé du plat de la main sur ses épaules !", Line_Normal);
 	ClearMessage();
 
 	//VoiceMatching
@@ -5242,12 +5224,8 @@
 
 //　い、苺のショートケーキ＠...ごくり＠...亀田の喉がなる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　い、苺のショートケーキ。",
-		   NULL, "Kameda déglutit bruyamment.", Line_WaitForInput);
-	OutputLine(NULL, "…ごくり。",
-		   NULL, " A REMOVE", Line_WaitForInput);
-	OutputLine(NULL, "…亀田の喉がなる。",
-		   NULL, " A REMOVE", Line_Normal);
+	OutputLine(NULL, "　い、苺のショートケーキ。…ごくり。…亀田の喉がなる。",
+		   NULL, "Kameda déglutit bruyamment.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("background/res5", 1000 );
@@ -5500,16 +5478,9 @@
 	ShakeScreen( 1, 50, 20, 4, 0, );
 	DrawScene("bg_235", 400 );
 
-//　がば！＠
-//　亀田くんがトイレの床にも関わらず、両手を床に付く￥
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　がば！！",
-		   NULL, "A REMOVE", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　亀田くんがトイレの床にも関わらず、両手を床に付く。",
+	OutputLine(NULL, "　がば！！　亀田くんがトイレの床にも関わらず、両手を床に付く。",
 		   NULL, "Oubliant qu'il était dans des toilettes, Kameda se jeta à terre, les deux mains au sol, prosterné devant moi.", Line_Normal);
 	ClearMessage();
 
@@ -6451,16 +6422,8 @@
 		   NULL, "(Oh oui, oh oui☆! Menu à volonté, nous voilà !)", Line_Normal);
 	ClearMessage();
 
-//　にやり！＠
-//　亀田くんと悪の笑いを浮かべあう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　にやり！！",
-		   NULL, "A REMOVE", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　亀田くんと悪の笑いを浮かべあう！",
+	OutputLine(NULL, "　にやり！！　亀田くんと悪の笑いを浮かべあう！",
 		   NULL, "Kameda et moi échangeâmes des sourires méchants !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -6988,20 +6951,20 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…亀田くんが手を抜いたとしても全然不思議に感じないようにするための…",
-		   NULL, "C'était pour préparer le terrain à Kameda, pour lui donner une excuse de lancer moins fort.", Line_ContinueAfterTyping);
+		   NULL, "C'était pour préparer le terrain à Kameda,", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "演出。",
-		   NULL, " Et là...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " pour lui donner une excuse de lancer moins fort.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　つまりつまり...沙都子は............￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまりつまり…沙都子は…………、",
-		   NULL, "A REMOVE", Line_Normal);
+		   NULL, "Et là...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeOutBGM( 1, 1000, FALSE );
@@ -7927,7 +7890,7 @@
 //　監督の目はうっとりと...自分だけのオリジナル魔空空間を漂い妄想うっとりで、はにゃ～ん♪な感じになっていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　監督の目はうっとりと…自分だけのオリジナル魔空空間を漂い妄想うっとりで、はにゃ〜ん♪な感じになっていた。",
-		   NULL, "Ses yeux roulèrent vers le haut... Il était dans son monde à lui, une sorte d'espace démoniaque parrallèle, et passa en mode “super hanyaaan”.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ses yeux roulèrent vers le haut... Il était dans son monde à lui, une sorte d'espace démoniaque parallèle, et passa en mode “super hanyaaan”.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......何て言うかその、......何者なんだこの人はッ！￥
@@ -7973,10 +7936,8 @@
 
 //　とても俺と気が合うとは思えん＠......ビシリ！/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　とても俺と気が合うとは思えん。",
-		   NULL, "Je ne sais pas si on va s'entendre lui et moi...", Line_WaitForInput);
-	OutputLine(NULL, "……ビシリ！",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+	OutputLine(NULL, "　とても俺と気が合うとは思えん。……ビシリ！",
+		   NULL, "Je ne sais pas si on va s'entendre lui et moi...", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_005", 56, 64 );
 
