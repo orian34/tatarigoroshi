@@ -99,12 +99,8 @@
 
 //　あぁ、...どんなトラップを仕掛けたらこんな風になるんだよ＠　えぇ？＠　沙都子￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　あぁ、…どんなトラップを仕掛けたらこんな風になるんだよ？",
-		   NULL, "Il faudra vraiment que je lui demande comment est-ce qu'elle a placé ses pièges pour que l'on se retrouve dans ces positions !", Line_WaitForInput);
-	OutputLine(NULL, "　えぇ？！",
-		   NULL, " A REMOVE", Line_WaitForInput);
-	OutputLine(NULL, "　沙都子！",
-		   NULL, " A REMOVE", Line_Normal);
+	OutputLine(NULL, "　あぁ、…どんなトラップを仕掛けたらこんな風になるんだよ？　えぇ？！　沙都子！",
+		   NULL, "Il faudra vraiment que je lui demande comment est-ce qu'elle a placé ses pièges pour que l'on se retrouve dans ces positions !", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 1000 );
@@ -250,7 +246,7 @@
 //　お陰で、村の中じゃ絶対に味わえない大自然や眺望、新鮮な空気を満喫できたさ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お陰で、村の中じゃ絶対に味わえない大自然や眺望、新鮮な空気を満喫できたさ。",
-		   NULL, "Et grâce à elle, j'avais vu des choses que je n'aurais jamais vues en restant au village, je me suis oxygéné comme jamais !", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Et grâce à elles, j'avais vu des choses que je n'aurais jamais vues en restant au village, je me suis oxygéné comme jamais !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　だが、途中からおかしくなり始めたんだ！￥
