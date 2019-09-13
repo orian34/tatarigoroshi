@@ -221,7 +221,7 @@
 	ModPlayVoiceLS(8, 6, "ps3/s20/06/440600132_01", 256, TRUE);
 	ModPlayVoiceLS(9, 11, "ps3/s20/11/440700400_01", 256, TRUE);
 	OutputLine(NULL, "「「「わっはっはっはっはっは！！」」」",
-		   NULL, "— « Ahahahaha ! »", Line_Normal);
+		   NULL, "« Ahahahaha ! »", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlayBGM( 1, "msys01", 56, 0 );
@@ -467,7 +467,7 @@
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "２、",
-		   NULL, " et deux !", Line_Continue);
+		   NULL, " Et deux !", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 300 );
@@ -481,21 +481,21 @@
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "４、",
-		   NULL, " quatre !", Line_Continue);
+		   NULL, " Quatre !", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 300 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "５、",
-		   NULL, " cinq !", Line_Continue);
+		   NULL, " Cinq !", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 300 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "６。",
-		   NULL, " et six !", Line_WaitForInput);
+		   NULL, " Et six !", Line_WaitForInput);
 // !sd
 	SetSpeedOfMessage( FALSE, 0, );
 
@@ -594,7 +594,7 @@
 	ModPlayVoiceLS(7, 10, "ps3/s20/10/441000080", 256, TRUE);
 	ModPlayVoiceLS(9, 11, "ps3/s20/11/440700402_01", 256, TRUE);
 	OutputLine(NULL, "「「「乾杯〜〜〜！！！！」」」",
-		   NULL, "— « Santéééééé ! »", GetGlobalFlag(GLinemodeSp));
+		   NULL, "« Santéééééé ! »", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　わ～～～！！！　ぱちぱちぱちぱちぱち！￥
@@ -1792,7 +1792,7 @@
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300394", 256, TRUE);
 	ModPlayVoiceLS(5, 2, "ps3/s20/02/440200275", 256, TRUE);
 	OutputLine(NULL, "「「「え、えぇええ゛ぇえぇえー？！？！」」」",
-		   NULL, "— « QUOI ? »", Line_Normal);
+		   NULL, "« QUOI ? »", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(3, 6, "sprite/normal/si1a_wink_a1_", "2", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
