@@ -51,7 +51,7 @@ void dialog002()
 		   NULL, "— Alors en fait, c'est un jeu de mot, c'est marrant les jeux de mots, non ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/500600357", 256, TRUE);
 	OutputLine(NULL, "日本のわび寂をミックスした和洋折衷の言葉なので、注意してください。」",
-		   NULL, " Sauf que les jeux de mots, c'est dur à retranscrire en français. Mais je vous assure c'est drôle en vrai. (Signé Ozaro)", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sauf que les jeux de mots, c'est dur à retranscrire en français. Mais je vous assure c'est drôle en vrai.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
