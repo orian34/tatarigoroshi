@@ -627,15 +627,8 @@
 
 //　頭を抱えて悶絶する俺と得意絶頂の沙都子＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　頭を抱えて悶絶する俺と得意絶頂の沙都子！",
-		   NULL, "Je me roulai par terre, la tête entre les mains, pendant que Satoko bombait fièrement le torse en riant aux éclats.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-//　甲高い笑い声が教室にこだまする￥
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　甲高い笑い声が教室にこだまする。",
-		   NULL, "A REMOVE", Line_Normal);
+	OutputLine(NULL, "　頭を抱えて悶絶する俺と得意絶頂の沙都子！　甲高い笑い声が教室にこだまする。",
+		   NULL, "Je me roulai par terre, la tête entre les mains, pendant que Satoko bombait fièrement le torse en riant aux éclats.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
