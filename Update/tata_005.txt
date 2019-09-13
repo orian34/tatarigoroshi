@@ -39,7 +39,7 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それはお袋にも一目でわかるものらしい。",
-		   NULL, "C'était un réveil très difficile, et m'a mère l'avait compris du premier regard.", Line_Normal);
+		   NULL, "C'était un réveil très difficile, et ma mère l'avait compris du premier regard.", Line_Normal);
 	ClearMessage();
 
 //　......昨夜の夢見は最低だった＠
@@ -679,7 +679,7 @@
 //　ホームルームが終わり、１時限目が始まるまでのわずかな間に、梨花ちゃんに話しかけた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ホームルームが終わり、１時限目が始まるまでのわずかな間に、梨花ちゃんに話しかけた。",
-		   NULL, "Après l'appel, et juste avant la première heure de cour, je décidai de parler à Rika.", Line_Normal);
+		   NULL, "Après l'appel, et juste avant la première heure de cours, je décidai de parler à Rika.", Line_Normal);
 	ClearMessage();
 
 //「よぅ、梨花ちゃん＠遅刻して怒られてかわいそかわいそだな～＠今日は俺がなでなでしてあげよう。＠
@@ -726,15 +726,9 @@
 		   NULL, " Elle a de la fièvre ?", Line_Normal);
 	ClearMessage();
 
-//　昨日、大はしゃぎし過ぎたので熱が出てしまったのです＠
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　昨日、大はしゃぎし過ぎたので熱が出てしまったのです。",
-		   NULL, "A REMOVE", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
-
 //　...そんな風な回答だったら、俺もそこそこに納得するつもりだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　…そんな風な回答だったら、俺もそこそこに納得するつもりだった。",
+	OutputLine(NULL, "　昨日、大はしゃぎし過ぎたので熱が出てしまったのです。　…そんな風な回答だったら、俺もそこそこに納得するつもりだった。",
 		   NULL, "J'aurais accepté n'importe quoi du genre, à vrai dire.", Line_Normal);
 	ClearMessage();
 
@@ -1814,9 +1808,9 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　全員が息を潜め、肩を抱くように顔を寄せ合う。",
-		   NULL, "Nous nous tendîmes les bras pour les passer sur nos épaules, puis prîmes de grandes inspirations.", Line_WaitForInput);
+		   NULL, "Nous nous tendîmes les bras pour les passer sur nos épaules,", Line_WaitForInput);
 	OutputLine(NULL, "……それから、",
-		   NULL, " A REMOVE", Line_Normal);
+		   NULL, " puis prîmes de grandes inspirations.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(1, 2, "sprite/normal/re1a_warai_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, FALSE );
@@ -1831,7 +1825,7 @@
 	ModPlayVoiceLS(6, 5, "ps3/s19/05/500500262", 256, TRUE);
 	ModPlayVoiceLS(7, 1, "ps3/s19/01/hr_kei32710_01", 256, TRUE);
 	OutputLine(NULL, "「「「わーっはっはっはっはっはっはっは…！！！」」」",
-		   NULL, "— « HAHAHAHAHAHA HAHAHAHAHA ! »", Line_Normal);
+		   NULL, "« HAHAHAHAHAHA HAHAHAHAHA ! »", Line_Normal);
 	ClearMessage();
 
 //　お腹の底から、みんなで大笑いした＠
@@ -2281,14 +2275,14 @@
 //　そう思い、昇降口へ向かおうとした時、!w1000......突然話しかけられた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう思い、昇降口へ向かおうとした時、",
-		   NULL, "Mais mes plans furent contrés lorsque je repassai devant l'entrée de l'école...", Line_ContinueAfterTyping);
+		   NULL, "Mais mes plans furent contrés lorsque", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……突然話しかけられた。",
-		   NULL, " A REMOVE", Line_Normal);
+		   NULL, " je repassai devant l'entrée de l'école...", Line_Normal);
 	ClearMessage();
 
 
@@ -3631,16 +3625,8 @@
 		   NULL, "L'inspecteur avait l'air calme et sûr de lui, il était évident qu'il en imposait plus.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
-//　......そりゃそうだ＠
-//　...監督のどこか細そうな体つきに比べ、大石は筋肉質でみっちりしている＠......全然勝負になんかならない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　……そりゃそうだ。",
-		   NULL, "A REMOVE", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　…監督のどこか細そうな体つきに比べ、大石は筋肉質でみっちりしている。",
+	OutputLine(NULL, "　……そりゃそうだ。　…監督のどこか細そうな体つきに比べ、大石は筋肉質でみっちりしている。",
 		   NULL, "Et puis, regardez-les, quoi. Le chef est un gringalet à côté de l'inspecteur.", Line_WaitForInput);
 	OutputLine(NULL, "……全然勝負になんかならない。",
 		   NULL, " Il ne fait pas le poids...", Line_Normal);
@@ -3920,13 +3906,7 @@
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　あいつが運んでくるんだ。",
-		   NULL, "A REMOVE", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　…不幸とか不吉とか、…そういう、平穏を乱す何かを…！",
+	OutputLine(NULL, "　あいつが運んでくるんだ。　…不幸とか不吉とか、…そういう、平穏を乱す何かを…！",
 		   NULL, "Il nous avait apporté les ennuis...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
@@ -4462,13 +4442,13 @@
 // ってのは知ってるが、叔父夫婦に預けられたって話は始めて聞く￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　両親が事故死して、悟史が家出して、沙都子だけが残って梨花ちゃんと二人で暮らし始めた…",
-		   NULL, "Je savais qu'elle vivait avec Rika depuis la disparition de Satoshi, mais je ne savais rien sur ce qu'il lui était arrivé avant.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je savais qu'elle vivait avec Rika depuis la disparition de Satoshi,", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ってのは知ってるが、叔父夫婦に預けられたって話は始めて聞く。",
-		   NULL, "A REMOVE", Line_Normal);
+		   NULL, "mais je ne savais rien sur ce qu'il lui était arrivé avant.", Line_Normal);
 	ClearMessage();
 
 //「叔父というのは、沙都子ちゃんのお父さんの弟に当たる方なんですがね＠......残念なことに、夫婦揃ってちょっと尊敬に値する方々ではありませんでした。＠
@@ -4705,13 +4685,7 @@
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　さっきの出来事が蘇る。",
-		   NULL, "A REMOVE", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　あの男から感じた、形容のしがたい不吉さが蘇る。",
+	OutputLine(NULL, "　さっきの出来事が蘇る。　あの男から感じた、形容のしがたい不吉さが蘇る。",
 		   NULL, "Je me souvins de l'angoisse irrationnelle que j'avais eue en le voyant pour la première fois.", Line_Normal);
 	ClearMessage();
 
@@ -5071,7 +5045,7 @@
 		   NULL, "— Allons, tu ne vas t'en formaliser, quand même.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000215", 256, TRUE);
 	OutputLine(NULL, "…前原くんのキメ細やかなお肌も存分に堪能できましたよ。",
-		   NULL, " — Et puis, grâce à ça, j'ai pu encore une fois goûter à la délicieuse sensation de ta peau de satin.", Line_WaitForInput);
+		   NULL, " Et puis, grâce à ça, j'ai pu encore une fois goûter à la délicieuse sensation de ta peau de satin.", Line_WaitForInput);
 
 	DisableWindow();
 	ModDrawCharacter(2, 10, "sprite/normal/iri1_warai_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
@@ -5224,7 +5198,7 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…本当の話だったのか………。",
-		   NULL, "il faut croire que c'était vrai, alors ?", Line_Normal);
+		   NULL, "Il faut croire que c'était vrai, alors ?", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeBustshot( 5, FALSE, 0, 0, 0, 0, 1000, TRUE );
@@ -5239,7 +5213,7 @@
 		   NULL, "— Je ne sais absolument pas qui a commencé à l'appeler comme ça,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000225", 256, TRUE);
 	OutputLine(NULL, "……いつの頃からか、大石のことを「オヤシロさまの使い」と呼ぶようになりました。」",
-		   NULL, " mais un jour, nous nous sommes rendus compte que c'était son surnom atittré.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " mais un jour, nous nous sommes rendus compte que c'était son surnom attitré.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5307,14 +5281,14 @@
 //　１年前の失踪者である......沙都子の兄、!w1000悟史。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　１年前の失踪者である……沙都子の兄、",
-		   NULL, "Et Satoshi avait disparu quelques jours après...", Line_ContinueAfterTyping);
+		   NULL, "Et Satoshi avait disparu", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
-	OutputLine(NULL, "悟史。",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+	OutputLine(NULL, "悟史。　悟史もまた、失踪の直前に何度も大石の接触を受けていたとか……。",
+		   NULL, " quelques jours après...", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_023", 56, 64 );
 
@@ -5323,22 +5297,8 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-//　悟史もまた、失踪の直前に何度も大石の接触を受けていたとか......＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　悟史もまた、失踪の直前に何度も大石の接触を受けていたとか……。",
-		   NULL, "A REMOVE", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
-
-//　そして今年＠
-//　...その大石は、......沙都子への接触を求めてきた......￥
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　そして今年。",
-		   NULL, "A REMOVE", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　…その大石は、……沙都子への接触を求めてきた……？",
+	OutputLine(NULL, "　そして今年。　…その大石は、……沙都子への接触を求めてきた……？",
 		   NULL, "Et cette année, il cherchait à entrer en contact avec Satoko ?", Line_Normal);
 	ClearMessage();
 
