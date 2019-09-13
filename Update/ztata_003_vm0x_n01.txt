@@ -137,7 +137,7 @@ void dialog011()
 	ModPlayVoiceLS(4, 23, "ps3/s19/23/202800039", 256, TRUE);
 
 	OutputLine(NULL, "く、",
-		   NULL, " — À", Line_Continue);
+		   NULL, "À", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 500 );
