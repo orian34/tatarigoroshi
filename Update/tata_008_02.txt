@@ -726,7 +726,7 @@
 //　俺よりも身体能力の高い沙都子なら、ますます容易にこなすだろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前に見つかって怒られたけど…、俺の部屋って確か、窓からうまく一階の屋根とか雨どいを伝えば、外から直接出入りすることは可能だ。",
-		   NULL, "Je me suis fait engueulé une fois à cause de ça... j'étais passé par la gouttière pour rentrer directement dans ma chambre sans passer par la porte d'entrée.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je me suis fait engueuler une fois à cause de ça... j'étais passé par la gouttière pour rentrer directement dans ma chambre sans passer par la porte d'entrée.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
