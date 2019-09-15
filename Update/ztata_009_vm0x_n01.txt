@@ -37,7 +37,7 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s03/08/140800012", 256, TRUE);
 	OutputLine(NULL, "「いやぁ、今日もいい天気でよかったよ。",
-		   NULL, "— Hum, c'est vraiment super qu'on est une météo aussi clémente aujourd'hui.", Line_WaitForInput);
+		   NULL, "— Hum, c'est vraiment super qu'on ait une météo aussi clémente aujourd'hui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s03/08/140800013", 256, TRUE);
 	OutputLine(NULL, "天気予報だと寒冷前線が近づいてるって言ってたけど、まだ大丈夫みたいだね」",
 		   NULL, " Ils ont prévu une baisse des températures, mais le village semble être épargné pour le moment.", Line_Normal);
@@ -91,7 +91,7 @@ void dialog006()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Cie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/chie040303", 256, TRUE);
 	OutputLine(NULL, "「興宮の生活相談所へ通報します。",
-		   NULL, "— Je les dénoncerai au centre pour les abus sur mineurs.", Line_WaitForInput);
+		   NULL, "— Je le dénoncerai au centre pour les abus sur mineurs.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/chie040304", 256, TRUE);
 	OutputLine(NULL, "さっき前原くんは追い返される、と言いましたね。",
 		   NULL, " Tu m'as dit qu'il me chasserait de chez lui tout à l'heure, ", GetGlobalFlag(GLinemodeSp));
