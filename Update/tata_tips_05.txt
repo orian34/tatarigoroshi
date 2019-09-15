@@ -37,7 +37,7 @@
 //　抵抗時に出来たと思われる傷痕から、ロープ等でなく、拘束を目的とした専用の拘束台に拘束したものと推定。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　抵抗時に出来たと思われる傷痕から、ロープ等でなく、拘束を目的とした専用の拘束台に拘束したものと推定。",
-		   NULL, "D'après les blessures faites lorsque la victime a résisté à ses entraves, elle n'était pas maintenue immobilisée par des cordes, mais par des objets spécifiquement étudiés pour entraver le corps, placé sur un meuble approprié.", Line_ContinueAfterTyping);
+		   NULL, "D'après les blessures faites lorsque la victime a résisté à ses entraves, elle n'était pas maintenue immobilisée par des cordes, mais par des objets spécifiquement étudiés pour entraver le corps, placée sur un meuble approprié.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
