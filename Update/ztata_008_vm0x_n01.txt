@@ -8,7 +8,7 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps2/03/140300007", 540, TRUE);
 	OutputLine(NULL, "「ろくでなしの怠け者だからね。",
-		NULL, "C'est un bon à rien et un parasite,", Line_WaitForInput);
+		NULL, "— C'est un bon à rien et un parasite,", Line_WaitForInput);
 }
 
 void dialog001()
@@ -98,7 +98,7 @@ void dialog011()
 //　そんな日々に終止符を打ってくれたのは、......どこの誰とも知らない、覚醒剤常習癖のおかしなヤツだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな日々に終止符を打ってくれたのは、……どこの誰とも知らない、薬物中毒のおかしなヤツだ。",
-		   NULL, "C'était un toxicomane qu'ils ne connaissaient ni d'Adam ni d'Ève qui avait mis fin à leurs problèmes.", Line_Normal);
+		   NULL, "C'était un toxicomane qu'ils ne connaissaient ni d'Ève ni d'Adam qui avait mis fin à leurs problèmes.", Line_Normal);
 	ClearMessage();
 }
 
