@@ -409,7 +409,7 @@
 	OutputLine(NULL, "　……あれさえなけりゃ、ごく普通の女の子で通るのに。",
 		   NULL, "... Sans ça, ce serait une fille tout à fait normale...", Line_WaitForInput);
 	OutputLine(NULL, "（……他にもない方がいい要素がいくつかあるような気がするが…、まぁいいか…）",
-		   NULL, " (enfin, elle avait d'autres traits de caractère qui faisaient taches, mais bon, personne n'est parfait...)", Line_Normal);
+		   NULL, " (Enfin, elle avait d'autres traits de caractère qui faisaient tache, mais bon, personne n'est parfait...)", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("white", 400 );
@@ -1338,7 +1338,7 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どことなく知的かつミステリアスな雰囲気を持つ鷹野さんだが、…そのライフワークもまた、ミステリアスそのものだ。",
-		   NULL, "Elle avait l'air intelligente et mystérieuse, cette femme, mais ses passe-temps avaient l'air bien cotons aussi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Elle avait l'air intelligente et mystérieuse, cette femme, mais ses passe-temps avaient l'air bien coton aussi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1937,10 +1937,8 @@
 
 //　鷹野さんの持って回った言い方に、少しのいらつきを感じた時＠......その感情が、まるでザルを抜ける流水のように、...そのまま口から出た＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　鷹野さんの持って回った言い方に、少しのいらつきを感じた時、",
-		   NULL, "Je me surpris tout seul lorsque ces mots s'écoulèrent de ma bouche comme un trop plein d'eau par une grille.", Line_WaitForInput);
-	OutputLine(NULL, "……その感情が、まるでザルを抜ける流水のように、…そのまま口から出た。",
-		   NULL, " A REMOVE", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "　鷹野さんの持って回った言い方に、少しのいらつきを感じた時、……その感情が、まるでザルを抜ける流水のように、…そのまま口から出た。",
+		   NULL, "Je me surpris tout seul lorsque ces mots s'écoulèrent de ma bouche comme un trop plein d'eau par une grille.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......そのあまりの感情の直接的な吐露に、自分でも驚く＠......もちろん、驚いたのは俺だけではないが￥
@@ -2178,9 +2176,9 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そしてまた、休み。",
-		   NULL, "Personne ne saurait dire si elle sera là demain.", Line_WaitForInput);
+		   NULL, "Personne ne saurait dire", Line_WaitForInput);
 	OutputLine(NULL, "……明日、登校してくる保証はない。",
-		   NULL, " A REMOVE", Line_Normal);
+		   NULL, " si elle sera là demain.", Line_Normal);
 	ClearMessage();
 
 //「.........うん＠でも、沙都子ちゃんから電話があったって先生、言ってました。＠
@@ -2203,7 +2201,7 @@
 		   NULL, "— C'est un rhume, hein ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/girlb04002", 256, TRUE);
 	OutputLine(NULL, "みんな家に帰ったらうがいをちゃんとしましょうって先生言ってました。」",
-		   NULL, " — La maîtresse nous a dit de faire attention et de bien gargariser.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " La maîtresse nous a dit de faire attention et de bien gargariser.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3595,14 +3593,14 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　正義感の赴くままに暴走し、",
-		   NULL, "Elle risque de tout faire empirer en agissant selon sa conscience.", Line_ContinueAfterTyping);
+		   NULL, "Elle risque de tout faire empirer", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……事態をややこしくしかねない。",
-		   NULL, " A REMOVE", Line_Normal);
+		   NULL, " en agissant selon sa conscience.", Line_Normal);
 	ClearMessage();
 
 //　.........先生は腕組みをし、...しばらくの間、精神統一でもするかのように目を閉じて黙っていた＠
