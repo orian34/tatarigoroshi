@@ -620,7 +620,7 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300175", 256, TRUE);
 	OutputLine(NULL, "「え、……な、…何？」",
-		   NULL, "— Hein ? De quoi, qu'est-ce qu'il y a  ?", Line_Normal);
+		   NULL, "— Hein ? De quoi, qu'est-ce qu'il y a ?", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "msys18", 56, 0 );
