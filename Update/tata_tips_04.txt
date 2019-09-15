@@ -263,7 +263,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000037", 256, TRUE);
 	OutputLine(NULL, "「彼も罪作りな人ですよねぇ。",
-		   NULL, "— En tout cas, c'est un sacré lascard, celui-là aussi !", Line_Continue);
+		   NULL, "— En tout cas, c'est un sacré lascar, celui-là aussi !", Line_Continue);
 	Wait(1500);
 	OutputLine(NULL, "こんな可愛い彼女を置き去りにして、どこへ行ってしまったんだか。」",
 		   NULL, " Où peut-il être allé de si important qu'il en laisse en plan sa si jolie petite amie ?", GetGlobalFlag(GLinemodeSp));
