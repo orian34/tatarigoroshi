@@ -9,7 +9,7 @@ void dialog000()
 //「そう言えば昨日は町会の人が集まっての打ち合わせ会だったんだろ？＠
 	ModPlayVoiceLS(4, 2, "ps3/s03/02/140200120", 256, TRUE);
 	OutputLine(NULL, "　…大丈夫？　なんかすっごく眠そう、だよ？」",
-		   NULL, " Eeeh, ça va ? T'as l'air crever !", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eeeh, ça va ? T'as l'air crevée !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
