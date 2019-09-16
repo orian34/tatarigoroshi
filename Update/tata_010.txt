@@ -442,7 +442,7 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s03/02/140200131", 256, TRUE);
 	OutputLine(NULL, "圭ちゃん、沙都子ちゃんは来てるよ。",
-		   NULL, "P'tit gars, elle est là !", Line_WaitForInput);
+		   NULL, "Keiichi, elle est là !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s03/02/140200132", 256, TRUE);
 	OutputLine(NULL, "よかった…！」",
 		   NULL, " Ouf...", GetGlobalFlag(GLinemodeSp));
@@ -1052,7 +1052,7 @@
 		   NULL, "— ... Satoko a...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s03/22/chie040404", 256, TRUE);
 	OutputLine(NULL, "両親、",
-		   NULL, " voulu piéger ses  parents…", Line_WaitForInput);
+		   NULL, " voulu piéger ses parents…", Line_WaitForInput);
 	//VoiceMatching
 	if(GetGlobalFlag(GCensor) >= 2){ModCallScriptSection("ztata_010_vm0x_n01","dialog005");}
 	if(GetGlobalFlag(GCensor) <= 1){ModCallScriptSection("ztata_010_vm00_n01","dialog005");}
