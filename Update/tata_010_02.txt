@@ -315,21 +315,21 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　肘！",
-		   NULL, "Coup de coude", Line_ContinueAfterTyping);
+		   NULL, "Coup de coude !", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_005", 56, 64 );
 	ShakeScreen( 1, 50, 20, 2, 0, );
 
 //　拳！/
 	OutputLine(NULL, "　拳！",
-		   NULL, " Coup de poing", Line_ContinueAfterTyping);
+		   NULL, " Coup de poing !", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_005", 56, 64 );
 	ShakeScreen( 0, 50, 20, 2, 0, );
 
 //　頭突き！/
 	OutputLine(NULL, "　頭突き！",
-		   NULL, " Coup de boule", Line_ContinueAfterTyping);
+		   NULL, " Coup de boule !", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_008", 56, 64 );
 	Wait( 200 );
@@ -553,14 +553,14 @@
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "嫌がった……って、",
-		   NULL, " Elle n'aime pas quand je lui caresse la tête ?", Line_ContinueAfterTyping);
+		   NULL, " Elle n'aime pas", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…ことか…？",
-		   NULL, " A REMOVE", Line_Normal);
+		   NULL, " quand je lui caresse la tête ?", Line_Normal);
 	ClearMessage();
 
 //「......お前、...頭撫でられるの、...嫌いだったっけ...？＠
@@ -600,7 +600,7 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s03/04/140400114", 256, TRUE);
 	OutputLine(NULL, "「ひいぃいいいいいぁあいああいあいあああぁあああぁああッ！！！！」",
-		   NULL, "— « Naaaaaaaaaaaaaaaaaan ! »", Line_Continue);
+		   NULL, "« Naaaaaaaaaaaaaaaaaan ! »", Line_Continue);
 //!sd/
 	SetSpeedOfMessage( FALSE, 0, );
 	Wait( 2000 );
@@ -733,14 +733,14 @@
 	OutputLine(NULL, "。…近くの席の生徒たちもたまらず逃げ出す。",
 		   NULL, " Les élèves des places à côté partirent sans demander leur reste.", Line_WaitForInput);
 	OutputLine(NULL, "…その席にあった弁当箱や椅子を…手当たり次第に掴んで、",
-		   NULL, " Alors elle prit tous les paniers-repas qui lui tombèrent sous la main...", Line_ContinueAfterTyping);
+		   NULL, " Alors elle prit", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "投げる投げる、",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " tous les paniers-repas qui lui tombèrent sous la main...", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_015", 56, 64 );
 	SetValidityOfInput( FALSE );
@@ -919,7 +919,7 @@
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ん",
-		   NULL, "d", Line_Continue);
+		   NULL, "r", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 50 );
@@ -933,7 +933,7 @@
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "さ",
-		   NULL, "d", Line_Continue);
+		   NULL, "o", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 50 );
@@ -961,14 +961,14 @@
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ん",
-		   NULL, "d", Line_Continue);
+		   NULL, "r", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 50 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "な",
-		   NULL, "o", Line_Continue);
+		   NULL, "d", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 50 );
@@ -1003,21 +1003,21 @@
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ん",
-		   NULL, "o", Line_Continue);
+		   NULL, "r", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 50 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "な",
-		   NULL, "r", Line_Continue);
+		   NULL, "d", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 50 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "さ",
-		   NULL, "r", Line_Continue);
+		   NULL, "o", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 50 );
@@ -1045,28 +1045,28 @@
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ん",
-		   NULL, "o", Line_Continue);
+		   NULL, "r", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 50 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "な",
-		   NULL, "r", Line_Continue);
+		   NULL, "d", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 50 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "さ",
-		   NULL, "r", Line_Continue);
+		   NULL, "o", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 50 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "い…、",
-		   NULL, "n", Line_Continue);
+		   NULL, "n...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 50 );
@@ -1160,7 +1160,7 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……沙都子、",
-		   NULL, "— ... Satoko…", Line_ContinueAfterTyping);
+		   NULL, "... Satoko…", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 700 );
@@ -1355,10 +1355,10 @@
 		   NULL, " ahhhaaaaa....", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s03/04/140400133", 256, TRUE);
 	OutputLine(NULL, "　……にーにー…、にーにーーッ！！",
-		   NULL, " oche, Totoche, TOTOCHE", Line_WaitForInput);
+		   NULL, " ...oche, Totoche, TOTOCHE !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s03/04/140400134", 256, TRUE);
 	OutputLine(NULL, "　助けて…！　助けてぇえぇ！！",
-		   NULL, " au SECOURS, à l'aide,", Line_WaitForInput);
+		   NULL, " Au SECOURS, à l'aide,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s03/04/140400135", 256, TRUE);
 	OutputLine(NULL, "　にーにー助けてよぉおぉぉ……、わああぁあぁああぁああん！！！」",
 		   NULL, " Totoche, Totoche, TOTOCHE ! Noooaaaaaaaaan!", GetGlobalFlag(GLinemodeSp));
@@ -1419,10 +1419,8 @@
 	PlaySE( 4, "wa_005", 56, 64 );
 //　ガッシャーーーーン！＠　...すごい音がした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　ガッシャーーーーン！！",
-		   NULL, "BANGbrolngbrovouAMMM !", Line_WaitForInput);
-	OutputLine(NULL, "　…すごい音がした。",
-		   NULL, " A REMOVE", Line_Normal);
+	OutputLine(NULL, "　ガッシャーーーーン！！　…すごい音がした。",
+		   NULL, "BANGbrolngbrovouAMMM !", Line_Normal);
 	ClearMessage();
 
 //　.........レナが、清掃用具入れを...蹴り倒した音だった＠
@@ -1461,7 +1459,7 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s03/02/140200152", 256, TRUE);
 	OutputLine(NULL, "「………………………………ごめん。",
-		   NULL, "— …….Désolé.", Line_WaitForInput);
+		   NULL, "— …….Désolée.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s03/02/140200153", 256, TRUE);
 	OutputLine(NULL, "…圭一くん、…ちょっと黙ってて。」",
 		   NULL, " ... Écoute, Keiichi, tais-toi.", GetGlobalFlag(GLinemodeSp));
@@ -1491,12 +1489,12 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s03/02/140200154", 256, TRUE);
 	OutputLine(NULL, "「うっさいなぁああぁッ！！",
-		   NULL, "— Mais MERDE", Line_Continue);
+		   NULL, "— Mais MERDE !", Line_Continue);
 	PlaySE( 4, "wa_027", 56, 64 );
 	OutputLineAll(NULL, "", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s03/02/140200155", 256, TRUE);
 	OutputLine(NULL, "　黙ってろって言ってんでしょおおぉッ！！！」",
-		   NULL, " j't'ai dit de fermer ta GUEULE, putain, alors BOUCLE-LA !", GetGlobalFlag(GLinemodeSp));
+		   NULL, " J't'ai dit de fermer ta GUEULE, putain, alors BOUCLE-LA !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1534,7 +1532,7 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s03/02/140200156", 256, TRUE);
 	OutputLine(NULL, "「……沙都子、",
-		   NULL, "... Satoko", Line_Continue);
+		   NULL, "— ... Satoko", Line_Continue);
 	WaitToFinishVoicePlaying(4);
 	Wait(300);
 	ModPlayVoiceLS(4, 2, "ps3/s03/02/140200157", 256, TRUE);
@@ -2049,7 +2047,7 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300279", 256, TRUE);
 	OutputLine(NULL, "「…………え…？」",
-		   NULL, "— ... de quoi ?", Line_Normal);
+		   NULL, "— ... De quoi ?", Line_Normal);
 	ClearMessage();
 
 //　...起こったことを嘆いて取り返せるなら、いくらでも嘆いてやる＠
@@ -2276,10 +2274,8 @@
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　…時間帯で変動する通行量。",
-		   NULL, "A REMOVE", Line_WaitForInput);
-	OutputLine(NULL, "周辺住民の行動アルゴリズム。",
-		   NULL, " Ajout de l'algorithme de fréquentation des rues.", GetGlobalFlag(GLinemodeSp));
+	OutputLine(NULL, "　…時間帯で変動する通行量。周辺住民の行動アルゴリズム。",
+		   NULL, "Ajout de l'algorithme de fréquentation des rues.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　誘い出すか、襲撃するか＠武器は何か＠いつどこで実行するか＠
@@ -2933,7 +2929,7 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(5, 2, "ps3/s03/02/140200167", 256, TRUE);
 	OutputLine(NULL, "「………ひ、…！」",
-		   NULL, "— ...Eep...!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eep...!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2942,7 +2938,7 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(6, 2, "ps3/s03/02/140200168", 256, TRUE);
 	OutputLine(NULL, "「………………。」",
-		   NULL, "— .........", GetGlobalFlag(GLinemodeSp));
+		   NULL, ".........", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
