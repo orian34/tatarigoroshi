@@ -1495,7 +1495,7 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……卑怯者のお前に代わって、俺が代行する。",
-		   NULL, "Moi, je ne me débinnerai pas, je ferai ce qu'il y a à faire.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Moi, je ne me débinerai pas, je ferai ce qu'il y a à faire.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
