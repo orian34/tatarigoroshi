@@ -453,14 +453,8 @@
 //　...つまり保護司の仲間だ＠
 //　...魅音に、何としてでも沙都子を祭りに連れて行けと焚きつければ、...あいつのことだ、その辺りをうまく使って、沙都子を祭りに連れて行けるはず...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　…あいつの叔母が確か民生委員だとか言ってた。",
+	OutputLine(NULL, "　…あいつの叔母が確か民生委員だとか言ってた。　…つまり保護司の仲間だ。",
 		   NULL, "C'est sa tante, l'assistante sociale.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　…つまり保護司の仲間だ。",
-		   NULL, "A REMOVE", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1038,7 +1032,7 @@
 		   NULL, "— Ah ! Aaaah oui bien sûr, oui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300285", 256, TRUE);
 	OutputLine(NULL, "何〜？　こんな時間に。」",
-		   NULL, " Eh ben alors p'tit gars, qu'est-ce que tu m' veux à c't'heure-ci ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eh ben alors p'tit gars, qu'est-ce que tu m'veux à c't'heure-ci ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
