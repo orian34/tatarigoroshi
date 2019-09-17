@@ -1233,10 +1233,8 @@
 
 //　馬鹿野郎、こんなところで何やってんだ＠......そう怒鳴られると思っていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　馬鹿野郎、こんなところで何やってんだ。",
-		   NULL, "Je croyais qu'il allait me gueuler dessus comme un putois...", Line_WaitForInput);
-	OutputLine(NULL, "……そう怒鳴られると思っていた。",
-		   NULL, " A REMOVE", Line_Normal);
+	OutputLine(NULL, "　馬鹿野郎、こんなところで何やってんだ。……そう怒鳴られると思っていた。",
+		   NULL, "Je croyais qu'il allait me gueuler dessus comme un putois...", Line_Normal);
 	ClearMessage();
 
 //「...あらあら＠......誰かと思えば。＠
