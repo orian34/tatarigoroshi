@@ -1093,9 +1093,9 @@
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんなこともあったっけ。",
-		   NULL, "Non, là, je me fais des films.", Line_WaitForInput);
+		   NULL, "Non,", Line_WaitForInput);
 	OutputLine(NULL, "……自身を笑い捨てるように、苦笑いする。",
-		   NULL, " A REMOVE", Line_Normal);
+		   NULL, " là, je me fais des films.", Line_Normal);
 	ClearMessage();
 
 //　まぁ......結局、そんなお勉強人生はそう長くは続かないわけだ＠
@@ -1395,14 +1395,8 @@
 //　沙都子は口やかましいヤツだったが、...世話見のいい妹だった＠
 //　でも、それは一見、リードしているように見えて、それもまた沙都子なりの甘え方だったのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　沙都子は口やかましいヤツだったが、…世話見のいい妹だった。",
+	OutputLine(NULL, "　沙都子は口やかましいヤツだったが、…世話見のいい妹だった。　でも、それは一見、リードしているように見えて、それもまた沙都子なりの甘え方だったのだ。",
 		   NULL, "Elle donnait l'impression de tout prendre en main, mais c'était un moyen pour elle de ne pas vous lâcher d'une semelle.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　でも、それは一見、リードしているように見えて、それもまた沙都子なりの甘え方だったのだ。",
-		   NULL, "A REMOVE", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　悟史と沙都子の兄妹の毎日は、...叔父叔母夫婦の元での窮屈なものであったにせよ、...温かいものだったに違いない￥
@@ -1910,21 +1904,21 @@
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "、",
-		   NULL, " résonnerait", Line_ContinueAfterTyping);
+		   NULL, " ré", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ひ",
-		   NULL, " le", Line_ContinueAfterTyping);
+		   NULL, "sonne", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ぐ",
-		   NULL, "sanglot", Line_ContinueAfterTyping);
+		   NULL, "rait", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -1932,7 +1926,7 @@
 
 
 	OutputLine(NULL, "ら",
-		   NULL, "des", Line_ContinueAfterTyping);
+		   NULL, " le", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -1940,7 +1934,7 @@
 
 
 	OutputLine(NULL, "し",
-		   NULL, "cigales.", Line_ContinueAfterTyping);
+		   NULL, " san", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -1948,7 +1942,7 @@
 
 
 	OutputLine(NULL, "の",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "glot", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -1956,7 +1950,7 @@
 
 
 	OutputLine(NULL, "な",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " des", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -1964,7 +1958,7 @@
 
 
 	OutputLine(NULL, "く",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " ci", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -1972,21 +1966,21 @@
 
 
 	OutputLine(NULL, "頃",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "ga", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "に",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "les", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "。",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, ".", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
