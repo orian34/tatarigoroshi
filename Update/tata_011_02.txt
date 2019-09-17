@@ -100,10 +100,10 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s03/01/140100642", 256, TRUE);
 	OutputLine(NULL, "「……待たせたな、悟史。",
-		   NULL, "— Désolé de t'avoir fait attendre, Satoshi. .", Line_WaitForInput);
+		   NULL, "— Désolé de t'avoir fait attendre, Satoshi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s03/01/140100643", 256, TRUE);
 	OutputLine(NULL, "…………………いよいよだが、…覚悟はいいか？」",
-		   NULL, " .. Ça va, c'était pas trop long ? T'es prêt ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... Ça va, c'était pas trop long ? T'es prêt ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1135,14 +1135,14 @@
 //　..............................躊躇する最後の感情を、!w900消す＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…………………………躊躇する最後の感情を、",
-		   NULL, "Je réprimai mes dernières hésitations.", Line_ContinueAfterTyping);
+		   NULL, "Je réprimai", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "消す。",
-		   NULL, " A REMOVE", GetGlobalFlag(GLinemodeSp));
+		   NULL, " mes dernières hésitations.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2392,33 +2392,33 @@
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "し",
-		   NULL, " les", Line_ContinueAfterTyping);
+		   NULL, " l", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "て",
-		   NULL, " c", Line_ContinueAfterTyping);
+		   NULL, " e", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "ひ",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "s", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "ぐ",
-		   NULL, "g", Line_ContinueAfterTyping);
+		   NULL, " c", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "ら",
-		   NULL, "e", Line_ContinueAfterTyping);
+		   NULL, "i", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "し",
-		   NULL, "l", Line_ContinueAfterTyping);
+		   NULL, "g", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
@@ -2428,17 +2428,17 @@
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "も",
-		   NULL, "s", Line_ContinueAfterTyping);
+		   NULL, "l", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "う",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "e", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "鳴",
-		   NULL, "i", Line_ContinueAfterTyping);
+		   NULL, "s", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
@@ -2453,12 +2453,12 @@
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "ん",
-		   NULL, "tues.", Line_ContinueAfterTyping);
+		   NULL, "tues", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 5 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "だ。",
-		   NULL, "A REMOVE", Line_Normal);
+		   NULL, ".", Line_Normal);
 	ClearMessage();
 	SetSpeedOfMessage( FALSE, 0, );
 
@@ -3366,7 +3366,7 @@
 //『鬼ヶ淵沼・よい子は沼で遊ばない！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「鬼ヶ淵沼・よい子は沼で遊ばない！」",
-		   NULL, "Marais des abysses des démons ce n'est pas un terrain de jeu !", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Marais des abysses des démons / Ce n'est pas un terrain de jeu !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　とは言え、...別に沼に至る道は金網で塞がれてるわけじゃない￥
