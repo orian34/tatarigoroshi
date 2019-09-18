@@ -545,7 +545,7 @@
 //　......全身にうっすらとかいた寝汗に風が通って涼しかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……全身にうっすらとかいた寝汗に風が通って涼しかった。",
-		   NULL, "Le petite brise qui me passa sur le corps me fit beaucoup de bien.", Line_Normal);
+		   NULL, "La petite brise qui me passa sur le corps me fit beaucoup de bien.", Line_Normal);
 	ClearMessage();
 
 //　よし＠...昨日までは......なかった＠
@@ -787,7 +787,7 @@
 //　沙都子は...きっとますます、世話焼きな性格が加速していくだろうな＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子は…きっとますます、世話焼きな性格が加速していくだろうな。",
-		   NULL, "Je suppose que quand elle grandira, elle deviendra l'une de ses filles qui se mêlent de tout mais qui vous mâchent le travail.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je suppose que quand elle grandira, elle deviendra l'une de ces filles qui se mêlent de tout mais qui vous mâchent le travail.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1457,7 +1457,7 @@
 //　富田くんが俺の方向を向いてそう言った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富田くんが俺の方向を向いてそう言った。",
-		   NULL, "Tomita se retourna vers moi et m'interpela :", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tomita se retourna vers moi et m'interpela.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......俺の後ろには誰もいない＠
@@ -1775,7 +1775,7 @@
 //　あはははははは、そんなこと言っちゃいけないよー＠あはははははははは...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あはははははは、そんなこと言っちゃいけないよー。",
-		   NULL, "Ahahahaha, mais voyons, faut pas dire ça, c'est un secret !", Line_WaitForInput);
+		   NULL, "— Ahahahaha, mais voyons, faut pas dire ça, c'est un secret !", Line_WaitForInput);
 	OutputLine(NULL, "あはははははははは…！",
 		   NULL, " Aahahahahahaha !", Line_Normal);
 	ClearMessage();
@@ -3235,11 +3235,8 @@
 
 //　たくさんのことを考え、...たくさんのことに考えを散らされ＠...悩んでいたのかぼーっとしていたのかわからない時間が、号令と共に終わりを告げた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　たくさんのことを考え、…たくさんのことに考えを散らされ。",
-		   NULL, "Finalement, j'avais été tellement absorbé par mes pensées que je n'avais pas vu le temps passer. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "…悩んでいたのかぼーっとしていたのかわからない時間が、号令と共に終わりを告げた。",
-		   NULL, "A REMOVE", Line_Normal);
+	OutputLine(NULL, "　たくさんのことを考え、…たくさんのことに考えを散らされ。…悩んでいたのかぼーっとしていたのかわからない時間が、号令と共に終わりを告げた。",
+		   NULL, "Finalement, j'avais été tellement absorbé par mes pensées que je n'avais pas vu le temps passer. ", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/gk1", "right", 0, 0, 300 );
@@ -5500,7 +5497,7 @@
 //　...俺は叔父殺しというショッキングな夢を見て、夢と現実の区別がつかなくなったただの狂人＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…俺は叔父殺しというショッキングな夢を見て、夢と現実の区別がつかなくなったただの狂人。",
-		   NULL, "Je suis simplement devenu fou en rêvant d'une chose trop chocante pour mon subconscient, qui du coup ne me m'a plus permis de faire la différence entre le rêve et la réalité.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je suis simplement devenu fou en rêvant d'une chose trop choquante pour mon subconscient, qui du coup ne me m'a plus permis de faire la différence entre le rêve et la réalité.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...それで全部に、説明がつく￥
@@ -9277,9 +9274,9 @@
 //　町へつながる一本道＠......その、途中＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　町へつながる一本道。",
-		   NULL, "Je me trouvai en plein sur le chemin qui nous reliait à la ville.", Line_WaitForInput);
+		   NULL, "Je me trouvai en plein sur le chemin", Line_WaitForInput);
 	OutputLine(NULL, "……その、途中。",
-		   NULL, " A REMOVE", GetGlobalFlag(GLinemodeSp));
+		   NULL, " qui nous reliait à la ville.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -9871,7 +9868,7 @@
 //　冷え切ったランタンを掴み、カチカチとダイヤルをひねり、一番小さな灯りになるようにセットしてから、......電源を入れた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　冷え切ったランタンを掴み、カチカチとダイヤルをひねり、一番小さな灯りになるようにセットしてから、……電源を入れた。",
-		   NULL, "Je me saisis de la lampe-torche et tournai la bague jusqu'à la graduation n°  1. Alors seulement, j'allumai le tout.", Line_Normal);
+		   NULL, "Je me saisis de la lampe-torche et tournai la bague jusqu'à la graduation n°1. Alors seulement, j'allumai le tout.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
