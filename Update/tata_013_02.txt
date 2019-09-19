@@ -3238,7 +3238,7 @@
 	ModPlayVoiceLS(4, 1, "ps3/s03/01/140101052", 256, TRUE);
 	ModPlayVoiceLS(5, 4, "ps3/s03/04/140400301", 256, TRUE);
 	OutputLine(NULL, "「「…どうして……こんなことに……ッ！！」」",
-		   NULL, "— « Comment avons-nous pu en arriver là ? »", Line_Normal);
+		   NULL, "« Comment avons-nous pu en arriver là ? »", Line_Normal);
 	ClearMessage();
 
 //　セミたちが、俺と沙都子の奇妙な追いかけっこを、見世物のように嘲笑っていた＠
