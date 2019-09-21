@@ -14,7 +14,7 @@ void dialog001()
 		   NULL, "— Mais dis-moi, c'est une question bien étrange.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s03/10/141000144", 256, TRUE);
 	OutputLine(NULL, "ひょっとして今日、寝不足ですか？",
-		   NULL, " À moins que tu n'es pas assez dormi cette nuit ?", Line_WaitForInput);
+		   NULL, " À moins que tu n'aies pas assez dormi cette nuit ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s03/10/141000145", 256, TRUE);
 	OutputLine(NULL, "　いけませんよー、成長期は良く食べよく寝て育つんですから」",
 		   NULL, " Tu ne peux pas faire ça, voyons. Il est important d'avoir un bon sommeil ainsi qu'une bonne alimentation pour grandir.", GetGlobalFlag(GLinemodeSp));
@@ -44,7 +44,7 @@ void dialog004()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s03/01/140100749", 256, TRUE);
 	OutputLine(NULL, "「俺昨日、寝不足で半分頭がぼおっとなっててさ…。",
-		   NULL, "— J'ai pas vraiment assez dormi cette nuit, je suis dans le brouillard…", Line_WaitForInput);
+		   NULL, "— J'ai pas vraiment assez dormi cette nuit, j'ai la tête dans le brouillard…", Line_WaitForInput);
 }
 
 void dialog005()
