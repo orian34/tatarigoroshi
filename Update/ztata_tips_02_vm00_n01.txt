@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 }
 
@@ -9,9 +9,9 @@ void dialog000()
 void dialog001()
 {
 	OutputLine(NULL, "「……北条〜！！",
-		   NULL, "\"...Houjou~!!", Line_WaitForInput);
+		   NULL, "— Hôjô !", Line_WaitForInput);
 	OutputLine(NULL, "　あんな罠を仕掛けるのは北条しかいないー！！！」",
-		   NULL, " You're the only one who could have set up a trick like that!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " On sait que c'est toi, il n'y a que toi qui fait des vacheries à l'école !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 	ModDrawCharacterWithFiltering(2, 4, "sprite/normal/sa1a_odoroki_a1_", "1", "right", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
@@ -20,7 +20,7 @@ void dialog001()
 void dialog002()
 {
 	OutputLine(NULL, "「「天誅〜〜！！！」」",
-		   NULL, "\"\"Payback~~!!!\"\"", Line_ContinueAfterTyping);
+		   NULL, "— On va te piéger la figure, oui, tu vas voir !", Line_ContinueAfterTyping);
 
 	PlaySE( 3, "wa_003", 56, 64 );
 

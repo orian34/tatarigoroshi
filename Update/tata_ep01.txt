@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 
 
@@ -19,7 +19,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５８年６月２２日未明。",
-		   NULL, "June 22, 1983, early morning.", Line_ContinueAfterTyping);
+		   NULL, "Peu avant l'aube, le 22 juin de l'an Shôwa 58 (1983)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -34,7 +34,7 @@ void main()
 //　Ｘｘ県鹿骨市雛見沢村で、広域災害が発生。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ＸＸ県鹿骨市雛見沢村で、広域災害が発生。",
-		   NULL, "A widespread disaster occurred in Hinamizawa Village, Shishibone, ___ Prefecture.", Line_ContinueAfterTyping);
+		   NULL, "Une catastrophe naturelle se déclare à Hinamizawa, dans le disctrict de Shishibone de la préfecture de ****.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -48,7 +48,7 @@ void main()
 //　雛見沢地区水源地のひとつ、鬼ヶ淵沼より火山性ガス（硫化水素・二酸化炭素）が噴出し、村内全域を覆った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢地区水源地のひとつ、鬼ヶ淵沼より火山性ガス（硫化水素・二酸化炭素）が噴出し、村内全域を覆った。",
-		   NULL, "Volcanic gas (carbon dioxide and hydrogen sulfide) erupted from Onigafuchi Swamp, one of the Hinamizawa area's water sources, and spread through the entire village.", Line_ContinueAfterTyping);
+		   NULL, "Depuis l'une des sources d'eau potable du village, le marais des abysses des démons, un important épanchement gazeux composé de dioxyde de carbone et de sulfure d'hydrogène sort du sol et se répant sur toute la région.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -59,7 +59,7 @@ void main()
 //　犠牲者１２００余名。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犠牲者１２００余名。",
-		   NULL, "There were 1200 victims.", Line_ContinueAfterTyping);
+		   NULL, "La catastrophe fait plus de 1200 morts.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -70,7 +70,7 @@ void main()
 //　行方不明者２０余名。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　行方不明者２０余名。",
-		   NULL, "20 have gone missing.", Line_ContinueAfterTyping);
+		   NULL, "Il y a en outre une vingtaine de personnes portées disparues.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -81,7 +81,7 @@ void main()
 //　周辺自治体から約６０万人が避難する空前の大災害となった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　周辺自治体から約６０万人が避難する空前の大災害となった。",
-		   NULL, "The catastrophe was unprecedented, forcing local governments to evacuate approximately six hundred thousand people.", Line_ContinueAfterTyping);
+		   NULL, "Près de 600 000 personnes seront évacuées, ce qui en fait un incident sans précédent.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -91,7 +91,7 @@ void main()
 //　その後の調査により、鬼ヶ淵沼の直下にマグマ溜りと温泉があることがわかり、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その後の調査により、鬼ヶ淵沼の直下にマグマ溜りと温泉があることがわかり、",
-		   NULL, "According to later investigations, magma pools and hot springs were uncovered directly under Onigafuchi Swamp,", Line_ContinueAfterTyping);
+		   NULL, "Grâce aux analyses faites après la catastrophe, il fut découvert qu'il y avait des poches de magma juste sous le marais des abysses des démons", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -100,7 +100,7 @@ void main()
 
 //そこより湧き出したガスが、災害の原因であると断定した。
 	OutputLine(NULL, "そこより湧き出したガスが、災害の原因であると断定した。",
-		   NULL, " and the gas that gushed from it was determined to be the cause of the disaster.", Line_ContinueAfterTyping);
+		   NULL, " et que le réchauffement de l'eau à son contact avait produit le mélange gazeux mortel.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -113,7 +113,7 @@ void main()
 //　また、災害発生直後から、雛見沢村の伝承になぞらえてこの災害を「祟り」と騒ぐ者が続出し、初期の混乱を煽り立てた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、災害発生直後から、雛見沢村の伝承になぞらえてこの災害を「祟り」と騒ぐ者が続出し、初期の混乱を煽り立てた。",
-		   NULL, "In addition, directly after the incident broke out, many came forth claiming this disaster was a curse based in Hinamizawa Village legends, first sparking a wave of chaos.", Line_ContinueAfterTyping);
+		   NULL, "De plus, juste après la catastrophe, certains éléments agitateurs ont crié à l'existence d'une “malédiction” dans les croyances locales.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -123,7 +123,7 @@ void main()
 //　雛見沢村には、祟りがあると瘴気が湧き出して、村を滅ぼすとの伝承があったといい、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢村には、祟りがあると瘴気が湧き出して、村を滅ぼすとの伝承があったといい、",
-		   NULL, "There were apparently local legends of a curse spreading a miasma, destroying the village,", Line_ContinueAfterTyping);
+		   NULL, "Au village de Hinamizawa, un miasme descend soit-disant de la montagne lorque la malédiction doit frapper.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -132,7 +132,7 @@ void main()
 
 //学者からは過去にも同様のガス災害があり、それが伝承として残ったのではないかと指摘する声があがっている。
 	OutputLine(NULL, "学者からは過去にも同様のガス災害があり、それが伝承として残ったのではないかと指摘する声があがっている。",
-		   NULL, " and some scholars believe a similar gas disaster may have happened in the past and remained part of these legends.", Line_ContinueAfterTyping);
+		   NULL, " Les scientifiques ont émis l'hypothèse que d'autres incidents de ce genre eurent lieu ici à travers les siècles, et que la population locale en avait gardé le souvenir à travers cette croyance.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -146,7 +146,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　一部の過激な週刊誌報道は、雛見沢村で数年間にわたり起こっていた連続怪死事件の延長にあるのではないかとし、「オヤシロさまの祟り説」を煽り立てた。",
-		   NULL, "More extreme periodicals suggested this was an extension of the string of freak death incidents that had been happening in recent years in Hinamizawa Village, stirring interest in theories about this curse of Oyashiro-sama.", Line_ContinueAfterTyping);
+		   NULL, "Dans certains journaux à sensations, les journalistes ont été jusqu'à supposer que cette catastrophe n'était que la prolongation de la série de meurtres qui a défrayé la chronique dans ce village, et que les gens considéraient comme étant “la malédiction de la déesse Yashiro”.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -157,7 +157,7 @@ void main()
 //　また、災害を免れた雛見沢村住民の親類筋の人間たちが、災害後、体調不良を次々に訴え入院し、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、災害を免れた雛見沢村住民の親類筋の人間たちが、災害後、体調不良を次々に訴え入院し、",
-		   NULL, "In addition, relatives of those in Hinamizawa Village who had escaped the disaster complained of sickness afterwards and were hospitalized.", Line_ContinueAfterTyping);
+		   NULL, "De plus, après la catastrophe, de nombreuses personnes ayant des liens de parenté avec les victimes du village succombèrent elles aussi, sans raison apparente.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -167,7 +167,7 @@ void main()
 //その一部が原因不明の病死を遂げた事も、それをさらに過激に煽り立てた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その一部が原因不明の病死を遂げた事も、それをさらに過激に煽り立てた。",
-		   NULL, "Some of them even died of unknown causes, further encouraging such extreme opinions.", Line_ContinueAfterTyping);
+		   NULL, "Une partie des malades hospitalisés est même morte des suites de fièvres violentes inexplicables, ce qui ne manqua pas de susciter de forts émois et une grande panique.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -178,7 +178,7 @@ void main()
 //　その上、オヤシロさまの祟りに取り憑かれたと自称する親類筋の何人かが奇怪な方法で自殺を遂げると、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その上、オヤシロさまの祟りに取り憑かれたと自称する親類筋の何人かが奇怪な方法で自殺を遂げると、",
-		   NULL, "On top of that, several relatives professing to be possessed by Oyashiro-sama's curse committed suicide in strange ways...", Line_ContinueAfterTyping);
+		   NULL, "Pour couronner le tout, certaines personnes issues de ces familles se donnèrent la mort dans des circonstances particulièrement sordides, se déclarant sous l'influence du mauvais œil de la déesse Yashiro.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -187,7 +187,7 @@ void main()
 
 //...もう全国に波及する衝撃には歯止めがなくなっていた。
 	OutputLine(NULL, "…もう全国に波及する衝撃には歯止めがなくなっていた。",
-		   NULL, " and the impact the disaster has had on the entire nation can no longer be ignored.", Line_ContinueAfterTyping);
+		   NULL, " Ces événements achevèrent de donner à l'incident une dimension surnaturelle, qui laissa une empreinte dans le subconscient collectif de toute la nation.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -197,7 +197,7 @@ void main()
 //　真夜中に音もなく忍び寄り、人々を殺してしまう恐ろしい毒ガスの妄想は日本全国へ飛び火し、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　真夜中に音もなく忍び寄り、人々を殺してしまう恐ろしい毒ガスの妄想は日本全国へ飛び火し、",
-		   NULL, "Wild visions of terrible toxic gas sneaking around in the middle of the night killing people spilled across the country,", Line_ContinueAfterTyping);
+		   NULL, "L'idée d'un gaz mortel avançant sans bruit, dans la nuit, fit des ravages dans tout le pays.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -207,7 +207,7 @@ void main()
 //不眠・呼吸困難・頭痛・めまい等を訴える人間を続出させた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "不眠・呼吸困難・頭痛・めまい等を訴える人間を続出させた。",
-		   NULL, "causing a steady stream of people complaining of insomnia, difficulty breathing, headache, dizziness, etc.", Line_ContinueAfterTyping);
+		   NULL, "Nombreux furent les cas spontanés d'insomnie, de troubles respiratoires et d'évanouissements.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -218,7 +218,7 @@ void main()
 //　中には取り憑かれたと自称し、奇行を行なう者もいた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　中には取り憑かれたと自称し、奇行を行なう者もいた。",
-		   NULL, "Some who identified themselves as being obsessed by it began doing odd things.", Line_ContinueAfterTyping);
+		   NULL, "Certains allèrent même jusqu'à reproduire des actes inhumains en expliquant qu'ils étaient possédés par un être supérieur.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -229,7 +229,7 @@ void main()
 //　それらのほとんどは過激な報道による思い込みによるものだったが、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それらのほとんどは過激な報道による思い込みによるものだったが、",
-		   NULL, "Most of these were mistakenly attributed by the tabloid press...", Line_ContinueAfterTyping);
+		   NULL, "La plupart de ces cas étaient bien sûr des canulars ou des mythomanes,", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -237,7 +237,7 @@ void main()
 
 //...後にこれらの雛見沢大災害に起因する精神疾患を雛見沢症候群と呼ぶまでに至る...。
 	OutputLine(NULL, "…後にこれらの雛見沢大災害に起因する精神疾患を雛見沢症候群と呼ぶまでに至る…。",
-		   NULL, " but afterward, some even began to call the mental issues arising from the Hinamizawa tragedy the \"Hinamizawa Syndrome\"...", Line_ContinueAfterTyping);
+		   NULL, " mais parmi eux, on trouva des cas de gens réellement souffrant psychologiquement de ce qui fut nommé par les scientifiques “le syndrôme Hinamizawa”.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -249,7 +249,7 @@ void main()
 //　さまざまな噂や憶測の的となった雛見沢村地区は現在、封鎖され、その上空の飛行も禁止されている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さまざまな噂や憶測の的となった雛見沢村地区は現在、封鎖され、その上空の飛行も禁止されている。",
-		   NULL, "The Hinamizawa Village region, the object of all kinds of rumors and speculation, is currently closed off, and even flying overhead is prohibited.", Line_ContinueAfterTyping);
+		   NULL, "De nombreuses rumeurs courent sur cette région de Hinamizawa. Celle-ci fut scellée par l'Armée, et même aujourd'hui, aucun appareil n'est autorisé à survoler la région.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -259,7 +259,7 @@ void main()
 //　ガスの濃度低下により、一度は封鎖が解除されかけたが、同年秋に再びガスの噴出が確認され、再び周辺一帯は封鎖された。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ガスの濃度低下により、一度は封鎖が解除されかけたが、同年秋に再びガスの噴出が確認され、再び周辺一帯は封鎖された。",
-		   NULL, "The prohibition was, at one point, undone as a result of a decrease in the gas's density, but that autumn another gas burst was confirmed, leading to the area being cordoned off again.", Line_ContinueAfterTyping);
+		   NULL, "Lorsque les premiers gaz furent dissipés, la quarantaine fut levée, mais en automne de la même année, encore une fois, on put constater de fortes émanations de gaz toxiques. La quarantaine fut rétablie, et la région fut scellée.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -269,7 +269,7 @@ void main()
 //　現地には、生活の痕跡を残したまま、朽ちるに任せた村が、こんこんと眠り続けているという話である...。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　現地には、生活の痕跡を残したまま、朽ちるに任せた村が、こんこんと眠り続けているという話である…。",
-		   NULL, "Word is that the area is sound asleep, all traces of its former life intact and left to rot...", Line_ContinueAfterTyping);
+		   NULL, "Les restes du village sont désormais à l'abandon, derniers vestiges des traces de vie humaine dans le passé...", Line_ContinueAfterTyping);
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -280,7 +280,7 @@ void main()
 //　最終的な生存者は、雛見沢村ＸＸＸ番地在住の男子、前原圭一（１Ｘ歳）のみ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　最終的な生存者は、雛見沢村ＸＸＸ番地在住の男子、前原圭一（１Ｘ歳）のみ。",
-		   NULL, "Only one survivor remains—Keiichi Maebara, age 1_, who lived at ___ Hinamizawa Village.", Line_ContinueAfterTyping);
+		   NULL, "L'unique survivant de cette catastrophe fut un jeune garçon qui était domicilié au *** au village de Hinamizawa, Keiichi Maebara (1* ans).", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -291,7 +291,7 @@ void main()
 //　救出時はガスによる呼吸困難で肺水腫を起こしかけていたが、必死の救命活動の結果、一命を取り留めた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　救出時はガスによる呼吸困難で肺水腫を起こしかけていたが、必死の救命活動の結果、一命を取り留めた。",
-		   NULL, "At the time of rescue, he had some trouble breathing due to fluid buildup in his lungs, but as a result of life-saving procedures he was kept alive.", Line_ContinueAfterTyping);
+		   NULL, "Lorsqu'il a été présenté aux équipes de secours, son état était grave, il avait déjà un œdème pulmonaire aigu. Mais grâce aux efforts des sauveteurs, il survécut.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -302,7 +302,7 @@ void main()
 //　現在は県内の総合病院に入院している。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　現在は県内の総合病院に入院している。",
-		   NULL, "He is currently in a general hospital somewhere in the prefecture.", Line_ContinueAfterTyping);
+		   NULL, "À l'heure où nous vous parlons, il est toujours hospitalisé dans l'hôpital général de la préfecture.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -312,7 +312,7 @@ void main()
 //　連日取材陣が押しかけているが、一切の面会は謝絶されている。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　連日取材陣が押しかけているが、一切の面会は謝絶されている。",
-		   NULL, "The press have been asking for him for some time, but all interviews are being refused.", Line_ContinueAfterTyping);
+		   NULL, "Nous avons essayé d'obtenir une interview pendant plusieurs jours, mais il n'a droit à strictement aucun contact avec l'extérieur.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -323,7 +323,7 @@ void main()
 //　......彼が、雛見沢で何を見たのか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……彼が、雛見沢で何を見たのか。",
-		   NULL, "...What did he see in Hinamizawa?", Line_ContinueAfterTyping);
+		   NULL, "Qu'a-t-il pu bien voir à Hinamizawa ?", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -334,7 +334,7 @@ void main()
 //　６月の２１日から２２日にかけて、雛見沢で何があったのか。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　６月の２１日から２２日にかけて、雛見沢で何があったのか。",
-		   NULL, "What happened between June 21 and June 22 in Hinamizawa Village?", Line_ContinueAfterTyping);
+		   NULL, "Que s'est-il donc passé là-bas dans la nuit du 21 au 22 juin ?", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -345,7 +345,7 @@ void main()
 //　今日でも彼は、黙して語ろうとしない...。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今日でも彼は、黙して語ろうとしない…。",
-		   NULL, "Today he remains silent, unwilling to speak of it...", Line_ContinueAfterTyping);
+		   NULL, "Aujourd'hui encore, il garde le silence et refuse d'en parler...", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);

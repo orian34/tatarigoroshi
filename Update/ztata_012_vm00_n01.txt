@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 }
 
@@ -11,13 +11,13 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s03/10/141000143", 256, TRUE);
 	OutputLine(NULL, "「変わった質問をしましたね。",
-		   NULL, "\"That was a strange question.", Line_WaitForInput);
+		   NULL, "— Mais dis-moi, c'est une question bien étrange.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s03/10/141000144", 256, TRUE);
 	OutputLine(NULL, "アルコールの飲みすぎで昨夜の記憶がありませんか？",
-		   NULL, " Did you have too much to drink and forget about what happened last night?", Line_WaitForInput);
+		   NULL, " Tu as bu ? Tu ne te souviens plus de la soirée ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s03/10/141000145", 256, TRUE);
 	OutputLine(NULL, "　未成年なのに、いけない人ですねー。」",
-		   NULL, " And underaged, too—you bad child.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tu es mineur pourtant, tu ne devrais pas boire, petit sacripant !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -27,14 +27,14 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300381", 256, TRUE);
 	OutputLine(NULL, "「圭ちゃんに詩音のあんぽんたんが、ちょっかい出して来たのを無視してね〜！",
-		   NULL, "\"And he ignored it when that blockhead Shion came up and made a pass at him~!", Line_WaitForInput);
+		   NULL, "— Ma conne de sœur est venue lui faire du charme, si tu avais vu le rateau qu'il lui a mis !", Line_WaitForInput);
 }
 
 void dialog003()
 {
 	ModPlayVoiceLS(4, 2, "ps3/s03/02/140200205", 256, TRUE);
 	OutputLine(NULL, "　…圭一くん、お酒は大人になるまで飲まない方がいいと思うな…。」",
-		   NULL, " ...Keiichi-kun, I think you shouldn't be drinking until you're an adult...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Keiichi, je crois que tu devrais arrêter de boire de l'alcool, ça va--", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -44,14 +44,14 @@ void dialog004()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s03/01/140100749", 256, TRUE);
 	OutputLine(NULL, "「俺、昨日、記憶をなくすくらいビールを飲んじゃってさ…。",
-		   NULL, "\"I, uh, drank so much beer I lost some of my memory...", Line_WaitForInput);
+		   NULL, "— J'ai bu hier, tellement que j'en ai plus aucun souvenir.", Line_WaitForInput);
 }
 
 void dialog005()
 {
 	ModPlayVoiceLS(4, 10, "ps3/s03/10/141000126", 256, TRUE);
 	OutputLine(NULL, "　怪しいお注射で奴隷にして、私だけの専属メイドに〜〜…☆」",
-		   NULL, "I could inject them with a weird chemical that'd make them my slaves, and have them be my personal maids~~...☆\"", Line_Normal);
+		   NULL, "Et ensuite, je la drogue avec une piqûre, et j'en fais mon esclave...", Line_Normal);
 	ClearMessage();
 }
 
@@ -59,7 +59,7 @@ void dialog006()
 {
 	ModPlayVoiceLS(4, 10, "ps3/s03/10/141000147", 256, TRUE);
 	OutputLine(NULL, "二次性徴に入ってのシャイな悩み、大いに歓迎ですよ〜☆」",
-		   NULL, " I greatly welcome any shy, bashful worries you might have as you come into your secondary sex characteristics~☆.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Six fois par jour à ton âge, c'est normal ! Non, les chaussettes c'est pas dangereux, mais fais attention à te nettoyer après quand même.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -69,16 +69,16 @@ void dialog007()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s03/10/141000253", 256, TRUE);
 	OutputLine(NULL, "「イソミタールかラボナールを混入。",
-		   NULL, "\"Mix in amobarbital or Ravonal.", Line_WaitForInput);
+		   NULL, "— Ajoutez de l'isomytal ou du ravonal, ça fera l'affaire aussi.", Line_WaitForInput);
 }
 
 void dialog008()
 {
 //「...岐阜県警の発表では、他殺の可能性が極めて高いと...。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>局員</color>", NULL, "<color=#f5e6d3>Bureau Staff</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>局員</color>", NULL, "<color=#f5e6d3>Personnel de la clinique</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kyoku04006", 256, TRUE);
 	OutputLine(NULL, "「…岐阜県警の発表では、他殺の可能性が極めて高いと…。」",
-		   NULL, "\"...According to the Gifu police's statement, the possibility is extremely high that she was murdered...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "— Le rapport de police des gens de Gifu dit que c'est certainement un meurtre...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 
@@ -86,5 +86,5 @@ void dialog009()
 {
 	ModPlayVoiceLS(4, 11, "ps3/s03/11/140700022", 256, TRUE);
 	OutputLine(NULL, "口と手を一緒に動かすのは風俗の人だけ。",
-		   NULL, " Only people from the red light district do both at once.", Line_WaitForInput);
+		   NULL, " Les seules qui travaillent avec la bouche et les mains en même temps, ce sont les prostituées.", Line_WaitForInput);
 }

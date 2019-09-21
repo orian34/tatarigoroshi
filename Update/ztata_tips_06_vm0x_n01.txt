@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 }
 
@@ -8,10 +8,10 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 19, "ps3/s20/19/443100044", 256, TRUE);
 	OutputLine(NULL, "「噂じゃホトケさん、園崎の上納金に手を付けちゃったらしいっす。",
-		   NULL, "\"Rumors say the deceased had been dipping into the Sonozaki's protection money.", Line_Continue);
+		   NULL, "— Le macchabée tapait dans la caisse des Sonozaki, il paraît.", Line_Continue);
 	Wait(2500);
 	OutputLine(NULL, "話じゃ、かなりシャレにならない規模らしいっす。」",
-		   NULL, " And on a pretty significant scale, too, from what I've heard.\"", Line_Normal);
+		   NULL, " Et pas qu'un peu, à ce qu'on dit.", Line_Normal);
 	ClearMessage();
 }
 
@@ -21,9 +21,9 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 19, "ps3/s20/19/443100045", 256, TRUE);
 	OutputLine(NULL, "「そうそう…、大石さん。",
-		   NULL, "\"About that... Ooishi-san.", Line_Continue);
+		   NULL, "— Ah, justement, chef,", Line_Continue);
 	Wait(1300);
 	OutputLine(NULL, "女の同居人、生きてるみたいですよ。」",
-		   NULL, " Her cohabitant's apparently alive.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " son maque est encore en vie.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }

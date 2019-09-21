@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 
 //*Sub_Tips_053
@@ -22,7 +22,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和５６年１２月　１日",
-		   NULL, "December 1, 1981", Line_ContinueAfterTyping);
+		   NULL, "1er déc Shôwa 56 (1981)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -33,7 +33,7 @@ void main()
 //ＸＸ県福祉部児童課資料
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ＸＸ県福祉部児童課資料",
-		   NULL, " _____ Prefecture Juvenile Welfare Division Report", Line_ContinueAfterTyping);
+		   NULL, " Archives des services de la protection de l'enfance de la préfecture de ****", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -42,7 +42,7 @@ void main()
 	PlayBGM( 2, "lsys24", 56, 0 );
 //（閲覧不可・複写不可）
 	OutputLine(NULL, "（閲覧不可・複写不可）",
-		   NULL, " (Do not view; do not duplicate)", Line_ContinueAfterTyping);
+		   NULL, " (Consultation et reproduction sont strictement interdites)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -53,7 +53,7 @@ void main()
 //事例３１（１１月２０日）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "事例３１（１１月２０日）",
-		   NULL, "Case 31 (November 20)", Line_ContinueAfterTyping);
+		   NULL, "Cas 31 (20 Novembre)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -64,7 +64,7 @@ void main()
 //　北条沙都子（Ｘ歳）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　北条沙都子（Ｘ歳）",
-		   NULL, "Satoko Houjou (_ years old)", Line_ContinueAfterTyping);
+		   NULL, "Satoko Hôjô (* ans)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -75,7 +75,7 @@ void main()
 //　鹿骨市雛見沢村ＸＸＸ番地在住/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鹿骨市雛見沢村ＸＸＸ番地在住",
-		   NULL, "Residence: ___ Hinamizawa Village, Shishibone", Line_ContinueAfterTyping);
+		   NULL, "Habite au *** à Hinamizawa, district de Shishibone", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -85,7 +85,7 @@ void main()
 //（１）相談の経路
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（１）相談の経路",
-		   NULL, "(I) Consultation circumstances", Line_ContinueAfterTyping);
+		   NULL, "(1) Prise de contact", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -96,7 +96,7 @@ void main()
 //　匿名で子ども虐待ＳＯＳに電話相談有り。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　匿名で子ども虐待ＳＯＳに電話相談有り。",
-		   NULL, "Anonymous telephone SOS of child abuse.", Line_ContinueAfterTyping);
+		   NULL, "A téléphoné sous couvert d'anonymat à SOS enfants battus.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -106,7 +106,7 @@ void main()
 //（２）虐待の状況
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（２）虐待の状況",
-		   NULL, "(II) Abuse situation", Line_ContinueAfterTyping);
+		   NULL, "(2) Situation", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -117,7 +117,7 @@ void main()
 //　女児が保護者である養父母に身体的虐待を受けているという訴え。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　女児が保護者である養父母に身体的虐待を受けているという訴え。",
-		   NULL, "Anonymous claims that a female child is suffering physical abuse by adoptive parents, her guardians.", Line_ContinueAfterTyping);
+		   NULL, "A prétendu qu'une fille de sa classe subissait des sévices corporels par ses parents adoptifs.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -127,7 +127,7 @@ void main()
 //（３）家族構成（●虐待者）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（３）家族構成（●虐待者）",
-		   NULL, "(III) Family structure (● marks abusers)", Line_ContinueAfterTyping);
+		   NULL, "(3) Famille (● : auteur des violences)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -138,7 +138,7 @@ void main()
 //　●養父、●養母、兄、本児
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　●養父、●養母、兄、本児",
-		   NULL, "●Adoptive father, ●adoptive mother, older brother, child in question", Line_ContinueAfterTyping);
+		   NULL, "● Père adoptif, ● Mère adoptive, Frère aîné, Enfant concerné", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -149,7 +149,7 @@ void main()
 //　※昭和５５年６月に本児の両親が事故により死亡し、父方の叔父（父の弟）宅に引き取られた。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　※昭和５５年６月に本児の両親が事故により死亡し、父方の叔父（父の弟）宅に引き取られた。",
-		   NULL, "Note: In June 1980, the child's parents died in an accident, and she was given to her uncle on her father's side (her father's younger brother).", Line_ContinueAfterTyping);
+		   NULL, "Suite au décès des vrais parents de l'enfant concerné en juin 1980, il a été recueilli dans la famille du frère cadet du père.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -159,7 +159,7 @@ void main()
 //（４）児童相談所の対応
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（４）児童相談所の対応",
-		   NULL, "(IV) Child consultation center's response", Line_ContinueAfterTyping);
+		   NULL, "(4) Réaction", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -170,7 +170,7 @@ void main()
 //　匿名の電話相談が入り、同日、学校に電話で、本児の状況を聞き取り。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　匿名の電話相談が入り、同日、学校に電話で、本児の状況を聞き取り。",
-		   NULL, "On the day of the anonymous telephone consultation, the center called the child's school and asked of her situation.", Line_ContinueAfterTyping);
+		   NULL, "Suite à l'appel anonyme, appel téléphonique le jour-même à l'école pour en savoir plus sur la situation de l'enfant concerné.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -181,7 +181,7 @@ void main()
 //　翌日、担当児童福祉司が本児宅を訪問し、聞き取り。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　翌日、担当児童福祉司が本児宅を訪問し、聞き取り。",
-		   NULL, "The next day, the welfare officer on duty visited the child's home and heard what they had to say.", Line_ContinueAfterTyping);
+		   NULL, "Le lendemain, le responsable de la section des mineurs fut envoyé au domicile de l'enfant pour de plus amples renseignements.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -192,7 +192,7 @@ void main()
 //　養父母は相談所の指導を受けることに同意。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　養父母は相談所の指導を受けることに同意。",
-		   NULL, "Both adoptive parents agreed to the center's coaching.", Line_ContinueAfterTyping);
+		   NULL, "Les parents adoptifs ont accepté d'être guidés par les services sociaux.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -201,7 +201,7 @@ void main()
 
 //市の虐待防止ネットワークに連絡した。
 	OutputLine(NULL, "市の虐待防止ネットワークに連絡した。",
-		   NULL, " Contacted anti-abuse network in the city.", Line_ContinueAfterTyping);
+		   NULL, " Prise de contact avec le réseau pour la protection de l'enfance.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
@@ -211,7 +211,7 @@ void main()
 //　助言指導とし、以後定期的に地域の民生委員が訪問指導することとなった。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　助言指導とし、以後定期的に地域の民生委員が訪問指導することとなった。",
-		   NULL, "As part of this suggested coaching, a district welfare officer in the area began visiting for coaching at fixed intervals.", Line_ContinueAfterTyping);
+		   NULL, "Mise en place d'une visite régulière des services de l'enfance visant à éduquer les parents.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -221,7 +221,7 @@ void main()
 //（以下の走り書きのメモがホチキスで止められている）
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（以下の走り書きのメモがホチキスで止められている）",
-		   NULL, "(The scrawled note below is stapled to the report)", Line_ContinueAfterTyping);
+		   NULL, "(La note ci-dessous est agraffée au bas du document)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -231,7 +231,7 @@ void main()
 //　前任のＷ氏より関連情報あり。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前任のＷ氏より関連情報あり。",
-		   NULL, "Related information from former official Mr. W.", Line_ContinueAfterTyping);
+		   NULL, "Informations complémentaires données par l'ancien responsable, M. W.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -242,7 +242,7 @@ void main()
 //　５２年度のエ２－３の４４号を参照すること。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　５２年度のエ２−３の４４号を参照すること。",
-		   NULL, "Refer to 1977 document D2-3 number 44.", Line_ContinueAfterTyping);
+		   NULL, "Se reporter au cas ah2-3 n° 44 de l'an Shôwa 52 (1977)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -253,7 +253,7 @@ void main()
 //　市教育相談所のＦ主査が詳しいので助言を求めること。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　市教育相談所のＦ主査が詳しいので助言を求めること。",
-		   NULL, "Ask Chief Investigator F from the city's education consultation offices; he is well-informed about it.", Line_ContinueAfterTyping);
+		   NULL, "Demander conseil au chef de la section des recherches, M. F., du département à l'éducation.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	SetSpeedOfMessage( FALSE, 0, );

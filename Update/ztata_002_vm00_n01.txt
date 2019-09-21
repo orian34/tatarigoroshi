@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 }
 
@@ -7,10 +7,10 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/500300269", 256, TRUE);
 	OutputLine(NULL, "　ぶつかったら決着つけなきゃ！",
-		   NULL, "Now that we've clashed, we must settle the score!", Line_WaitForInput);
+		   NULL, "Il faut mettre tout le monde d'accord !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/500300270", 256, TRUE);
 	OutputLine(NULL, "　手打ちして引き分けなんてヤクザの世界だけなんだからねー！」",
-		   NULL, " Reconciling with a draw only happens in the yakuza world!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Les accords de dernière minute à grand renfort de poignées de mains viriles, ça n'existe que chez les Yakuzas, pas dans la réalité !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -21,10 +21,10 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a17d6b>富田</color>", NULL, "<color=#a17d6b>Tomita</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 24, "ps3/s19/24/502400016", 256, TRUE);
 	OutputLine(NULL, "「前原さんの弁当に致命的な点。",
-		   NULL, "\"The fatal flaw in Maebara-san's bento.", Line_WaitForInput);
+		   NULL, "— Le plus gros point noir dans ton repas,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 24, "ps3/s19/24/502400017", 256, TRUE);
 	OutputLine(NULL, "それは彩りなんです。",
-		   NULL, " It's the coloration.", Line_WaitForInput);
+		   NULL, " c'est la couleur.", Line_WaitForInput);
 }
 
 void dialog002()
@@ -32,19 +32,19 @@ void dialog002()
 //　愉快で面白おかしくてちょっとＨなマンガが何十冊...！＠/
 	ModPlayVoiceLS(4, 25, "ps3/s19/25/502500032", 256, TRUE);
 	OutputLine(NULL, "　愉快で面白おかしくてちょっとＨなマンガが何十冊…！！",
-		   NULL, " Dozens of happy, humorous, slightly perverted manga...!!", Line_WaitForInput);
+		   NULL, " Une vingtaine d'histoires drôles, amusantes, passionnantes, palpitantes, ou même cochonnes !", Line_WaitForInput);
 }
 
 void dialog003()
 {
 //「「「何だとブス！！」」」!sd
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男子全員</color>", NULL, "<color=#f5e6d3>All Boys</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男子全員</color>", NULL, "<color=#f5e6d3>Tous les garçons</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/allb50002", 256, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/s19/00/allb50002b", 256, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/s19/00/allb50002c", 256, TRUE);
 	ModPlayVoiceLS(7, 0, "ps3/s19/00/allb50002d", 256, TRUE);
 	OutputLine(NULL, "「「「何だとブス！！」」」",
-		   NULL, " \"\"\"What was that, ugly?!\"\"\"", Line_Continue);
+		   NULL, " « T'as vu comme t'es moche ? »", Line_Continue);
 }
 
 void dialog004()
@@ -55,9 +55,9 @@ void dialog004()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/500400356", 256, TRUE);
 	OutputLine(NULL, "「だ、…だってだって！",
-		   NULL, "\"B... But!", Line_WaitForInput);
+		   NULL, "— Mais enfin, vous ne voyez pas clair ?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/500400357", 256, TRUE);
 	OutputLine(NULL, "　こんな、…出来合いのお惣菜や缶詰ばっかりで…センスもなくて……それからそれから……！」",
-		   NULL, " It's got... ready-made side dishes and canned goods... and has no style... and, and...!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " C'est du prémâché, tout cela, ce sont des conserves ! Il n'y a aucun sens de l'esthétisme, et pui--", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }

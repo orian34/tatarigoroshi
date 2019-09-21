@@ -1,4 +1,4 @@
-void main()
+﻿void main()
 {
 
 //*Sub_Tips_063
@@ -20,7 +20,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "＜オヤシロさまについて＞",
-		   NULL, "<Oyashiro-sama>", Line_Normal);
+		   NULL, "À propos de la déesse Yashiro", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -28,15 +28,15 @@ void main()
 //　オヤシロさまだが、どういう字で書くのかはあまり知られていない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさまだが、どういう字で書くのかはあまり知られていない。",
-		   NULL, "Nobody really knows what characters to use to write 'Oyashiro-sama.'", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tout le monde lui parle respectueusement, en disant “Ô Déesse Yashiro” ou en la vénérant comme il se doit, mais personne ne sait écrire son nom.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　と言うのも、時代によって様々な修飾詞が付き、微妙に名称が変わったり、当て字が変わったりするため＠本来の正確な名称が何なのか、知る事が大変難しいからだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　と言うのも、時代によって様々な修飾詞が付き、微妙に名称が変わったり、当て字が変わったりするため、",
-		   NULL, "Knowing this is hard partly because depending on the time period,", Line_WaitForInput);
+		   NULL, "Il existe de nombreux objets de culte avec son nom, mais ils n'ont pas tous les mêmes idéogrammes,", Line_WaitForInput);
 	OutputLine(NULL, "本来の正確な名称が何なのか、知る事が大変難しいからだ。",
-		   NULL, " he has been called with various titles, with subtle changes to his name, and nobody knows the real one.", Line_Normal);
+		   NULL, " et même en remontant dans le temps, il est impossible de trouver une source fiable.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -44,16 +44,16 @@ void main()
 //　全ての時代に共通するのは、名称の読みに必ず「オヤシロ」の４文字が入るということだけ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　全ての時代に共通するのは、名称の読みに必ず「オヤシロ」の４文字が入るということだけ。",
-		   NULL, "The only thing all time periods agree on is that the four syllables \"o\" \"ya\" \"shi\" and \"ro\" are always used.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La seule chose qui est commune à toutes les inscriptions est la lecture des premiers idéogrammes ou des premières lettres.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　オヤシロさまを祀る「社（やしろ）」が、そのまま礼拝対象になり＠「御社さま」と呼ばれるに至ったと言う説があるが、実にセンスの欠片もない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさまを祀る「社（やしろ）」が、そのまま礼拝対象になり、",
-		   NULL, "There is a theory stating the shrine, or \"yashiro,\" dedicated to Oyashiro-sama itself became an object of worship.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La théorie la plus simple et la moins intéressante sur l'origine du nom est aussi la plus facile à comprendre : en prenant l'idéogramme du temple 社 que l'on lisait au moyen âge "Yashiro", et en y apposant au début le préfixe de politesse, on obtient une formule très polie et révérencieuse pour interpeler la déesse, qui du coup n'aurait pas de nom à proprement parler.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「御社さま」と呼ばれるに至ったと言う説があるが、実にセンスの欠片もない。",
-		   NULL, "And that people began calling it \"o-yashiro-sama,\" or \"lord honorable shrine\"—but this doesn't make a bit of sense.", Line_Normal);
+		   NULL, "Pour les habitants, le fait de dire “Ô Yashiro” revenait à dire “Je m'adresse à vous, divinité dont je ne connais pas le nom mais à qui nous vouons un culte dans ce sanctuaire”, et donc en l'affublant du mot qui voulait dire “temple” ou “sanctuaire” à l'époque, le petit peuple faisait à la fois une grande économie de mots et en plus il obtenait un nom pour cette déesse. C'est un phénomène très courant dans l'histoire du langage, mais bien trop banal.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -61,22 +61,22 @@ void main()
 //　これに関連するかわからないが、オヤシロさまを祀る高貴な血筋である古手家の人間には、オヤシロさまの血が流れているという＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これに関連するかわからないが、オヤシロさまを祀る高貴な血筋である古手家の人間には、オヤシロさまの血が流れているという。",
-		   NULL, "I don't know whether this is related, but people say the Furude family, the most respected bloodline in terms of worshiping Oyashiro-sama, actually inherited his blood.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Découlant de cet abus de langage, il existe une légende qui dit que la famille à qui appartient le sanctuaire aurait des liens de sang avec la divinité révérée en ses lieux.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　そして古手家に伝えられる伝説では、八代続いて第一子が女子ならば、八代目のその娘はオヤシロさまの生まれ変わりである...というのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして古手家に伝えられる伝説では、八代続いて第一子が女子ならば、八代目のその娘はオヤシロさまの生まれ変わりである…というのだ。",
-		   NULL, "And in the legend the Furude family passes down, if for eight generations in a row the firstborn child is a girl, the eighth daughter will be the reincarnation of Oyashiro-sama.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Les Furude seraient donc des descendants de la déesse, et d'ailleurs, il est transmis dans leur famille que si jamais la première descendance devait être une petite fille pendant huit générations de suite, la petite fille de cette huitième génération serait la réincarnation de la déesse Yashiro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　この伝説に従うなら、オヤシロさまは「御八代さま」と書くのが正しいように思う＠（この当て字はあくまでも私の思いつきなので、真偽は確かめようもないが￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この伝説に従うなら、オヤシロさまは「御八代さま」と書くのが正しいように思う。",
-		   NULL, "If we go by this legend, the characters used for Oyashiro-sama's name should be \"o\" for \"honorable,\" \"ya\" for \"eight,\" and \"shiro\" for \"generation.\" ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pour comprendre cette légende, il suffit d'écrire l'expression “huitième génération” en idéogrammes. Si vous prenez 八代 et que vous faites exprès de prendre la lecture sino-japonaise de ces idéogrammes, vous obtenez non pas “hachi-dai” comme il faudrait le lire, mais “ya-shiro”. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（この当て字はあくまでも私の思いつきなので、真偽は確かめようもないが）",
-		   NULL, "(These character assignments are simply something I've thought up; there is no way to verify it.)", Line_Normal);
+		   NULL, "Donc d'après cette légende, lorsque les gens interpellent la déesse, ils voudraient en fait dire “Ô vous, prêtresse de la huitième génération”... mais en ce cas, ils s'adresseraient à un être humain et non plus à un dieu.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -84,20 +84,20 @@ void main()
 //　だとするなら、御八代さまは再び降臨することを前提にした名称ということになる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だとするなら、御八代さまは再び降臨することを前提にした名称ということになる。",
-		   NULL, "If this is true, then Oyashiro-sama would have been named as such under the assumption he would come again.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ce qui est intéressant, c'est que cette appellation part du principe que oui, effectivement, la divinité finira par se réincarner dans la huitième génération.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　崇拝対象の再臨は、いくつかの宗教でも見受けられるので、そんなに珍しいものではない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　崇拝対象の再臨は、いくつかの宗教でも見受けられるので、そんなに珍しいものではない。",
-		   NULL, "The second coming of an object of worship can be seen in several religions, so this isn't unusual.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ce n'est pas un cas unique dans l'histoire des cultes religieux à travers le monde.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　だが、さらにその中のいくつかでは、崇拝対象の再臨を、「審判の日」等と呼び、世界の終末を意味するものであることも忘れてはならないだろう￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、さらにその中のいくつかでは、崇拝対象の再臨を、「審判の日」等と呼び、世界の終末を意味するものであることも忘れてはならないだろう。",
-		   NULL, "But a few of these religions call the second coming of their object of worship a \"day of judgment\" or something along those lines, and we must not forget they mean it to be the end of the world.", Line_Normal);
+		   NULL, "Mais dans pratiquement tous ces cas du culte de la divinité réincarnée, la naissance de la réincarnation est annonciatrice du Jugement Dernier, de la fin du monde des vivants.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -105,20 +105,20 @@ void main()
 //　村中の年寄り連中に、目に入れても痛くないくらいに甘やかされている少女、古手梨花＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　村中の年寄り連中に、目に入れても痛くないくらいに甘やかされている少女、古手梨花。",
-		   NULL, "Rika Furude, pampered and loved dearly by the elderly folk in the village.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "J'ai observé les anciens du village, et ils vouent une adoration sans bornes pour Rika Furude.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......彼女が、その八代目、「御八代さま」であるという噂がある＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……彼女が、その八代目、「御八代さま」であるという噂がある。",
-		   NULL, "...The rumors say she is the eighth generation, and Oyashiro-sama.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Les gens se racontent qu'elle serait la prêtresse de la huitième génération... la réincarnation de la déesse Yashiro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　古手家の家系図はわからないが、少なくとも、過去２代の間、第一子が女子であることは私も確認している￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手家の家系図はわからないが、少なくとも、過去２代の間、第一子が女子であることは私も確認している。",
-		   NULL, "I do not know the family tree of the Furudes, but at the very least, I can confirm that for the past two generations, the first child has been a girl.", Line_Normal);
+		   NULL, "Je ne connais pas l'arbre généalogique des Furude, mais j'ai connu les deux dernières générations et par deux fois, la première progéniture, celle à qui était transmise le temple, était de sexe féminin.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -126,26 +126,26 @@ void main()
 //　雛見沢を見守る少女、古手梨花＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢を見守る少女、古手梨花。",
-		   NULL, "Rika Furude watches over Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rika Furude est une petite fille qui porte un regard innocent sur Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　彼女の加護を村が失ったなら、どうなるのか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼女の加護を村が失ったなら、どうなるのか？",
-		   NULL, "If the village were to lose her protection, what would happen?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Que se passerait-il si le village venait à perdre la protection divine qu'elle lui procure (peut-être ?) de par sa présence dans le sanctuaire ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　人と鬼は和を失い、どうなるのか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人と鬼は和を失い、どうなるのか？",
-		   NULL, "Would peace between man and demon be lost?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si elle n'était plus là pour faire régner la paix et l'harmonie entre les descendants des démons et les êtres humains normaux, que se passerait-il ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　再び、人食い鬼たちが跋扈する地獄が再現されるのか￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　再び、人食い鬼たちが跋扈する地獄が再現されるのか？",
-		   NULL, "Would it once again create a hellish landscape where man-eating demons run rampant?", Line_Normal);
+		   NULL, "Le village redeviendrait-il alors un lieu chaotique où les démons reprendraient leurs pratiques cannibales ?", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -153,19 +153,19 @@ void main()
 //　泣き、叫び、逃げ惑うしかできないひ弱な人間どもと、それらがいかに美味であったかを思い出した鬼たちの、凄惨な宴＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　泣き、叫び、逃げ惑うしかできないひ弱な人間どもと、それらがいかに美味であったかを思い出した鬼たちの、凄惨な宴。",
-		   NULL, "A gruesome feast of the demons, who suddenly remembered how delicious the weak humans were, who could only cry, scream, and run for their lives.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il y aurait d'un côté les faibles humains, courant dans tous les sens, paniqués, pleurant, criant, hurlant à l'agonie, et de l'autre les démons, joyeux drilles, buvant le sang de leurs victimes et festoyant avec leurs tripes, dans une grande fête perpétuelle.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......それはどんな光景だろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……それはどんな光景だろう。",
-		   NULL, "...What would that look like?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je me demande bien à quoi ressemblerait le village dans ces conditions-là.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　想像するだけでも...胸が、躍る￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　想像するだけでも…胸が、躍る。",
-		   NULL, "Just imagining it... is enough to make my heart pound with excitement.", Line_Normal);
+		   NULL, "Rien que d'y penser... mon cœur en bat la chamade d'impatience et d'excitation.", Line_Normal);
 	ClearMessage();
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
