@@ -8,7 +8,7 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>医師</color>", NULL, "<color=#f5e6d3>Docteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/doca04009", 256, TRUE);
 	OutputLine(NULL, "「高熱と瞳孔の拡大に重度の意識障害も見られました。",
-		   NULL, "— Il avait de la fièvre, ses pupilles étaient dilatées, et il souffrait d'une sévère perte de connaissance.", Line_WaitForInput);
+		   NULL, "— Il avait de la fièvre, ses pupilles étaient dilatées, et il souffrait d'une sévère perte d'attention.", Line_WaitForInput);
 }
 
 void dialog001()
