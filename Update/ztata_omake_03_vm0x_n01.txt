@@ -31,7 +31,7 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100218", 256, TRUE);
 	OutputLine(NULL, "風の噂じゃ、俺のボイス数を超えてるとか？！",
-		   NULL, "Mais il paraît que tu aurai plus de lignes de texte que moi ?!", Line_WaitForInput);
+		   NULL, "Mais il paraît que tu aurais plus de lignes de texte que moi ?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100219", 256, TRUE);
 	OutputLine(NULL, "　へっへ〜ん、俺の苦労を少しは思い知れ〜！！」",
 		   NULL, " Ahah ! Tu vas comprendre ma douleur~ !!", GetGlobalFlag(GLinemodeSp));
@@ -91,7 +91,7 @@ void dialog008()
 //
 	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400026", 256, TRUE);
 	OutputLine(NULL, "　色々と登場シーンもあったのですが、今回カレー勝負で目立つシーンをいただきまして。",
-		   NULL, " Je suis là depuis les toutes premières scènes du premier jeu, et cette fois on ma fait participé à une scène mémorable, le concours de curry.", Line_WaitForInput);
+		   NULL, " Je suis là depuis les toutes premières scènes du premier jeu, et cette fois on m'a fait participer à une scène mémorable, le concours de curry.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400027", 256, TRUE);
 	OutputLine(NULL, "…カレーを馬鹿にする人は許せません。ええ。」",
 		   NULL, " ... On ne rigole pas avec le curry.", GetGlobalFlag(GLinemodeSp));
@@ -233,7 +233,7 @@ void dialog019()
 //
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300387", 256, TRUE);
 	OutputLine(NULL, "どんな分岐にも関係なく話の流れから脱落が確定している人だよ！",
-		   NULL, " Il nous faut quelqu'un qui meurt dans tous les scénarii !", Line_WaitForInput);
+		   NULL, " Il nous faut quelqu'un qui meurt dans tous les scénarios !", Line_WaitForInput);
 }
 
 void dialog020()
@@ -330,7 +330,7 @@ void dialog024()
 //
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600117", 256, TRUE);
 	OutputLine(NULL, "　とはいえ、もうすでにわかってる人たちもいるでしょうけど、まぁいいか。」",
-		   NULL, " J'en suspecte certains d'avoir déjà dévinés de quoi il retourne, mais soit.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " J'en suspecte certains d'avoir déjà deviné de quoi il en retourne, mais soit.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -340,7 +340,7 @@ void dialog025()
 //
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600123", 256, TRUE);
 	OutputLine(NULL, "姉妹キャラでも遅れ登場した片割れの方が絶対に人気が出るってのは、ギャルゲー全盛時代から決められたお約束ですしー♪♪」",
-		   NULL, " Il faut dire que le coup de la sœur jumelle qui apparaît plus tard dans l'histoire, ça fonctionne comme un charme pour s'attirer les bonnes grâces des lecteurs, tout les joueurs de VN savent ça  !", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Il faut dire que le coup de la sœur jumelle qui apparaît plus tard dans l'histoire, ça fonctionne comme un charme pour s'attirer les bonnes grâces des lecteurs, tout les joueurs de VN savent ça !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -361,7 +361,7 @@ void dialog027()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600124", 256, TRUE);
 	OutputLine(NULL, "「まー、圭ちゃんのボイス数は異常ですから、他のシナリオに入れるようになればすぐに逆転されるでしょうけど。",
-		   NULL, "Eh bien, Kei a un nombre de lignes absolument effarant, je suis certaine que ça sera compensé dans les autres scénarios.", Line_WaitForInput);
+		   NULL, "— Eh bien, Kei a un nombre de lignes absolument effarant, je suis certaine que ça sera compensé dans les autres scénarios.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600125", 256, TRUE);
 	OutputLine(NULL, "ま〜、園崎姉妹の実力ってヤツを、とくと皆さんにお見せしてさしあげますよ。」",
 		   NULL, " Enfin bref, soyez prêt à découvrir le véritable pouvoir des sœurs Sonozaki !", Line_Normal);
