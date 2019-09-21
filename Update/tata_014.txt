@@ -803,10 +803,10 @@
 		   NULL, " Central, répondez !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/taia04007", 256, TRUE);
 	OutputLine(NULL, "４０２、生存者発見。",
-		   NULL, " Le n°  402 est vivant.", Line_WaitForInput);
+		   NULL, " Le n°402 est vivant.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/taia04008", 256, TRUE);
 	OutputLine(NULL, "繰り返す、４０２、生存者発見。",
-		   NULL, " Je répète, le n°  402 est vivant !", Line_WaitForInput);
+		   NULL, " Je répète, le n°402 est vivant !", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/taia04009", 256, TRUE);
 	OutputLine(NULL, "場所は営林署入口前。」",
 		   NULL, " Il se trouve devant l'école.", GetGlobalFlag(GLinemodeSp));
@@ -1439,7 +1439,7 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>森川</color>", NULL, "<color=#f5e6d3>Morikawa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/mori0400002", 256, TRUE);
 	OutputLine(NULL, "「現在、雛見沢村で救助活動に入っている自衛隊第９師団の報告として、ガスの濃度は徐々に薄まりつつある。",
-		   NULL, "— Eh bien, pour l'instant, d'après l'escouade de recherche n°  9, le gaz a l'air de décroître en densité au fil des heures et au fil de sa propagation.", Line_Continue);
+		   NULL, "— Eh bien, pour l'instant, d'après l'escouade de recherche n°9, le gaz a l'air de décroître en densité au fil des heures et au fil de sa propagation.", Line_Continue);
 	Wait(1000);
 	OutputLine(NULL, "これ以上の被害の拡大はないと発表しました。",
 		   NULL, " Il semblerait que le risque de victimes supplémentaires soit quasiment nul.", Line_WaitForInput);
@@ -1809,7 +1809,7 @@
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…死体ッ！！！",
-		   NULL, " Encore et encore, des morts, des cadavres,  des corps sans vie !", Line_ContinueAfterTyping);
+		   NULL, " Encore et encore, des morts, des cadavres, des corps sans vie !", Line_ContinueAfterTyping);
 // !sd
 	SetSpeedOfMessage( FALSE, 0, );
 
@@ -2119,91 +2119,91 @@
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "あ",
-		   NULL, "Tiens,", Line_ContinueAfterTyping);
+		   NULL, "Ti", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ぁ",
-		   NULL, "bizarre…", Line_ContinueAfterTyping);
+		   NULL, "en", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "、",
-		   NULL, "Aujourd'hui,", Line_ContinueAfterTyping);
+		   NULL, "s,", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…",
-		   NULL, "je", Line_ContinueAfterTyping);
+		   NULL, " bi", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…",
-		   NULL, "n'ai", Line_ContinueAfterTyping);
+		   NULL, "za", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…",
-		   NULL, "pas", Line_ContinueAfterTyping);
+		   NULL, "rre", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…",
-		   NULL, " entendu", Line_ContinueAfterTyping);
+		   NULL, "…", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…",
-		   NULL, "de", Line_ContinueAfterTyping);
+		   NULL, " …", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "今",
-		   NULL, "bruit", Line_ContinueAfterTyping);
+		   NULL, "Au", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "日",
-		   NULL, "de", Line_ContinueAfterTyping);
+		   NULL, "jo", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "は",
-		   NULL, "pas", Line_ContinueAfterTyping);
+		   NULL, "ur", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "も",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "d'", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "う",
-		   NULL, "trop...", Line_ContinueAfterTyping);
+		   NULL, "hui", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2211,7 +2211,7 @@
 
 
 	OutputLine(NULL, "、",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, ",", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2219,7 +2219,7 @@
 
 
 	OutputLine(NULL, "…",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "…", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2227,7 +2227,7 @@
 
 
 	OutputLine(NULL, "…",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " …", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2235,7 +2235,7 @@
 
 
 	OutputLine(NULL, "あ",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "je", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2243,7 +2243,7 @@
 
 
 	OutputLine(NULL, "の",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " n'", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2251,7 +2251,7 @@
 
 
 	OutputLine(NULL, "つ",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "ai", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2259,7 +2259,7 @@
 
 
 	OutputLine(NULL, "い",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " pas", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2267,7 +2267,7 @@
 
 
 	OutputLine(NULL, "て",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " e", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2275,7 +2275,7 @@
 
 
 	OutputLine(NULL, "く",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "n", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2283,7 +2283,7 @@
 
 
 	OutputLine(NULL, "る",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "t", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2291,7 +2291,7 @@
 
 
 	OutputLine(NULL, "足",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "e", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2299,7 +2299,7 @@
 
 
 	OutputLine(NULL, "音",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "n", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2307,7 +2307,7 @@
 
 
 	OutputLine(NULL, "、",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "d", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2315,7 +2315,7 @@
 
 
 	OutputLine(NULL, "…",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "u", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2323,7 +2323,7 @@
 
 
 	OutputLine(NULL, "…",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " d", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2331,7 +2331,7 @@
 
 
 	OutputLine(NULL, "…",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "e", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2339,7 +2339,7 @@
 
 
 	OutputLine(NULL, "一",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " b", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2347,7 +2347,7 @@
 
 
 	OutputLine(NULL, "度",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "r", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2355,7 +2355,7 @@
 
 
 	OutputLine(NULL, "も",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "u", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2363,7 +2363,7 @@
 
 
 	OutputLine(NULL, "…",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "i", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2371,7 +2371,7 @@
 
 
 	OutputLine(NULL, "…",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "t", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2379,7 +2379,7 @@
 
 
 	OutputLine(NULL, "な",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " de", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2387,7 +2387,7 @@
 
 
 	OutputLine(NULL, "か",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " p", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2395,7 +2395,7 @@
 
 
 	OutputLine(NULL, "っ",
-		   NULL, "en", Line_ContinueAfterTyping);
+		   NULL, "a", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2403,7 +2403,7 @@
 
 
 	OutputLine(NULL, "た",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, "s", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2411,7 +2411,7 @@
 
 
 	OutputLine(NULL, "ん",
-		   NULL, " A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " en", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
@@ -2419,7 +2419,7 @@
 
 
 	OutputLine(NULL, "だ",
-		   NULL, "A REMOVE", Line_ContinueAfterTyping);
+		   NULL, " trop", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 100 );
