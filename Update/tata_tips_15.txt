@@ -19,7 +19,7 @@
 
 //「はいもしもし＠救急ですか、消防ですか。＠
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急情報センター</color>", NULL, "<color=#f5e6d3>Centre d'urgencemergency Center</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急情報センター</color>", NULL, "<color=#f5e6d3>Centre d'urgence</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/firea44001", 256, TRUE);
 	OutputLine(NULL, "「はいもしもし。",
 		   NULL, "— Oui, allô ?", Line_Continue);
@@ -39,7 +39,7 @@
 	PlayBGM( 1, "msys15", 56, 0 );
 
 //「火事ですか、事故ですか＠　落ち着いて話してください。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急情報センター</color>", NULL, "<color=#f5e6d3>Centre d'urgencemergency Center</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急情報センター</color>", NULL, "<color=#f5e6d3>Centre d'urgence</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/firea44002", 256, TRUE);
 	OutputLine(NULL, "「火事ですか、事故ですか？",
 		   NULL, "— C'est un feu, un accident ?", Line_Continue);
@@ -70,7 +70,7 @@
 	ClearMessage();
 
 //「わかりました＠すぐに現場を確認しますので、そちら様のお名前とすぐに連絡のつく電話番号、それから火災現場の詳細な場所をお願いします。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急情報センター</color>", NULL, "<color=#f5e6d3>Centre d'urgencemergency Center</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急情報センター</color>", NULL, "<color=#f5e6d3>Centre d'urgence</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/firea44003", 256, TRUE);
 	OutputLine(NULL, "「わかりました。",
 		   NULL, "— Je vois.", Line_Continue);
