@@ -229,7 +229,7 @@ void dialog019()
 {
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300387", 256, TRUE);
 	OutputLine(NULL, "どんな分岐にも関係なく死亡が確定している人だよ！",
-		   NULL, " Il nous faut quelqu'un qui meurt dans tous les scénarii !", Line_WaitForInput);
+		   NULL, " Il nous faut quelqu'un qui meurt dans tous les scénarios !", Line_WaitForInput);
 }
 
 void dialog020()
