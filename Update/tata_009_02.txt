@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //■まだ９日目（金）
@@ -77,7 +77,8 @@
 		   NULL, "Tout ce qu'il nous restait à faire, c'était de prier pour avoir un gros nombre.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 2, "sprite/normal/re1a_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacter(3, 2, "sprite/re1a_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawSceneWithMask("background/gk1", "right", 0, 0, 300 );
 
 //「...圭一くんは、圭一くんにできる精一杯をしたよ＠だから、...あとは先生たちに任せよ＠...ね？￥
@@ -107,7 +108,7 @@
 		   NULL, "C'est justement parce que je n'ai pas fait tout ce qui était en mon pouvoir qu'on en est là.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 2, "sprite/normal/re1b_nande_b1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 2, "sprite/re1b_nande_b1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「..................もう、考えるのはよそ＠　...圭一くん、少し根を詰めすぎだよ＠そんな調子じゃ圭一くんまで倒れちゃう。＠
 //　放っておいてくれ＠......それだけ言い残し、俺はぼんやりと天井を見上げていた￥
@@ -175,7 +176,8 @@
 	DisableWindow();
 	PlaySE( 4, "wa_020", 56, 64 );
 	Wait( 100 );
-	ModDrawCharacter(2, 22, "sprite/normal/tie_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	ModSetLayerFilter(2, 256, "none");
+	ModDrawCharacter(2, 22, "sprite/tie_2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawScene("background/gk3", 400 );
 
 //　先生がぱたぱたと教室から戻ってくる￥
@@ -199,7 +201,8 @@
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 3, "sprite/normal/me1a_majime_a1_", "1", "left", 7, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModSetLayerFilter(1, 256, "none");
+	ModDrawCharacterWithFiltering(1, 3, "sprite/me1a_majime_a1_", "1", "left", 7, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「きりーーーーーーーーーーーーつ！＠
 //　......先生の表情を見る限り、昼休みの後から曇っている表情はずっとあのままだ＠
@@ -247,7 +250,7 @@
 	Wait( 2000 );
 	PlaySE( 4, "wa_001", 56, 64 );
 	Wait( 1300 );
-	ModDrawCharacter(1, 3, "sprite/normal/me1a_def_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
+	ModDrawCharacter(1, 3, "sprite/me1a_def_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
 	DrawScene("background/gk1", 500 );
 	SetValidityOfInput( TRUE );
 
@@ -263,7 +266,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 2, "sprite/normal/re1a_def_a1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 2, "sprite/re1a_def_a1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「あははは＠魅ぃちゃん、部活は誰が欠けても面白くないよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
@@ -365,7 +368,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/normal/me1a_tohoho_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_tohoho_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「え、.........＠　.....................いいけど。＠
 //　俺の言い方にどこか影があったので、魅音はすぐに俺の真意に気付いたようだった＠
@@ -375,7 +378,7 @@
 		   NULL, "— Hein ?", Line_WaitForInput);
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/normal/me1a_majime_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_majime_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300161", 256, TRUE);
 	OutputLine(NULL, "　…………………いいけど。」",
@@ -467,7 +470,8 @@
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 3, "sprite/sunset/me1a_def_a1_", "0", "left", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModSetLayerFilter(3, 256, "sunset");
+	ModDrawCharacterWithFiltering(3, 3, "sprite/me1a_def_a1_", "0", "left", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「私と婆っちゃしか住んでないもの＠私だけじゃやってけないよ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -485,7 +489,7 @@
 		   NULL, "La domestique s'inclina devant nous et lui dit qu'elle prenait congé, étant donné qu'il était 17h, soit la fin de son service. Elle se retira de la pièce et nous l'entendîmes marcher à très petites foulées dans le couloir. Discrète et distinguée jusqu'au bout...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 3, "sprite/sunset/me1b_wink_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 3, "sprite/me1b_wink_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「週に２～３回ね、婆っちゃの世話とか掃除の手伝いで来てくれてる＠３～４人がローテーションで入ってくれてるんで、大抵、毎日誰かがいてくれるよ＠夕方までだけどね＠あ、宴会とかがあって、人手が欲しい時には別途に呼んでるんだけどさ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -517,7 +521,7 @@
 		   NULL, "Puisque vous avez tellement d'argent, prenez donc Satoko chez vous, merde ! Mes pensées ne semblaient pas avoir échappé à Mion.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 3, "sprite/sunset/me1a_yowaki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 3, "sprite/me1a_yowaki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「............あ、...ごめん。＠
 //「いいよ＠...金の問題じゃないことはわかってるからな。￥
@@ -537,7 +541,7 @@
 		   NULL, " je sais que c'est pas seulement un problème qui se règle à coup de biftons.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 3, "sprite/sunset/me1b_yowaki_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 3, "sprite/me1b_yowaki_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「.........先に行っとくけど、......家はお金持ちかもしれないけど＠...私に自由にできるお金はまったくないんだからね...＠　そこだけは誤解しないでほしい...。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -579,7 +583,7 @@
 		   NULL, "Ou bien alors, est-ce que c'est moi qui tire tout le temps une gueule de tueur en ce moment ?", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 3, "sprite/sunset/me1b_wink_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 3, "sprite/me1b_wink_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「......でさ＠......何＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -591,7 +595,7 @@
 		   NULL, " Qu'est-ce que tu me veux ?", Line_WaitForInput);
 
 	DisableWindow();
-	ModDrawCharacter(3, 3, "sprite/sunset/me1b_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 3, "sprite/me1b_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //　圭ちゃん、何か話があったんじゃないの？＠
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300174", 256, TRUE);
@@ -659,7 +663,8 @@
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	ModSetLayerFilter(2, 256, "sunset");
+	ModDrawCharacter(2, 3, "sprite/me1a_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawScene("background/heya1_04", 300 );
 
 //「.....................どこで聞いたの？＠
@@ -693,7 +698,7 @@
 		   NULL, " mais c'est pour la bonne cause.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1b_sinmyou_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1b_sinmyou_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「.........圭ちゃんが鬼ヶ淵村の名を知ってることだけでも驚きだけど＠......私について、.........いろいろとあることないこと、知ってそうだね。＠
 //「......あぁ＠...あること、ないことだ＠......俺が勘違いしてるだけなのかもしれない＠でも、......それでもいいから聞いてくれ＠...そしてもしも本当なんだったら...、￥
@@ -726,7 +731,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_majime_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_majime_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「圭ちゃんが何の話をしようとしてるかわからないけど、!w1000...話す前に釘を刺すよ＠............とにかく圭ちゃんは大きな勘違いをしてる＠...だからできるなら私は圭ちゃんの話も聞きたくない＠聞いても、何もかなえてあげられないからね＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -860,7 +865,7 @@
 		   NULL, "la victime est toujours un ennemi du village.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_sinmyou_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_sinmyou_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「.....................みたいだね。＠
 //　魅音は他人事のように言った＠
@@ -996,7 +1001,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1b_sinmyou_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1b_sinmyou_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「.........そうだね＠今年の祟りであいつが死んでも、多分、みんな納得するね。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -1031,7 +1036,7 @@
 		   NULL, "C'est trop dur... je ne peux pas...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1b_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1b_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「雛見沢連続怪死事件＠...通称『オヤシロさまの祟り』は、園崎家が主導で御三家が起こしている...村ぐるみの事件だ、!w800......でしょ？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -1073,7 +1078,7 @@
 		   NULL, " Je t'en supplie !", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「.....................圭ちゃんの言ってる内容はさっきから本当にひどいこと＠雛見沢連続怪死事件が、園崎家主導の事件なんだとしたら、...それじゃ主犯格は私ってことだよね＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -1086,7 +1091,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); }
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_sinmyou_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_sinmyou_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //　私が祟りを決め、!w800指示をし、!w800...何人も殺めて、!w800消したことになる＠.........圭ちゃんは私を人殺し呼ばわりするんだ？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -1151,7 +1156,7 @@
 		   NULL, " Non ?!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_odoroki_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_odoroki_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //　魅音は...しばらくの間、面食らっていた＠......呆然としていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1161,7 +1166,7 @@
 		   NULL, " Elle était sidérée.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「..............................いきなり共犯宣言＠　圭ちゃん、かなり大胆だよそれ。＠
 //「いいから話の腰を折るなッ！！＠　......沙都子の叔父を、今年の祟りに、＠
@@ -1186,7 +1191,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_sinmyou_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_sinmyou_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「圭ちゃんストップ＠......そろそろご飯の準備をしたいから、今日はこれくらいにしたいんだけど。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -1214,7 +1219,7 @@
 		   NULL, " Elles se mirent à dégoutter depuis mon menton et à tomber sur les tatamis.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1b_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1b_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「............最初から言ってる通り＠...圭ちゃんは大きな勘違いをしてる＠......オヤシロさまの祟りはオヤシロさまの祟り。...@
 // 例え人間の起こした事件であったにせよ、それは園崎家とは、増してや私とは何の関係もないよ。＠
@@ -1277,7 +1282,7 @@
 		   NULL, "— ... Ouais.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_sinmyou_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_sinmyou_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「......でも、圭ちゃんの気持ちは痛いくらいにわかったよ＠.........もしも本当に私が、...圭ちゃんの言うように、御三家を操って毎年の犠牲者を選べる立場にあったなら＠..................きっと私は圭ちゃんの願いをかなえているよ。＠
 //「..................魅音......！￥
@@ -1301,7 +1306,7 @@
 	ClearMessage();
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_yowaki_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_yowaki_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「でも、現実は違う。私はただの園崎魅音＠
 //　...確かに園崎家はいろいろな意味で悪い噂を持って雛見沢を影から支配している一族だけれども＠連続怪死事件とは何の関係もない＠...ダム闘争では確かに少々過激な抵抗もしたけれど、それだけ＠......人殺しなんて大それたこと、!w1000...絶対にやらないよ。￥
@@ -1351,7 +1356,7 @@
 		   NULL, " tu pourrais pas faire semblant, juste maintenant, juste pour moi ?", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1b_majime_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1b_majime_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「圭ちゃん＠夢を見るのは勝手＠私がここで頷いて見せれば、圭ちゃんは沙都子があさっての夜に解放されると信じて肩の荷を下ろすことができるんだろうけどね＠
 //　...でも、無情にも沙都子の叔父はあさっての夜も越える＠...来週になっても再来週になっても居続ける＠......それを、覚悟してね＠......私は、綿流しの次の日に、なぜ殺さなかったなんて圭ちゃんに詰め寄られたくない。￥
@@ -1380,7 +1385,7 @@
 		   NULL, " Alors prépare-toi à morfler. ", GetGlobalFlag(GLinemodeSp));
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_yowaki_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_yowaki_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300224", 256, TRUE);
@@ -1406,7 +1411,7 @@
 		   NULL, "Elle se leva lentement, puis ferma la porte en papier de riz pour empêcher l'air frais du soir de venir nous gêner.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_sinmyou_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_sinmyou_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 //「......三四さんかな＠圭ちゃんにそんな話を吹き込んだのは＠......あの人、雛見沢をいい感じに誤解してるからなぁ＠...まぁ、本人がひとりで楽しんでる分にはいいんだけど＠.........圭ちゃんを感化するのは、いただけないなぁ＠...やれやれ＠これだからよそ者は。＠
 //「鷹野さんは...関係ないからな。￥
@@ -1425,7 +1430,7 @@
 		   NULL, " Enfin, tant qu'elle reste dans son coin et qu'elle ne dérange personne, je préfère la laisser tranquille.", Line_WaitForInput);
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_tokui_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_tokui_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300229", 256, TRUE);
 	OutputLine(NULL, "………圭ちゃんを感化するのは、いただけないなぁ。",
@@ -1446,7 +1451,7 @@
 		   NULL, "— Madame Takano n'a rien à voir là-dedans.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1b_warai_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1b_warai_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「......はいはい＠でも安心して＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -1458,7 +1463,7 @@
 		   NULL, " c'est compris, c'est pas elle qui te l'a dit.", Line_WaitForInput);
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1b_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1b_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //仮に三四さんが圭ちゃんにしゃべったとわかったって、別にどうにもならないんだから＠......別に三四さんが今年の祟りに選ばれるわけじゃない＠......そもそも、今年も祟りがあるかどうかなんてわからないよ＠...あんなの、不幸な偶然がただ積み重なっただけなんだからさ。￥
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300234", 256, TRUE);
@@ -1491,7 +1496,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_sinmyou_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_sinmyou_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「そうだね＠......謝っておいてくれるかな＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -1503,7 +1508,7 @@
 		   NULL, " Merci de t'excuser…", Line_WaitForInput);
 
 	DisableWindow();
-	ModDrawCharacter(2, 3, "sprite/sunset/me1a_warai_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 3, "sprite/me1a_warai_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //......はははははははははは。￥
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300240", 256, TRUE);
@@ -1516,7 +1521,7 @@
 	SetValidityOfInput( FALSE );
 	Wait( 2000 );
 	SetValidityOfInput( TRUE );
-	ModDrawCharacter(3, 3, "sprite/sunset/me1a_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacter(3, 3, "sprite/me1a_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawSceneWithMask("background/so1_02", "right", 0, 0, 300 );
 
 //　...魅音はあまり時間がないと言いながらも、門まで送ってくれた￥
@@ -1537,7 +1542,7 @@
 		   NULL, "Et pourtant, malgré ces obligations, elle m'avait écouté.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 3, "sprite/sunset/me1a_sinmyou_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 3, "sprite/me1a_sinmyou_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「......天に神さまがいるならさ＠...きっと圭ちゃんの強い思いは伝わるから。＠
 //「.....................あぁ＠今日は変な話をして、本当にごめんな＠...今日の話はなかったことにしてくれていい。＠
@@ -1565,7 +1570,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 3, "sprite/sunset/me1a_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 3, "sprite/me1a_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「............うん＠忘れておくよ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -1589,7 +1594,7 @@
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
-	ModDrawCharacter(3, 3, "sprite/sunset/me1a_wink_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 3, "sprite/me1a_wink_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300245", 256, TRUE);

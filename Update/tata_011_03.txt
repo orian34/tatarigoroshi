@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 ////////*TatarigorosiHen_Day11_3
@@ -1256,7 +1256,8 @@
 		   NULL, " Je relevai la tête et la dévisageai.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 9, "sprite/night/ta1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	ModSetLayerFilter(2, 256, "night");
+	ModDrawCharacter(2, 9, "sprite/ta1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawSceneWithMask("background/m_y2_04", "up", 0, 0, 300 );
 
 	PlaySE( 3, "wa_032", 56, 64 );
@@ -1270,7 +1271,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 9, "sprite/night/ta1_akuwarai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 9, "sprite/ta1_akuwarai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「こんばんは＠月の綺麗な夜ね＠...前原くん。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -1311,7 +1312,7 @@
 		   NULL, "De toutes les personnes que je connaissais, je crois que c'est pile-poil celle que je ne voulais surtout pas rencontrer dans un moment pareil.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 9, "sprite/night/ta1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 9, "sprite/ta1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「こんな時間にどうしたのかしら＠　傘もささずに全身ずぶ濡れの泥まみれで＠......それは何＠　......シャベル？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -1365,7 +1366,7 @@
 		   NULL, "Ne dis pas de conneries, tu risquerais encore de te trahir...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 9, "sprite/night/ta1_warai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 9, "sprite/ta1_warai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「...噂じゃあなた、ゴルフクラブで野球に参加したそうだけど＠そのシャベルも、つまりはそういうこと＠　くすくすくす...、傘の代わりってわけかしら？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -1398,7 +1399,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 9, "sprite/night/ta1_akuwarai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 9, "sprite/ta1_akuwarai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「......ふぅん＠それをこの土砂降りの中、取りに行ったわけ...？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -1418,7 +1419,7 @@
 		   NULL, "— ... J'avais pas prévu qu'il pleuvrait lorsque je suis parti, je dois dire...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 9, "sprite/night/ta1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 9, "sprite/ta1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「...あら、降り出したのは結構前よ＠　...あなた、ずいぶん前から表にいるのね。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -1567,7 +1568,7 @@
 	ClearMessage();
 	DisableWindow();
 	PlayBGM( 2, "lsys23", 56, 0 );
-	ModDrawCharacter(2, 9, "sprite/night/ta1_akuwarai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 9, "sprite/ta1_akuwarai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「.....................コワイ顔＠いじめ過ぎちゃったかしら？　くすくす！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -1592,7 +1593,7 @@
 		   NULL, "Mais les nuages noirs tonnaient toujours en moi...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 9, "sprite/night/ta1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 9, "sprite/ta1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「それはそうと...＠いつまで自転車にまたがったまま、地面に這いつくばってるつもり...＠　そろそろどいてくれるかしら。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -1728,7 +1729,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacter(2, 9, "sprite/night/ta1_warai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 9, "sprite/ta1_warai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「見捨てるのも気の毒だし＠...私がやさしい人で良かったわね、くすくすくす...。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -1830,7 +1831,7 @@
 		   NULL, "Évidemment, vous me connaissez, je suis pas du genre à savoir garder mes pensées secrètes : Madame Takano put les lire sur mon visage comme si elle avait lu un livre.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 9, "sprite/night/ta1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	ModDrawCharacter(2, 9, "sprite/ta1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawSceneWithMask("background/m_y2_04", "up", 0, 0, 300 );
 
 
@@ -1928,7 +1929,7 @@
 		   NULL, "Madame Takano secoua la tête puis haussa les épausses, poussant un long soupir de découragement.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 9, "sprite/night/ta1_warai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 9, "sprite/ta1_warai_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「.........はいはい、わかったわ＠ボクはシャベルがないと困っちゃうんでしょう＠　...そんなコワイ目しなくてもいいわよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -2580,7 +2581,8 @@
 		   NULL, "Elle m'ouvrit la porte.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 9, "sprite/night/ta1_def_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModSetLayerFilter(3, 256, "night");
+	ModDrawCharacterWithFiltering(3, 9, "sprite/ta1_def_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawScene("background/ma5_01", 1300 );
 
 //「本当に肩は必要ないかしら＠　もう一回だけ甘えてもいいのよ＠　くすくす...。＠
@@ -2656,7 +2658,7 @@
 		   NULL, "Je n'avais vraiment pas eu de chance.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 9, "sprite/night/ta1_def_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 9, "sprite/ta1_def_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「じゃあ、...私はこれで失礼するわね＠前原くんと二人きりで夜のドライブだったなんて、...みんなにはナイショよ＠　くすくす...、特にジロウさんにはね。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -2702,7 +2704,8 @@
 		   NULL, "L'espace d'un instant, le vélo plié sur la banquette arrière me revint en mémoire.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 8, "sprite/flashback/tomi1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	ModSetLayerFilter(2, 256, "flashback");
+	ModDrawCharacter(2, 8, "sprite/tomi1_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawSceneWithMask("flashback/damu4", "up", 0, 0, 1300 );
 
 //『やぁ、申し訳ないね。君、雛見沢の人だよね？￥
@@ -2724,7 +2727,7 @@
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 400 );
-	ModDrawCharacter(3, 9, "sprite/night/ta1_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacter(3, 9, "sprite/ta1_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawScene("background/ma2_01", 1000 );
 
 //「あの後ろに積んであった自転車、......富竹さんのですよね...？＠
@@ -2741,7 +2744,7 @@
 		   NULL, "Je vis son regard se transformer, l'espace d'un instant.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 9, "sprite/night/ta1_akuwarai_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 9, "sprite/ta1_akuwarai_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「.................................どうしてそう思うのかしら...？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -2792,7 +2795,7 @@
 		   NULL, "Elle me dévisagea d'un air grâcieux et hautain, puis, après s'être passé une main dans les cheveux, elle me fixa droit dans les yeux.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 9, "sprite/night/ta1_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, TRUE );
+	ModDrawCharacter(3, 9, "sprite/ta1_def_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, TRUE );
 
 //「......だって＠...雛見沢には民宿なんてないのよ＠　ならジロウさんは町に泊まっていることになるわよね。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -2841,7 +2844,7 @@
 		   NULL, " Je me doutais bien que c'était pour ça qu'il se déplaçait à vélo.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 9, "sprite/night/ta1_akuwarai_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 9, "sprite/ta1_akuwarai_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「...そのジロウさんの自転車が私の車に積んであって＠...ジロウさんは私の車に乗っていないなら、!w1000.........おかしいじゃない＠......ジロウさんは雛見沢で自転車ナシ...ってことになっちゃうわよ＠ジロウさんを放っておいて自転車だけが私の車に積んであるなんて、ね＠　ありえないでしょう？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -2936,7 +2939,7 @@
 		   NULL, "Mon instinct de survie me disait qu'il ne valait mieux pas trop y réfléchir.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 9, "sprite/night/ta1_warai_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 9, "sprite/ta1_warai_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「あれは私の自転車なのよ＠.........ジロウさんに選んでもらったから、センスが似てるのは間違いないけれどね。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -3244,7 +3247,8 @@
 	ClearMessage();
 	DisableWindow();
 	DrawScene("background/ma2_01", 400 );
-	ModDrawCharacter(2, 9, "sprite/night/ta1_warai_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModSetLayerFilter(2, 256, "night");
+	ModDrawCharacter(2, 9, "sprite/ta1_warai_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「...よかったわね＠...私がやさしい人で。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }

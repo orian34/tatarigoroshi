@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //■まだ８日目（木）夜

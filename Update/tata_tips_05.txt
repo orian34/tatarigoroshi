@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //■タイトル：　検死初見コピー

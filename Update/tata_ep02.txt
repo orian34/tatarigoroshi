@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //■未公開の録音取材...
