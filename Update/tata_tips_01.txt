@@ -275,7 +275,7 @@ void main()
 	OutputLine(NULL, "「そうそう。",
 		   NULL, "— Ah, au fait.", Line_Continue);
 	OutputLine(NULL, "皆さん。",
-		   NULL, " Mes chers amis, votre attention s’il vous plaît.", Line_WaitForInput);
+		   NULL, " Mes chers amis, votre attention s'il vous plaît.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400048", 256, TRUE);
 	OutputLine(NULL, "ここからは私が歩いた足跡の通りに歩くんですわよ。」",
 		   NULL, " Je vous conseille de bien mettre les pieds là où je vais mettre les pieds pendant les quelques prochains mètres.", GetGlobalFlag(GLinemodeSp));
