@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 }
 
@@ -8,13 +8,15 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000001", 256, TRUE);
 	OutputLine(NULL, "「その前原くんって子は…本当に助っ人になれるんですか…？",
-		   NULL, "— Dites, vous êtes sûres que ce garçon va réellement nous servir à quelque chose ?", Line_WaitForInput);
+		   NULL, "— Dites, vous êtes sûres que ce garçon va réellement nous servir à quelque chose ?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000002", 256, TRUE);
 	OutputLine(NULL, "　相手はあの県立大島のエース、左腕の亀田くんですよ？",
-		   NULL, " Je vous rappelle que nous jouons contre Kameda le gaucher, le meilleur lanceur d'Ôshima !", Line_WaitForInput);
+		   NULL, "Je vous rappelle que nous jouons contre Kameda le gaucher, le meilleur lanceur d'Ôshima !", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s19/10/501000003", 256, TRUE);
 	OutputLine(NULL, "　甲子園クラスの投手を打ち崩せるなんて…一体どんな助っ人なんです…？！」",
-		   NULL, " Vous croyez sincèrement qu'il réussira à battre un lanceur qui est allé en finale de la ligue nationale ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Vous croyez sincèrement qu'il réussira à battre un lanceur qui est allé en finale de la ligue nationale ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -90,14 +92,15 @@ void dialog006()
 		   NULL, "— Les hommes sont tous des pervers, depuis leur naissance !", Line_Continue);
 	Wait( 1500 );
 	OutputLine(NULL, "　だがそれを認めか否かで、男の器は天と地の差を持つのだ！！！",
-		   NULL, " Mais selon qu'ils acceptent leur condition d'animal lubrique ou pas, cela fait toute la différence du monde !", Line_WaitForInput);
+		   NULL, " Mais selon qu'ils acceptent leur condition d'animal lubrique ou pas, cela fait toute la différence du monde !", GetGlobalFlag(GLinemodeSp));
 }
 
 void dialog007()
 {
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29640", 256, TRUE);
 	OutputLine(NULL, "　帰りはエンジェルモートでショートケーキを飽きるまで慰み者に……くっくっく！！",
-		   NULL, " En rentrant, je passe au Angel Mort et je m'enfile des gâteaux à la fraise jusqu'à satiété !", Line_WaitForInput);
+		   NULL, "En rentrant, je passe au Angel Mort et je m'enfile des gâteaux à la fraise jusqu'à satiété !", Line_WaitForInput);
 }
 
 void dialog008()
@@ -105,10 +108,11 @@ void dialog008()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29660", 256, TRUE);
 	OutputLine(NULL, "　身を寄せ合って震える少女たちをひとりずつ順番に…、見せ付けるように…くっくっく！！！",
-		   NULL, "Je les vois trembler dans l'assiette, ne sachant qui sera la prochaine à y passer, alors que je les déguste l'une devant les autres, comme pour leur montrer, pour les démoraliser, leur faire comprendre ce qui les attend !", Line_WaitForInput);
+		   NULL, "Je les vois trembler dans l'assiette, ne sachant qui sera la prochaine à y passer, alors que je les déguste l'une devant les autres, comme pour leur montrer, pour les démoraliser, leur faire comprendre ce qui les attend !", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei29670", 256, TRUE);
 	OutputLine(NULL, "　ひとつ食べるごとに…次は誰を食べようかにゃあと…顎をこう、くいと持って、品定めをして…、",
-		   NULL, " Et à chaque fois, à peine repu de l'une, mon regard se promenant sur elle, relevant leur visage, une main sous leur menton, me demandant tout haut qui j'allais désormais hono-- euh manger...", Line_WaitForInput);
+		   NULL, "Et à chaque fois, à peine repu de l'une, mon regard se promenant sur elle, relevant leur visage, une main sous leur menton, me demandant tout haut qui j'allais désormais hono-- euh manger...", Line_WaitForInput);
 }
 
 void dialog009()

@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //*Sub_Tips_052
@@ -34,8 +34,7 @@
 	PlaySE( 3, "wa_021", 56, 64 );
 
 //　ウラはまだ確認中ですが、ホトケがＳ号のカネを自分が用意した数十の架空口座に上限額いっぱいまで送金して、１億くらいはイったらしいです＠
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ウラはまだ確認中ですが、ホトケがＳ号のカネを自分が用意した数十の架空口座に上限額いっぱいまで送金して、１億くらいはイったらしいです。",
 		   NULL, "Il est en train de vérifier s'il existe des preuves tangibles pour l'affirmer, mais apparemment, le macchabée aurait placé l'argent volé sur plusieurs comptes en banque factices, pour un montant total supérieur à 100 millions de yens.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }

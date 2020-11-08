@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //*Sub_Tips_057
@@ -177,7 +177,9 @@
 //　本児より電話相談が入り、同日、学校に電話で、本児の状況を聞き取り。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本児より電話相談が入り、同日、学校に電話で、本児の状況を聞き取り。",
-		   NULL, "Suite à l'appel anonyme, appel téléphonique le jour-même à l'école pour en savoir plus sur la situation de l'enfant concerné.", Line_ContinueAfterTyping);
+		   NULL, "Suite à l'appel anonyme, appel téléphonique le jour-même à l'école pour en savoir plus sur la situation de l'enfant concerné.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -186,7 +188,7 @@
 
 //　即日、担当児童福祉司が本児宅を訪問し、面談を行なった。
 	OutputLine(NULL, "　即日、担当児童福祉司が本児宅を訪問し、面談を行なった。",
-		   NULL, " Le même jour encore, le responsable de la section des enfants fut envoyé au domicile de l'enfant pour de plus amples renseignements.", Line_ContinueAfterTyping);
+		   NULL, "Le même jour encore, le responsable de la section des enfants fut envoyé au domicile de l'enfant pour de plus amples renseignements.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -197,7 +199,9 @@
 //　養父は真摯に指導を受け入れ、以後、市の育児ワークショップを受講することに同意した。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　養父は真摯に指導を受け入れ、以後、市の育児ワークショップを受講することに同意した。",
-		   NULL, "Le père adoptif a accepté de coopérer avec la plus grande sincérité et de suivre des cours d'éducation au centre pédiatrique de Shishibone.", Line_ContinueAfterTyping);
+		   NULL, "Le père adoptif a accepté de coopérer avec la plus grande sincérité et de suivre des cours d'éducation au centre pédiatrique de Shishibone.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -205,7 +209,7 @@
 
 //　助言指導とし、経過を観察することとする。/
 	OutputLine(NULL, "　助言指導とし、経過を観察することとする。",
-		   NULL, " Il fut décidé de limiter là l'action des services sociaux, et d'observer l'évolution de la situation.", Line_ContinueAfterTyping);
+		   NULL, "Il fut décidé de limiter là l'action des services sociaux, et d'observer l'évolution de la situation.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);

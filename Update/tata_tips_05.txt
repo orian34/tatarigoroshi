@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //■タイトル：　検死初見コピー
@@ -35,7 +35,7 @@
 	PlayBGM( 2, "lsys24", 56, 0 );
 
 //　抵抗時に出来たと思われる傷痕から、ロープ等でなく、拘束を目的とした専用の拘束台に拘束したものと推定。
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　抵抗時に出来たと思われる傷痕から、ロープ等でなく、拘束を目的とした専用の拘束台に拘束したものと推定。",
 		   NULL, "D'après les blessures faites lorsque la victime a résisté à ses entraves, elle n'était pas maintenue immobilisée par des cordes, mais par des objets spécifiquement étudiés pour entraver le corps, placée sur un meuble approprié.", Line_ContinueAfterTyping);
 

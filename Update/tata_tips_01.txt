@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //*Sub_Tips_045
@@ -59,9 +59,10 @@
 //　...どちらも実に滑稽だが、それでもまだいいさ＠足が地に着いてるだけマシだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…どちらも実に滑稽だが、それでもまだいいさ。",
-		   NULL, "Rena avait un seau sur la tête dont l'anse lui bloquait les bras, et elle n'arrivait pas à se l'enlever.", Line_WaitForInput);
+		   NULL, "Rena avait un seau sur la tête dont l'anse lui bloquait les bras, et elle n'arrivait pas à se l'enlever.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "足が地に着いてるだけマシだ。",
-		   NULL, " Elles avaient toutes les deux l'air parfaitement ridicule, mais elles étaient plus ou moins debout, leurs pieds touchaient terre, c'était une situation encore tenable.", Line_Normal);
+		   NULL, "Elles avaient toutes les deux l'air parfaitement ridicule, mais elles étaient plus ou moins debout, leurs pieds touchaient terre, c'était une situation encore tenable.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/mo2", "left", 0, 0, 300 );
@@ -106,13 +107,14 @@
 	DrawScene("black", 1000 );
 
 //　そもそもの発端は、都会育ちの俺が自然に親しんでないとか何とかで、山へ散策に行こうなんて話からだった￥
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そもそもの発端は、都会育ちの俺が自然に親しんでないとか何とかで、山へ散策に行こうなんて話からだった。",
 		   NULL, "Toute cette débandade avait commencé lorsque les filles avaient décidé de m'emmener dans la montagne pour m'apprendre quelques petits trucs sur la vie à la campagne, moi qui n'avais jamais connu cela, n'étant qu'un idiot de citadin.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeOutBGM( 2, 1000, TRUE );
-	ModDrawCharacterWithFiltering(3, 2, "sprite/normal/re1a_def_a1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacterWithFiltering(3, 2, "sprite/re1a_def_a1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawSceneWithMask("background/gk1", "up", 0, 0, 300 );
 
 //「うーん、でもレナもよく裏山は知らないよ＠/
@@ -122,7 +124,7 @@
 		   NULL, "— Mais tu sais, je connais pas trop l'arrière-pays non plus, hein ?", Line_WaitForInput);
 
 	DisableWindow();
-	ModDrawCharacter(3, 2, "sprite/normal/re1b_hau_b1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 2, "sprite/re1b_hau_b1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //　レナじゃ迷子になっちゃう＠はぅ。＠
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200059", 256, TRUE);
@@ -135,7 +137,8 @@
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 3, "sprite/normal/me1a_tohoho_a1_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModSetLayerFilter(1, 256, "none");
+	ModDrawCharacterWithFiltering(1, 3, "sprite/me1a_tohoho_a1_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「裏山ねぇ＠...小さい頃はよく遊んだけど、...ここ何年かはさっぱりだなぁ＠あそこ、道を誤るとかなりデンジャラスに迷うんだよなぁ。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -150,7 +153,8 @@
 		   NULL, " et puis je me suis perdue une fois, et c'était pas piqué des hannetons.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacterWithFiltering(2, 4, "sprite/normal/sa1a_warai_a1_", "1", "left", 1, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	ModSetLayerFilter(2, 256, "none");
+	ModDrawCharacterWithFiltering(2, 4, "sprite/sa1a_warai_a1_", "1", "left", 1, -240, 0, FALSE, 0, 0, 0, 0, 0, 10, 0, FALSE );
 	DrawSceneWithMask("background/gk3", "left", 0, 0, 300 );
 
 //「裏山なら私たちにお任せですわよー＠　山が丸ごと、私と梨花の遊び場なんですもの＠ねぇ梨花ぁ？＠
@@ -168,7 +172,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 5, "sprite/normal/ri1_warai_a1_", "1", "right", 1, 240, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 5, "sprite/ri1_warai_a1_", "1", "right", 1, 240, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「......みー！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -193,7 +197,7 @@
 
 	DisableWindow();
 	FadeBustshotWithFiltering( 2, "right", 1, FALSE, 0, 0, 300, TRUE );
-	ModDrawCharacterWithFiltering(1, 2, "sprite/normal/re1a_komaru_a1_", "0", "left", 1, -240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 2, "sprite/re1a_komaru_a1_", "0", "left", 1, -240, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「でも圭一くん...＠裏山は迷うから遊びに行っちゃいけないって夏休みのしおりにも書いてあるよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
@@ -207,7 +211,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacter(3, 5, "sprite/normal/ri1_niko_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	ModDrawCharacter(3, 5, "sprite/ri1_niko_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「......まだ夏休みではありませんですから、大丈夫なのですよ＠ボクたちが道を知ってますからご安心なのです。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -219,7 +223,7 @@
 		   NULL, " Et puis, je connais le chemin, soyez tranquilles.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(2, 4, "sprite/normal/sa1b_hau_b2_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	ModDrawCharacter(2, 4, "sprite/sa1b_hau_b2_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「裏山は昔から私たちの遊び場でございますもの＠　庭も同然＠　抜け道、近道までばっちりでございましてよー！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
@@ -262,7 +266,7 @@
 
 	DisableWindow();
 	FadeOutBGM( 1, 1000, TRUE );
-	ModDrawCharacter(3, 4, "sprite/normal/sa2a_akuwarai_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacter(3, 4, "sprite/sa2a_akuwarai_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawScene("background/mo3", 400 );
 	PlayBGM( 1, "msys12", 56, 0 );
 
@@ -272,7 +276,7 @@
 	OutputLine(NULL, "「そうそう。",
 		   NULL, "— Ah, au fait.", Line_Continue);
 	OutputLine(NULL, "皆さん。",
-		   NULL, " Mes chers amis, votre attention s’il vous plaît.", Line_WaitForInput);
+		   NULL, " Mes chers amis, votre attention s'il vous plaît.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400048", 256, TRUE);
 	OutputLine(NULL, "ここからは私が歩いた足跡の通りに歩くんですわよ。」",
 		   NULL, " Je vous conseille de bien mettre les pieds là où je vais mettre les pieds pendant les quelques prochains mètres.", GetGlobalFlag(GLinemodeSp));
@@ -291,7 +295,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 5, "sprite/normal/ri2_niko_a1_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 5, "sprite/ri2_niko_a1_", "0", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「......大人しく沙都子の言うことを聞くほうが身のためなのです。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -301,7 +305,7 @@
 	ClearMessage();
 	DisableWindow();
 	FadeAllBustshots( 400, TRUE );
-	ModDrawCharacter(2, 2, "sprite/normal/re2a_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	ModDrawCharacter(2, 2, "sprite/re2a_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
 
 //「あれれ＠ねー、魅ぃちゃん、ほらこれ＠なんだろね＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
@@ -316,7 +320,7 @@
 		   NULL, " Tu sais ce que c'est ?", Line_WaitForInput);
 
 	DisableWindow();
-	ModDrawCharacter(2, 2, "sprite/normal/re2b_warai_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+	ModDrawCharacter(2, 2, "sprite/re2b_warai_b1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //引っ張るのかな＠　かな？￥
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200063", 256, TRUE);
@@ -370,7 +374,7 @@
 		   NULL, "Le fil que Rena avait décroché fit s'abattre devant elle une pluie de lances taillées dans du bambou.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacter(3, 3, "sprite/normal/me2_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
+	ModDrawCharacter(3, 3, "sprite/me2_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 0, FALSE );
 	DrawScene("background/mo3", 400 );
 	PlayBGM( 1, "msys03", 56, 0 );
 
@@ -435,7 +439,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 5, "sprite/normal/ri2_warai_a1_", "1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 5, "sprite/ri2_warai_a1_", "1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「......懐かしいのですよ＠これは確か、２年生の２学期に沙都子が作ったトラップなのです。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -448,7 +452,7 @@
 	ClearMessage();
 	DisableWindow();
 	FadeBustshotWithFiltering( 3, "left", 1, FALSE, 0, 0, 300, TRUE );
-	ModDrawCharacterWithFiltering(3, 4, "sprite/normal/sa2a_yareyare_a1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 4, "sprite/sa2a_yareyare_a1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「危なかったですわねぇ＠竹槍の先端には犬のフンが塗ってありますから、傷になるとあとで腐り出しますわよ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
@@ -482,7 +486,8 @@
 		   NULL, "Et elle avait donc passé de nombreuses heures à placer des pièges un peu partout dans les forêts de la montagne...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 2, "sprite/normal/re2b_komaru_b1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModSetLayerFilter(3, 256, "none");
+	ModDrawCharacterWithFiltering(3, 2, "sprite/re2b_komaru_b1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「...圭一くん、ひょっとして......裏山が立入禁止なのは迷うからじゃなくて、...危ないからじゃないのかな...。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
@@ -498,7 +503,8 @@
 		   NULL, "Mion et moi acquiescèrent sans attendre. Cette théorie semblait plus que probable…", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 4, "sprite/normal/sa2a_akuwarai_a1_", "1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModSetLayerFilter(1, 256, "none");
+	ModDrawCharacterWithFiltering(1, 4, "sprite/sa2a_akuwarai_a1_", "1", "left", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「さ＠　先を急ぎますわよ＠早く戻らないと暗くなってしまいますわ＠暗くなったら、私だって危ないでございますからね。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
@@ -669,7 +675,7 @@
 		   NULL, "Malgré le seau, Rena avait réussi à me frapper plusieurs fois. Mion se mit à pleurer.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
-	ModDrawCharacterWithFiltering(3, 5, "sprite/normal/ri2_warai_a1_", "1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
+	ModDrawCharacterWithFiltering(3, 5, "sprite/ri2_warai_a1_", "1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
 
 //「......落し穴から抜けられなくて、かぁいそかぁいそなのです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -680,7 +686,7 @@
 
 
 	DisableWindow();
-	ModDrawCharacterWithFiltering(1, 4, "sprite/normal/sa2b_yareyare_b1_", "0", "right", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(1, 4, "sprite/sa2b_yareyare_b1_", "0", "right", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 //「もー、皆さん、だから言いましたでしょう＠　私から離れたらいけませんでしてよ、って！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }

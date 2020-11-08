@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 //■未公開の録音取材...
@@ -27,9 +27,10 @@
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大阪府内に住むある老夫婦が、",
-		   NULL, "Un vieux couple résidant dans la préfecture d'Ôsaka découvrit un jour une cassette audio parmi les affaires de leur fils, mort 8 années auparavant.", Line_WaitForInput);
+		   NULL, "Un vieux couple résidant dans la préfecture d'Ôsaka découvrit un jour une cassette audio parmi les affaires de leur fils, mort 8 années auparavant.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "８年前に死亡した息子の遺品を整理中に一本のカセットテープを発見した。",
-		   NULL, " Le fils aîné de ce couple (âgé de 47 ans au moment de son décès accidentel) était mort en l'an 7 de l'ère Heisei (1995) en tombant de sa barque de pêche.", Line_Normal);
+		   NULL, "Le fils aîné de ce couple (âgé de 47 ans au moment de son décès accidentel) était mort en l'an 7 de l'ère Heisei (1995) en tombant de sa barque de pêche.", Line_Normal);
 	ClearMessage();
 
 //　夫婦の息子（４７歳・事故当時）は、平成７年に釣り船の転覆事故により行方不明となった＠
@@ -67,7 +68,7 @@
 	ClearMessage();
 
 //　大災害を生き残り、謎に包まれた６月２１日の深夜を知る唯一の人間として、当時多くの関心が集まったが、公の場で肉声で語ることは一切なかった＠
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大災害を生き残り、謎に包まれた６月２１日の深夜を知る唯一の人間として、当時多くの関心が集まったが、公の場で肉声で語ることは一切なかった。",
 		   NULL, "À l'époque, nombreuses furent les personnes à vouloir savoir ce que ce jeune homme avait à dire sur les événements de la nuit du 21 juin. Mais bien qu'étant le seul survivant, il n'avait jamais tenté d'en parler en public.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -172,10 +173,11 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04007", 256, TRUE);
 	OutputLine(NULL, "「どうしてそんなところに？",
-		   NULL, "— Mais pourquoi étais-tu là-bas ?", Line_WaitForInput);
+		   NULL, "— Mais pourquoi étais-tu là-bas ?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>記者</color>", NULL, "<color=#f5e6d3>Journaliste</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/kisya04008", 256, TRUE);
 	OutputLine(NULL, "　誰もが持つ疑問だけど、当日は平日で、しかも落ちた橋は君の家と学校からは大きく離れているよね？」",
-		   NULL, " Je sais que c'est une question que tout le monde a dû te poser, mais... c'était un jour de semaine, c'était très loin de chez toi, et ce n'était pas exactement sur le chemin de l'école, non ?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je sais que c'est une question que tout le monde a dû te poser, mais... c'était un jour de semaine, c'était très loin de chez toi, et ce n'était pas exactement sur le chemin de l'école, non ?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

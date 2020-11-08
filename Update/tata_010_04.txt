@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 ////////*TatarigorosiHen_Day10_4
@@ -56,9 +56,10 @@
 //　底無しの沼で、沈めば何人たりとも浮かび上がることはできず...みな地の底の鬼の国に飲み込まれていくのみ＠...そう伝えられる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　底無しの沼で、沈めば何人たりとも浮かび上がることはできず…みな地の底の鬼の国に飲み込まれていくのみ。",
-		   NULL, "On le croyait sans fond. Tous ceux qui y tombaient n'en ressortaient jamais.", Line_WaitForInput);
+		   NULL, "On le croyait sans fond. Tous ceux qui y tombaient n'en ressortaient jamais.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そう伝えられる。",
-		   NULL, " Les légendes disaient qu'il aspirait les curieux et les amenait au royaume des démons, au plus profond des entrailles de la Terre, dans le royaume des morts.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Les légendes disaient qu'il aspirait les curieux et les amenait au royaume des démons, au plus profond des entrailles de la Terre, dans le royaume des morts.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　オヤシロさまの祟りを模倣しようとしているなら、この沼に遺体や凶器を投棄するのはセオリーのようにも感じられる￥
@@ -171,7 +172,7 @@
 
 
 //　第一の事件に習い、バラバラにして隠すのも面白いかと思ったが、...人間を解体する苦労と準備、時間は俺個人にはなかなか難しい＠
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　第一の事件に習い、バラバラにして隠すのも面白いかと思ったが、…人間を解体する苦労と準備、時間は俺個人にはなかなか難しい。",
 		   NULL, "Je pourrais le découper en morceaux, histoire de rigoler un coup quand les gens feront le rapprochement avec le premier meurtre, mais... il faut de sacrés nerfs pour découper un cadavre. Et de l'équipement. Et du temps aussi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -887,9 +888,10 @@
 	OutputLine(NULL, "　……自分の後人生を賭けた大きな関門なのに、…まるでどこか他人事のよう。",
 		   NULL, "J'étais en plein milieu d'une mission qui allait bouleverser ma vie, et pourtant, j'avais l'impression que tout cela arrivait à quelqu'un d'autre.", Line_WaitForInput);
 	OutputLine(NULL, "……そんな非現実的な感覚。",
-		   NULL, " C'était un peu surréel ;", Line_WaitForInput);
+		   NULL, " C'était un peu surréel ;", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…何て言うのか、……全てが遠い。",
-		   NULL, " j'avais atteint une certaine distance avec toutes les choses de ce monde.", Line_Normal);
+		   NULL, "j'avais atteint une certaine distance avec toutes les choses de ce monde.", Line_Normal);
 	ClearMessage();
 
 //　............いいさ＠
@@ -1342,7 +1344,7 @@
 		   NULL, "— ……….. Non, j'veux pas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300304", 256, TRUE);
 	OutputLine(NULL, "…………ぅっく…、」",
-		   NULL, " … *sniff*", GetGlobalFlag(GLinemodeSp));
+		   NULL, " …*sniff*", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1461,16 +1463,19 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300316", 256, TRUE);
 	OutputLine(NULL, "「……………あれから…ずっと帰ってこないのに、……あの子のことをもう一度、押し付けるためだけに、……また電話をしてきたんですね。",
-		   NULL, "— ... Tu n'es pas passé une seule fois, et tu as le culot pour m'appeler encore une fois pour me redemander le même service ?", Line_WaitForInput);
+		   NULL, "— ... Tu n'es pas passé une seule fois, et tu as le culot pour m'appeler encore une fois pour me redemander le même service ?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300317", 256, TRUE);
 	OutputLine(NULL, "……本当に……ずるい人…。",
-		   NULL, " Tu te fous de ma gueule... salopiaud, va.", Line_WaitForInput);
+		   NULL, "Tu te fous de ma gueule... salopiaud, va.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300318", 256, TRUE);
 	OutputLine(NULL, "……ぅっく……。",
-		   NULL, " *sniff*", Line_WaitForInput);
+		   NULL, " *sniff*", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300319", 256, TRUE);
 	OutputLine(NULL, "……ねぇ、あなた",
-		   NULL, " ... C'est bien toi, hein ?", Line_Continue);
+		   NULL, "... C'est bien toi, hein ?", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
@@ -2077,13 +2082,15 @@
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300349", 256, TRUE);
 	OutputLine(NULL, "「それに、…悟史には逃亡資金なんてなかったと思う。",
-		   NULL, "— Et puis pour être honnête avec toi, je ne pense pas qu'il avait suffisamment d'argent pour prendre la fuite.", Line_WaitForInput);
+		   NULL, "— Et puis pour être honnête avec toi, je ne pense pas qu'il avait suffisamment d'argent pour prendre la fuite.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300350", 256, TRUE);
 	OutputLine(NULL, "悟史が預金を下ろした日。",
-		   NULL, " Le jour où il a vidé son compte, tu sais…", Line_WaitForInput);
+		   NULL, "Le jour où il a vidé son compte, tu sais…", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300351", 256, TRUE);
 	OutputLine(NULL, "………これは誰に言っても信じてくれないんだけど…、",
-		   NULL, " Je sais qu'il l'a achetée, même si personne ne veut me croire. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je sais qu'il l'a achetée, même si personne ne veut me croire. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s03/03/140300352", 256, TRUE);
 	OutputLine(NULL, "沙都子のために買うと言ってたぬいぐるみが、",
@@ -2545,7 +2552,7 @@
 	ClearMessage();
 
 //　会ったことも話したこともない、...顔すらよく知らない男に、......これほどの親近感を覚えるのは......初めての経験だった￥
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　会ったことも話したこともない、…顔すらよく知らない男に、……これほどの親近感を覚えるのは……初めての経験だった。",
 		   NULL, "Je ne t'ai jamais rencontré, et nous n'avons jamais discuté ensemble, toi et moi, mais... même si je ne savais absolument pas à quoi tu ressemblais, je savais que nous étions très similaires et très proches. C'était une expérience que je vivais pour la toute première fois de ma vie...", Line_Normal);
 	ClearMessage();

@@ -1,4 +1,4 @@
-﻿void main()
+void main()
 {
 
 
@@ -91,7 +91,9 @@
 //　その後の調査により、鬼ヶ淵沼の直下にマグマ溜りと温泉があることがわかり、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その後の調査により、鬼ヶ淵沼の直下にマグマ溜りと温泉があることがわかり、",
-		   NULL, "Grâce aux analyses faites après la catastrophe, il fut découvert qu'il y avait des poches de magma juste sous le marais des abysses des démons", Line_ContinueAfterTyping);
+		   NULL, "Grâce aux analyses faites après la catastrophe, il fut découvert qu'il y avait des poches de magma juste sous le marais des abysses des démons", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -100,7 +102,7 @@
 
 //そこより湧き出したガスが、災害の原因であると断定した。
 	OutputLine(NULL, "そこより湧き出したガスが、災害の原因であると断定した。",
-		   NULL, " et que le réchauffement de l'eau à son contact avait produit le mélange gazeux mortel.", Line_ContinueAfterTyping);
+		   NULL, "et que le réchauffement de l'eau à son contact avait produit le mélange gazeux mortel.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -123,7 +125,9 @@
 //　雛見沢村には、祟りがあると瘴気が湧き出して、村を滅ぼすとの伝承があったといい、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢村には、祟りがあると瘴気が湧き出して、村を滅ぼすとの伝承があったといい、",
-		   NULL, "Au village de Hinamizawa, un miasme descend soit-disant de la montagne lorque la malédiction doit frapper.", Line_ContinueAfterTyping);
+		   NULL, "Au village de Hinamizawa, un miasme descend soit-disant de la montagne lorque la malédiction doit frapper.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -132,7 +136,7 @@
 
 //学者からは過去にも同様のガス災害があり、それが伝承として残ったのではないかと指摘する声があがっている。
 	OutputLine(NULL, "学者からは過去にも同様のガス災害があり、それが伝承として残ったのではないかと指摘する声があがっている。",
-		   NULL, " Les scientifiques ont émis l'hypothèse que d'autres incidents de ce genre eurent lieu ici à travers les siècles, et que la population locale en avait gardé le souvenir à travers cette croyance.", Line_ContinueAfterTyping);
+		   NULL, "Les scientifiques ont émis l'hypothèse que d'autres incidents de ce genre eurent lieu ici à travers les siècles, et que la population locale en avait gardé le souvenir à travers cette croyance.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -143,8 +147,7 @@
 	PlayBGM( 2, "lsys24", 56, 0 );
 
 //　一部の過激な週刊誌報道は、雛見沢村で数年間にわたり起こっていた連続怪死事件の延長にあるのではないかとし、「オヤシロさまの祟り説」を煽り立てた。
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一部の過激な週刊誌報道は、雛見沢村で数年間にわたり起こっていた連続怪死事件の延長にあるのではないかとし、「オヤシロさまの祟り説」を煽り立てた。",
 		   NULL, "Dans certains journaux à sensations, les journalistes ont été jusqu'à supposer que cette catastrophe n'était que la prolongation de la série de meurtres qui a défrayé la chronique dans ce village, et que les gens considéraient comme étant “la malédiction de la déesse Yashiro”.", Line_ContinueAfterTyping);
 
@@ -178,7 +181,9 @@
 //　その上、オヤシロさまの祟りに取り憑かれたと自称する親類筋の何人かが奇怪な方法で自殺を遂げると、/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その上、オヤシロさまの祟りに取り憑かれたと自称する親類筋の何人かが奇怪な方法で自殺を遂げると、",
-		   NULL, "Pour couronner le tout, certaines personnes issues de ces familles se donnèrent la mort dans des circonstances particulièrement sordides, se déclarant sous l'influence du mauvais œil de la déesse Yashiro.", Line_ContinueAfterTyping);
+		   NULL, "Pour couronner le tout, certaines personnes issues de ces familles se donnèrent la mort dans des circonstances particulièrement sordides, se déclarant sous l'influence du mauvais œil de la déesse Yashiro.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -187,7 +192,7 @@
 
 //...もう全国に波及する衝撃には歯止めがなくなっていた。
 	OutputLine(NULL, "…もう全国に波及する衝撃には歯止めがなくなっていた。",
-		   NULL, " Ces événements achevèrent de donner à l'incident une dimension surnaturelle, qui laissa une empreinte dans le subconscient collectif de toute la nation.", Line_ContinueAfterTyping);
+		   NULL, "Ces événements achevèrent de donner à l'incident une dimension surnaturelle, qui laissa une empreinte dans le subconscient collectif de toute la nation.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -257,7 +262,7 @@
 	PlayBGM( 2, "lsys24", 56, 0 );
 
 //　ガスの濃度低下により、一度は封鎖が解除されかけたが、同年秋に再びガスの噴出が確認され、再び周辺一帯は封鎖された。
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ガスの濃度低下により、一度は封鎖が解除されかけたが、同年秋に再びガスの噴出が確認され、再び周辺一帯は封鎖された。",
 		   NULL, "Lorsque les premiers gaz furent dissipés, la quarantaine fut levée, mais en automne de la même année, encore une fois, on put constater de fortes émanations de gaz toxiques. La quarantaine fut rétablie, et la région fut scellée.", Line_ContinueAfterTyping);
 
