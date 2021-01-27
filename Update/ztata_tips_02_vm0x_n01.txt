@@ -36,6 +36,7 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しかし、そんな強がりも二人がかり、しかも真っ白けの姿で無言のまま、……",
 		   NULL, "Cela étant dit, ces deux là, tentant de faire les durs, tout en restant droits comme des piquets, completement blanc en silence… ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "というより、喋りたくても口の中にまで石灰が詰まって、モゴモゴと喋れない様子で迫りくるさまは、……確かにホラ、沙都子ながらに怖いかも。",
 		   NULL, "Enfin bref, si on oublie ce qui vient de se passer, se faire courser par des types avec la bouche tellement remplie de craie qu'ils en sont incapables de parler… Ouais, même pour Satoko c'est flippant.", GetGlobalFlag(GLinemodeSp));
 

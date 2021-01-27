@@ -41,26 +41,28 @@ void dialog002()
 void dialog003()
 {
 //A 私個人としては、大災害が実際に起こったときの惨劇の描写も欲しかったところだけど、みんなの感想も同じかしら？」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", "<size=-3>", Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/440900124", 256, TRUE);
 	OutputLine(NULL, "　私個人としては、大災害が実際に起こったときの惨劇の描写も欲しかったところだけど、みんなの感想も同じかしら？」",
-		   NULL, "Enfin, personnellement, j'aurais préféré avoir une scène avec les habitants du village qui succombent un à un, la bave aux lèvres, dans des douleurs atroces... mais je suppose qu'on ne peut pas toujours avoir tout ce que l'on veut. Et vous, mes chers amis, ça vous a plu ?", Line_Continue);
+		   NULL, "Enfin, personnellement, j'aurais préféré avoir une scène avec les habitants du village qui succombent un à un, la bave aux lèvres, dans des douleurs atroces... mais je suppose qu'on ne peut pas toujours avoir tout ce que l'on veut. Et vous, mes chers amis, ça vous a plu ?", GetGlobalFlag(GLinemodeSp));
 }
 
 void dialog004()
 {
 //A ではここで、今回の会合に改めてご参加いただく皆さんです。
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200239", 256, TRUE);
 	OutputLine(NULL, "　ではここで、今回の会合に改めてご参加いただく皆さんです。",
-		   NULL, " Alors, cette fois-ci, nous allons commencer par les personnages qui ont enfin eu droit à un dessin !", Line_WaitForInput);
+		   NULL, "Alors, cette fois-ci, nous allons commencer par les personnages qui ont enfin eu droit à un dessin !", GetGlobalFlag(GLinemodeSp));
 }
 void dialog005()
 {
 //A 脇役にしては出番もセリフも多過ぎで、しかもキャラが強すぎましてよ」
 //
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400215", 256, TRUE);
 	OutputLine(NULL, "脇役にしては出番もセリフも多過ぎで、しかもキャラが強すぎましてよ。」",
-		   NULL, " Pour un personnage au rôle éphémère, vous avez eu beaucoup de scènes et de beaux dialogues !", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pour un personnage au rôle éphémère, vous avez eu beaucoup de scènes et de beaux dialogues !", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -305,14 +307,15 @@ void dialog021()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000096", 256, TRUE);
 	OutputLine(NULL, "　早く雛見沢に帰って、沙都子ちゃんをお持ち帰りしてじっくり教育、未来はご奉仕メイドですよ〜〜♪",
-		   NULL, "Je vais rentrer au village et récupérer ma nièce pour lui apprendre quelques tours de magie avec son corps et en faire une domestique dévouée corps et âme à son maître♪!", Line_Continue);
+		   NULL, "Je vais rentrer au village et récupérer ma nièce pour lui apprendre quelques tours de magie avec son corps et en faire une domestique dévouée corps et âme à son maître♪!", GetGlobalFlag(GLinemodeSp));
 }
 
 void dialog022()
 {
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200269", 256, TRUE);
 	OutputLine(NULL, "　突然、レナの腕が光って唸って、大変なことに☆」",
-		   NULL, " Je sais pas ce qu'il s'est passé, c'est parti tout seul☆!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Je sais pas ce qu'il s'est passé, c'est parti tout seul☆!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

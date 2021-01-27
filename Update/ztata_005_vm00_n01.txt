@@ -9,13 +9,15 @@ void dialog000()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei32720", 256, TRUE);
 	OutputLine(NULL, "「…何だよ一体。",
-		   NULL, "— Eh bien, vous voulez quoi ?", Line_WaitForInput);
+		   NULL, "— Eh bien, vous voulez quoi ?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei32730", 256, TRUE);
 	OutputLine(NULL, "ビニ本の墨塗りの消し方でも知りたいのか？",
-		   NULL, " C'est pour faire disparaître les zones noires des images pornos dans les magazines ?", Line_WaitForInput);
+		   NULL, "C'est pour faire disparaître les zones noires des images pornos dans les magazines ?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei32740", 256, TRUE);
 	OutputLine(NULL, "　ちなみにバターを塗ると消えるというのはまったくの迷信だぞ。",
-		   NULL, " Je vous préviens, on dit souvent qu'il faut mettre du beurre dessus, mais ça marche pas !", Line_Continue);
+		   NULL, "Je vous préviens, on dit souvent qu'il faut mettre du beurre dessus, mais ça marche pas !", Line_Continue);
 	OutputLine(NULL, "もちろん砂ケシも迷信だ。」",
 		   NULL, " Et le sable non plus.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

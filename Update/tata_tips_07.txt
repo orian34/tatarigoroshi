@@ -96,7 +96,7 @@ void main()
 
 
 //　しかも、園崎家が強力に地盤を固め、反ダムへの結束を強化し始めると、北条氏を除く全てのダム推進派は反ダムへ鞍替えすることになる＠
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかも、園崎家が強力に地盤を固め、反ダムへの結束を強化し始めると、北条氏を除く全てのダム推進派は反ダムへ鞍替えすることになる。",
 		   NULL, "De plus, le clan des Sonozaki leur faisait face, et eux avait consolidé le front des anti-barrage. Peu à peu, ils réussirent à faire changer d'avis presque tous ceux qui avaient souhaité la construction du barrage, à l'exception de M. Hôjô lui-même.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -141,9 +141,10 @@ void main()
 //　残る祟り候補がいるとすれば、昨年の主婦撲殺事件の被害者の夫である北条鉄平＠北条氏の娘の北条沙都子＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　残る祟り候補がいるとすれば、昨年の主婦撲殺事件の被害者の夫である北条鉄平。",
-		   NULL, "Si l'on devait dresser une liste des gens qui pourraient éventuellement “mériter” de subir la malédiction, on y placerait le frère de M. Hôjô, un certain Teppei Hôjô.", Line_WaitForInput);
+		   NULL, "Si l'on devait dresser une liste des gens qui pourraient éventuellement “mériter” de subir la malédiction, on y placerait le frère de M. Hôjô, un certain Teppei Hôjô.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "北条氏の娘の北条沙都子。",
-		   NULL, " Et éventuellement, la petite fille survivante, Satoko Hôjô.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Et éventuellement, la petite fille survivante, Satoko Hôjô.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

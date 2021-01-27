@@ -48,10 +48,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　オヤシロさまを祀る「社（やしろ）」が、そのまま礼拝対象になり＠「御社さま」と呼ばれるに至ったと言う説があるが、実にセンスの欠片もない￥
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-4>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさまを祀る「社（やしろ）」が、そのまま礼拝対象になり、",
 		   NULL, "La théorie la plus simple et la moins intéressante sur l'origine du nom est aussi la plus facile à comprendre : en prenant l'idéogramme du temple 社 que l'on lisait au moyen âge "Yashiro", et en y apposant au début le préfixe de politesse, on obtient une formule très polie et révérencieuse pour interpeler la déesse, qui du coup n'aurait pas de nom à proprement parler.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-6>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「御社さま」と呼ばれるに至ったと言う説があるが、実にセンスの欠片もない。",
 		   NULL, "Pour les habitants, le fait de dire “Ô Yashiro” revenait à dire “Je m'adresse à vous, divinité dont je ne connais pas le nom mais à qui nous vouons un culte dans ce sanctuaire”, et donc en l'affublant du mot qui voulait dire “temple” ou “sanctuaire” à l'époque, le petit peuple faisait à la fois une grande économie de mots et en plus il obtenait un nom pour cette déesse. C'est un phénomène très courant dans l'histoire du langage, mais bien trop banal.", Line_Normal);
 	ClearMessage();
@@ -65,13 +65,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　そして古手家に伝えられる伝説では、八代続いて第一子が女子ならば、八代目のその娘はオヤシロさまの生まれ変わりである...というのだ＠
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして古手家に伝えられる伝説では、八代続いて第一子が女子ならば、八代目のその娘はオヤシロさまの生まれ変わりである…というのだ。",
 		   NULL, "Les Furude seraient donc des descendants de la déesse, et d'ailleurs, il est transmis dans leur famille que si jamais la première descendance devait être une petite fille pendant huit générations de suite, la petite fille de cette huitième génération serait la réincarnation de la déesse Yashiro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　この伝説に従うなら、オヤシロさまは「御八代さま」と書くのが正しいように思う＠（この当て字はあくまでも私の思いつきなので、真偽は確かめようもないが￥
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この伝説に従うなら、オヤシロさまは「御八代さま」と書くのが正しいように思う。",
 		   NULL, "Pour comprendre cette légende, il suffit d'écrire l'expression “huitième génération” en idéogrammes. Si vous prenez 八代 et que vous faites exprès de prendre la lecture sino-japonaise de ces idéogrammes, vous obtenez non pas “hachi-dai” comme il faudrait le lire, mais “ya-shiro”. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -151,7 +151,7 @@ void main()
 	PlaySE( 3, "wa_021", 56, 64 );
 
 //　泣き、叫び、逃げ惑うしかできないひ弱な人間どもと、それらがいかに美味であったかを思い出した鬼たちの、凄惨な宴＠
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　泣き、叫び、逃げ惑うしかできないひ弱な人間どもと、それらがいかに美味であったかを思い出した鬼たちの、凄惨な宴。",
 		   NULL, "Il y aurait d'un côté les faibles humains, courant dans tous les sens, paniqués, pleurant, criant, hurlant à l'agonie, et de l'autre les démons, joyeux drilles, buvant le sang de leurs victimes et festoyant avec leurs tripes, dans une grande fête perpétuelle.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }

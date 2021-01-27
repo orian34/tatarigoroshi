@@ -839,9 +839,10 @@ void main()
 	OutputLine(NULL, "　……俺がいい年になってからは、親もプライバシーを認めてくれたので、俺の不在を突いて自室に勝手に入るようなことはしない。",
 		   NULL, "Vu que je commence à être adulte, mes parents m'accordent une certaine vie privée, ils ne rentrent pas dans ma chambre comme dans un moulin quand je ne suis pas là.", Line_WaitForInput);
 	OutputLine(NULL, "（…と思う。）",
-		   NULL, " (Enfin, j'espère...)", Line_WaitForInput);
+		   NULL, " (Enfin, j'espère...)", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……俺の部屋に篭っててくれれば、…大丈夫、だろうか…。",
-		   NULL, " Si elle se terre dans ma chambre, ça devrait passer...", Line_Normal);
+		   NULL, "Si elle se terre dans ma chambre, ça devrait passer...", Line_Normal);
 	ClearMessage();
 
 //　もしも親が来れば、二階という立地のお陰で、事前に階段の音で接近を察知できる＠
@@ -1079,9 +1080,10 @@ void main()
 	OutputLine(NULL, "　欠陥住宅かよ？！",
 		   NULL, " Pourquoi il se met à faire du bruit exprès maintenant ?", Line_WaitForInput);
 	OutputLine(NULL, "　もう家にガタが来たのか？！",
-		   NULL, " La maison a des défauts de fabrication ou quoi ?", Line_WaitForInput);
+		   NULL, " La maison a des défauts de fabrication ou quoi ?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それともロウでも足りなくなんたのか？！",
-		   NULL, " Ou bien est-ce que le sol n'est déjà plus droit ? C'est peut-être le bois du placard qui est déjà vieux ?", Line_WaitForInput);
+		   NULL, "Ou bien est-ce que le sol n'est déjà plus droit ? C'est peut-être le bois du placard qui est déjà vieux ?", Line_WaitForInput);
 	OutputLine(NULL, "　ワックスでも塗ればいいのかッ？！",
 		   NULL, " Je devrais peut-être mettre un petit coup de cire ?", Line_Normal);
 	ClearMessage();

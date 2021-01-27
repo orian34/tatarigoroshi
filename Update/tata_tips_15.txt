@@ -70,7 +70,7 @@ void main()
 	ClearMessage();
 
 //「わかりました＠すぐに現場を確認しますので、そちら様のお名前とすぐに連絡のつく電話番号、それから火災現場の詳細な場所をお願いします。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急情報センター</color>", NULL, "<color=#f5e6d3>Centre d'urgence</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>救急情報センター</color>", NULL, "<color=#f5e6d3>Centre d'urgence</color>", "<size=-3>", Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/firea44003", 256, TRUE);
 	OutputLine(NULL, "「わかりました。",
 		   NULL, "— Je vois.", Line_Continue);
@@ -92,16 +92,18 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>消防司令部</color>", NULL, "<color=#f5e6d3>Caserne de pompier</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/fireb44002", 256, TRUE);
 	OutputLine(NULL, "街道から離れてることから、カップルの焚き火か、不法投棄のゴミに放火したかの可能性があります。",
-		   NULL, "C'est un endroit éloigné de tout, cela peut donc être un incendie de forêt déclenché par des campeurs ou bien quelqu'un qui brûle des ordures.", Line_WaitForInput);
+		   NULL, "C'est un endroit éloigné de tout, cela peut donc être un incendie de forêt déclenché par des campeurs ou bien quelqu'un qui brûle des ordures.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>消防司令部</color>", NULL, "<color=#f5e6d3>Caserne de pompier</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/fireb44003", 256, TRUE);
 	OutputLine(NULL, "現場は深い森林地帯。",
-		   NULL, " C'est très loin dans la forêt.", Line_Continue);
+		   NULL, "C'est très loin dans la forêt.", Line_Continue);
 	Wait(1000);
 	OutputLine(NULL, "周辺に民家はないが、延焼の可能性あり。",
-		   NULL, " Il n'y a pas de risques pour les habitations, mais le feu pourrait se propager.", Line_WaitForInput);
+		   NULL, " Il n'y a pas de risques pour les habitations, mais le feu pourrait se propager.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>消防司令部</color>", NULL, "<color=#f5e6d3>Caserne de pompier</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/fireb44004", 256, TRUE);
 	OutputLine(NULL, "直ちに現場を確認されたし。」",
-		   NULL, " Veuillez vous rendre sur place immédiatement.", Line_Normal);
+		   NULL, "Veuillez vous rendre sur place immédiatement.", Line_Normal);
 	ClearMessage();
 
 //「消防署ですか＠こちらはＸＸ地区消防分団です＠通報の現場にさっき到着＠ドラム缶がひとつ山中に放棄され、炎上しているのを確認しました＠火は鎮火しつつあり、延焼の可能性はなし＠/
@@ -146,10 +148,11 @@ void main()
 		   NULL, " Il y a quelque chose dans le baril. Et j'ai l'impression que ça a une forme humaine.", Line_Continue);
 	Wait( 4000 );
 	OutputLine(NULL, "人らしきものが灯油か何かで焼かれた…という感じで。",
-		   NULL, " On dirait que quelqu'un a été mis dedans et aspergé d'essence, enfin, si c'est ce que je crois, hein.", Line_WaitForInput);
+		   NULL, " On dirait que quelqu'un a été mis dedans et aspergé d'essence, enfin, si c'est ce que je crois, hein.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>団員</color>", NULL, "<color=#f5e6d3>Membre du groupe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/villc44006", 256, TRUE);
 	OutputLine(NULL, "……その、……警察の人にも連絡した方がいいんじゃないかと思いまして…。」",
-		   NULL, " Euh... vous pourriez appeler la police, au cas où ? Mon collègue est en train de vérifier.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Euh... vous pourriez appeler la police, au cas où ? Mon collègue est en train de vérifier.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

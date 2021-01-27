@@ -329,16 +329,17 @@ void main()
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000016", 256, TRUE);
 	OutputLine(NULL, "　バッシャ！！",
 		   NULL, " Et une gifle ! ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", "<size=-3>", Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000017", 256, TRUE);
 	OutputLine(NULL, "　バケツを逆さにぶっかけられるメイドさん！",
 		   NULL, "Et par dessus, elle lui verse le seau d'eau sur la tête !", Line_Continue);
 	Wait(2000);
 	OutputLine(NULL, "　びしょ濡れのメイドさんが…泣きそうになりながら、それでも健気に…、はぁはぁ！！",
-		   NULL, " Et la jeune servante est toute mouillée, ses habits blancs sont sales, elle est sur le point de pleurer, mais elle retient ses larmes, et elle reprend sa tâche, courageusement...", Line_WaitForInput);
+		   NULL, " Et la jeune servante est toute mouillée, ses habits blancs sont sales, elle est sur le point de pleurer, mais elle retient ses larmes, et elle reprend sa tâche, courageusement...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000018", 256, TRUE);
 	OutputLine(NULL, "　メ・イ・ド〜〜〜〜♪♪♪！！」",
-		   NULL, " Ooowiiiiiiiiii♪♪♪", Line_Normal);
+		   NULL, "Ooowiiiiiiiiii♪♪♪", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(1, 2, "sprite/re1b_kaii_b1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
@@ -540,10 +541,11 @@ void main()
 		   NULL, "— La prochaine fois que tu tomberas dans l'un des pièges de Satoko,", Line_Continue);
 	Wait(800);
 	OutputLine(NULL, "…沙都子ちゃんのワナに掛かったら、ちゃんと怒ったり笑ったりして、沙都子ちゃんを追いかけて欲しいの。",
-		   NULL, " n'oublie pas de t'énerver et de lui courir après, d'accord ?", Line_WaitForInput);
+		   NULL, " n'oublie pas de t'énerver et de lui courir après, d'accord ?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200084", 256, TRUE);
 	OutputLine(NULL, "そういう、猫の甘え噛みみたいなの…かわいいと思わないかなぁ…。」",
-		   NULL, " C'est un peu comme un animal qui fait semblant de te mordre et qui s'enfuit... C'est mignon, non ?", Line_Normal);
+		   NULL, "C'est un peu comme un animal qui fait semblant de te mordre et qui s'enfuit... C'est mignon, non ?", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 //setwindow 31,16,22,16,26,26,0,2,20,1,1,#ffffff,0,0,639,479
@@ -659,7 +661,7 @@ void main()
 	ModDrawCharacter(2, 4, "sprite/sa1a_akuwarai_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //「このように、木の幹に釘を一本、打ちつけただけでも立派なトラップになるんですのよ＠　ちょうどあそこで転げて、ここに額を打ち付ければ...痛いですわよ～！＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", "<size=-3>", Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400082", 256, TRUE);
 	OutputLine(NULL, "「このように、木の幹に釘を一本、打ちつけただけでも立派なトラップになるんですのよ？",
 		   NULL, "— Regardez donc, un simple clou pas trop enfoncé dans un tronc peut faire un piège tout à fait excellent !", Line_Continue);

@@ -59,9 +59,10 @@ void main()
 //　...どちらも実に滑稽だが、それでもまだいいさ＠足が地に着いてるだけマシだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…どちらも実に滑稽だが、それでもまだいいさ。",
-		   NULL, "Rena avait un seau sur la tête dont l'anse lui bloquait les bras, et elle n'arrivait pas à se l'enlever.", Line_WaitForInput);
+		   NULL, "Rena avait un seau sur la tête dont l'anse lui bloquait les bras, et elle n'arrivait pas à se l'enlever.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "足が地に着いてるだけマシだ。",
-		   NULL, " Elles avaient toutes les deux l'air parfaitement ridicule, mais elles étaient plus ou moins debout, leurs pieds touchaient terre, c'était une situation encore tenable.", Line_Normal);
+		   NULL, "Elles avaient toutes les deux l'air parfaitement ridicule, mais elles étaient plus ou moins debout, leurs pieds touchaient terre, c'était une situation encore tenable.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/mo2", "left", 0, 0, 300 );
@@ -106,7 +107,7 @@ void main()
 	DrawScene("black", 1000 );
 
 //　そもそもの発端は、都会育ちの俺が自然に親しんでないとか何とかで、山へ散策に行こうなんて話からだった￥
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そもそもの発端は、都会育ちの俺が自然に親しんでないとか何とかで、山へ散策に行こうなんて話からだった。",
 		   NULL, "Toute cette débandade avait commencé lorsque les filles avaient décidé de m'emmener dans la montagne pour m'apprendre quelques petits trucs sur la vie à la campagne, moi qui n'avais jamais connu cela, n'étant qu'un idiot de citadin.", Line_Normal);
 	ClearMessage();

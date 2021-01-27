@@ -836,7 +836,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　似たような問題が何十問も並ぶ学校のテストと違い、どの問題もイラストがふんだんで、まるで漫画雑誌の付録本のナゾナゾブックみたいだった。",
 		   NULL, "C'était autre chose que ces tests tous pareils les uns aux autres, avec ces rangées de questions et ces rangées de réponses préformatées. Il y avait des images un peu partout, on aurait dit un manga plus qu'un livre, en fait.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -939,13 +939,15 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Instituteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04008", 256, TRUE);
 	OutputLine(NULL, "「その通りです。",
-		   NULL, "— C'est exactement cela.", Line_WaitForInput);
+		   NULL, "— C'est exactement cela.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Instituteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04009", 256, TRUE);
 	OutputLine(NULL, "例えば正六面体の展開図を書け…と言われて混乱する圭一くんも、サイコロを切り開いたらどんな形になる？",
-		   NULL, " Si vous lui dites de dessiner les bases accolées d'un cube régulier, il va vous regardez comme si vous veniez d'une autre planète, mais si vous lui dites de dessiner les faces d'un dé les unes collées aux autres,", Line_WaitForInput);
+		   NULL, "Si vous lui dites de dessiner les bases accolées d'un cube régulier, il va vous regardez comme si vous veniez d'une autre planète, mais si vous lui dites de dessiner les faces d'un dé les unes collées aux autres,", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>塾</color>", NULL, "<color=#f5e6d3>Instituteur</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s03/00/jukua04010", 256, TRUE);
 	OutputLine(NULL, "　という風に聞けば、見事に答えられるのです。」",
-		   NULL, " il saura tout de suite.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "il saura tout de suite.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1114,9 +1116,10 @@ void main()
 //　友人たちとは次第に馬が合わなくなり＠いつも俺が塾で習う内容よりも３つは遅い授業を、塾に比べたらどうしてこんなに眠くなるように教えられるのか関心してしまうような教師に、敬意を感じなくなっていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　友人たちとは次第に馬が合わなくなり、",
-		   NULL, "Je ne suivais plus les mêmes cours que mes amis, et puis les cours étaient devenus insipides au possible, car ils avaient trois classes de retard par rapport à mes cours du soir.", Line_WaitForInput);
+		   NULL, "Je ne suivais plus les mêmes cours que mes amis, et puis les cours étaient devenus insipides au possible, car ils avaient trois classes de retard par rapport à mes cours du soir.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いつも俺が塾で習う内容よりも３つは遅い授業を、塾に比べたらどうしてこんなに眠くなるように教えられるのか関心してしまうような教師に、敬意を感じなくなっていた。",
-		   NULL, " Progressivement, je perdis tout intérêt et tout respect pour mes professeurs.", Line_Normal);
+		   NULL, "Progressivement, je perdis tout intérêt et tout respect pour mes professeurs.", Line_Normal);
 	ClearMessage();
 //　...そんなお勉強ができることを鼻にかけた嫌味野郎が、いつまでも有頂天に生きてけるほど＠...まぁその、世の中は単純じゃないってことだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

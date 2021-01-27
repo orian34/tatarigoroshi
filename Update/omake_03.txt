@@ -1939,17 +1939,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600129", 256, TRUE);
 	OutputLine(NULL, "「つまり、私が名探偵になって、理不尽な謎をバスバス解決していく痛快ストーリーなわけです。",
-		   NULL, "— Je vais donc devenir une pseudo Sherlock Holmes et résoudre tout ça en deux coups de cuiller à pot.", Line_WaitForInput);
+		   NULL, "— Je vais donc devenir une pseudo Sherlock Holmes et résoudre tout ça en deux coups de cuiller à pot.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600130", 256, TRUE);
 	OutputLine(NULL, "今のうちから決め台詞を考えておかないとねー！",
-		   NULL, " Il va me falloir un miroir pour répéter les gestes de mes répliques les plus importantes !", Line_WaitForInput);
+		   NULL, "Il va me falloir un miroir pour répéter les gestes de mes répliques les plus importantes !", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600131", 256, TRUE);
 	OutputLine(NULL, "　あなたを、犯人です。",
-		   NULL, " Comme…", Line_Continue);
+		   NULL, "Comme…", GetGlobalFlag(GLinemodeSp));
 	WaitToFinishVoicePlaying(4);
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600132", 256, TRUE);
 	OutputLine(NULL, "みたいな〜☆」",
-		   NULL, " “Car en réalité... tu êtes le coupable !” (référence inside -- si vous reconnaissez ça, vous êtes irrécupérable)", Line_Continue);
+		   NULL, "“Car en réalité... tu êtes le coupable !” (référence inside -- si vous reconnaissez ça, vous êtes irrécupérable)", Line_Continue);
 
 	PlaySE( 3, "wa_029", 56, 64 );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -2037,13 +2040,15 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "そして「祟殺し編」。",
-		   NULL, " et maintenant “Malédiction meurtrière”.", Line_WaitForInput);
+		   NULL, " et maintenant “Malédiction meurtrière”.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200283", 256, TRUE);
 	OutputLine(NULL, "この３つのシナリオを重ね透かし、皆さんにはどんな真実が見えてくるでしょうか。",
-		   NULL, " Alors, chers lecteurs, après les trois premiers tomes, est-ce que vous y voyez plus clair ?", Line_WaitForInput);
+		   NULL, "Alors, chers lecteurs, après les trois premiers tomes, est-ce que vous y voyez plus clair ?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200284", 256, TRUE);
 	OutputLine(NULL, "……推理はまとまるどころか、ますます煙に巻かれていくだけ？",
-		   NULL, " D'après vous, c'est quoi la solution ? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "D'après vous, c'est quoi la solution ? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200285", 256, TRUE);
 	OutputLine(NULL, "　う〜〜ん、あははは。",

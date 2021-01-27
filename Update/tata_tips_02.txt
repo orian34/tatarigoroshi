@@ -287,10 +287,11 @@ void main()
 		   NULL, "— Eh bien, en effet.", Line_Continue);
 	Wait(500);
 	OutputLine(NULL, "私なりに圭一さんの行動パターンを読みきっているから掛かるんですわよ？",
-		   NULL, " Vous êtes tombé dans mes pièges car j'ai réussi plus ou moins bien à deviner vos réactions.", Line_WaitForInput);
+		   NULL, " Vous êtes tombé dans mes pièges car j'ai réussi plus ou moins bien à deviner vos réactions.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400063", 256, TRUE);
 	OutputLine(NULL, "　だから圭一さんが、ある日突然、いつもと違うクセやいつもと違うパターンになってしまったら、掛からなくなってしまうわけですわね。」",
-		   NULL, " C'est pourquoi si d'aventure il vous prenait de changer de comportement du tout au tout, vous éviteriez sûrement tous mes pièges.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "C'est pourquoi si d'aventure il vous prenait de changer de comportement du tout au tout, vous éviteriez sûrement tous mes pièges.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...俺を読みきっていると豪語されると......＠...何だか面白くないよな￥
@@ -669,24 +670,26 @@ void main()
 		   NULL, "— Allons bon, quelle impolitesse !", Line_Continue);
 	Wait(1000);
 	OutputLine(NULL, "　どこに証拠がございますの？",
-		   NULL, " Vous n'avez pas honte d'accuser les gens sans preuve ?", Line_WaitForInput);
+		   NULL, " Vous n'avez pas honte d'accuser les gens sans preuve ?", GetGlobalFlag(GLinemodeSp));
 
 	DisableWindow();
 	ModSetLayerFilter(2, 256, "none");
 	ModDrawCharacter(2, 4, "sprite/sa1a_akireru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //　それに罠なんて品のない言い方はやめてほしいですわね＠/
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400074", 256, TRUE);
 	OutputLine(NULL, "　それに罠なんて品のない言い方はやめてほしいですわね。",
-		   NULL, " Et vous me ferez aussi le plaisir de ne pas dire “vacheries”.", Line_WaitForInput);
+		   NULL, "Et vous me ferez aussi le plaisir de ne pas dire “vacheries”.", GetGlobalFlag(GLinemodeSp));
 
 	DisableWindow();
 	ModDrawCharacter(2, 4, "sprite/sa1b_warai_b1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 //より優雅にト!w400・ラ!w400・ッ!w400・プ♪!w400と呼んでほしいですわー！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400075", 256, TRUE);
 	OutputLine(NULL, "より優雅にト",
-		   NULL, " Un peu d'élégance dans votre langage, voyons ! Dîtes :", Line_Continue);
+		   NULL, "Un peu d'élégance dans votre langage, voyons ! Dîtes :", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 400 );

@@ -165,7 +165,7 @@ void main()
 	ClearMessage();
 
 //　今頃沙都子は、......いつ帰ってくるかもわからない叔父のために夕食を用意し、......その味加減を怒鳴られないかとびくびくしながら夜を過しているのかもしれない＠
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-3>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今頃沙都子は、……いつ帰ってくるかもわからない叔父のために夕食を用意し、……その味加減を怒鳴られないかとびくびくしながら夜を過しているのかもしれない。",
 		   NULL, "Je parie que Satoko est en train de cuisiner le repas du soir pour elle et pour lui, sans vraiment savoir quand est-ce qu'il se déciderait à rentrer. Je parie même qu'elle a déjà peur de l'assaisonnement, peur des cris et des coups si ce n'est pas assez bien.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -532,9 +532,10 @@ void main()
 //　掘っても掘っても...水で埋まってしまうから、どれだけの深さなのか実感がない＠......泥の底に立つ自らの足の埋まり具合で測るしかなかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　掘っても掘っても…水で埋まってしまうから、どれだけの深さなのか実感がない。",
-		   NULL, "J'avais beau creuser et creuser encore, l'eau qui ruisselait dans le trou qui en résultait m'empêchait de vraiment me rendre compte de la profondeur atteinte.", Line_WaitForInput);
+		   NULL, "J'avais beau creuser et creuser encore, l'eau qui ruisselait dans le trou qui en résultait m'empêchait de vraiment me rendre compte de la profondeur atteinte.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……泥の底に立つ自らの足の埋まり具合で測るしかなかった。",
-		   NULL, " Je devais y aller à la louche, d'après l'enfoncement de mes propres jambes.", Line_Normal);
+		   NULL, "Je devais y aller à la louche, d'après l'enfoncement de mes propres jambes.", Line_Normal);
 	ClearMessage();
 
 //　ちゃんと掘れてる...＠
@@ -2112,13 +2113,14 @@ void main()
 	ModPlayVoiceLS(4, 9, "ps3/s03/09/140900141", 256, TRUE);
 	OutputLine(NULL, "結構深く掘らないと、野犬とかが臭いを嗅ぎつけて掘り返しちゃうことも多いのよ？",
 		   NULL, " Sinon, les chiens errants ou les autres charognards pourraient être attirés par l'odeur du corps en décomposition et venir le déterrer. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", "<size=-3>", Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s03/09/140900142", 256, TRUE);
 	OutputLine(NULL, "　………野犬が咥えてた人骨で事件が発覚、警察、一帯を山狩りへ…なんて、結構ないことじゃないのよ？",
-		   NULL, "Imagine, un chien errant est retrouvé avec un os humain en bouche, ce serait une belle histoire pour la presse locale. La police bouclerait toute la région et ferait des recherches en montagne. C'est pas si rare que ça, en fait, tu sais ?", Line_WaitForInput);
+		   NULL, "Imagine, un chien errant est retrouvé avec un os humain en bouche, ce serait une belle histoire pour la presse locale. La police bouclerait toute la région et ferait des recherches en montagne. C'est pas si rare que ça, en fait, tu sais ?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s03/09/140900143", 256, TRUE);
 	OutputLine(NULL, "　………くすくす…。」",
-		   NULL, " Mmmfhfhfhfh !", Line_Normal);
+		   NULL, "Mmmfhfhfhfh !", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 1000 );

@@ -175,7 +175,7 @@ void main()
 	ModDrawCharacter(1, 10, "sprite/iri1_def2_", "1", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 //「詩音ちゃんももっともっと素直になれば、とってもキュートで可愛い女の子なのに＠お父さんは悲しいですよ、一体どこで捻じ曲がってこんなにひねくれてしまったんだか＠　あぁ、お父さんの愛の抱擁で力強く包み込めば目が覚めますか？＠　でしたら遠慮なく！＠/
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", "<size=-3>", Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/441000031", 256, TRUE);
 	OutputLine(NULL, "「詩音ちゃんももっともっと素直になれば、とってもキュートで可愛い女の子なのに。",
 		   NULL, "— Ah, mais si tu étais un peu plus honnête avec tes sentiments, je suis certain que tu serais une très jolie jeune femme, tu sais.", Line_Continue);
