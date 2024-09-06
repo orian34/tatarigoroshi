@@ -815,11 +815,14 @@ void main()
 
 
 //『本部了解＠生存者を至急保護されたし＠生存者の容態は。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本部</color>", NULL, "<color=#f5e6d3>Commissariat</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 0, "org/mob3e2000", 256, TRUE);
 	OutputLine(NULL, "「本部了解。",
 		   NULL, "— Ici Central, bien reçu.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "org/mob3e2001", 256, TRUE);
 	OutputLine(NULL, "生存者を至急保護されたし。",
 		   NULL, " Ammenez-le-nous le plus vite possible.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 0, "org/mob3e2002", 256, TRUE);
 	OutputLine(NULL, "生存者の容態は。」",
 		   NULL, " Décrivez son état.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
