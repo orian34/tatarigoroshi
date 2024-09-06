@@ -50,7 +50,7 @@ void main()
 //　オヤシロさまを祀る「社（やしろ）」が、そのまま礼拝対象になり＠「御社さま」と呼ばれるに至ったと言う説があるが、実にセンスの欠片もない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-4>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさまを祀る「社（やしろ）」が、そのまま礼拝対象になり、",
-		   NULL, "La théorie la plus simple et la moins intéressante sur l'origine du nom est aussi la plus facile à comprendre : en prenant l'idéogramme du temple 社 que l'on lisait au moyen âge "Yashiro", et en y apposant au début le préfixe de politesse, on obtient une formule très polie et révérencieuse pour interpeler la déesse, qui du coup n'aurait pas de nom à proprement parler.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La théorie la plus simple et la moins intéressante sur l'origine du nom est aussi la plus facile à comprendre : en prenant l'idéogramme du temple 社 que l'on lisait au moyen âge \"Yashiro\", et en y apposant au début le préfixe de politesse, on obtient une formule très polie et révérencieuse pour interpeler la déesse, qui du coup n'aurait pas de nom à proprement parler.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", "<size=-6>", Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「御社さま」と呼ばれるに至ったと言う説があるが、実にセンスの欠片もない。",
 		   NULL, "Pour les habitants, le fait de dire “Ô Yashiro” revenait à dire “Je m'adresse à vous, divinité dont je ne connais pas le nom mais à qui nous vouons un culte dans ce sanctuaire”, et donc en l'affublant du mot qui voulait dire “temple” ou “sanctuaire” à l'époque, le petit peuple faisait à la fois une grande économie de mots et en plus il obtenait un nom pour cette déesse. C'est un phénomène très courant dans l'histoire du langage, mais bien trop banal.", Line_Normal);
